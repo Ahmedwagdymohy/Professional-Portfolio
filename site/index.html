@@ -1,0 +1,332 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Ahmed Wagdy — DevOps, Platform &amp; MLOps Engineer</title>
+<meta name="description" content="Ahmed Wagdy, DevOps, platform and MLOps engineer in Cairo. AI gateways, GPU clusters, Kubernetes and CI security at Incorta.">
+<meta property="og:title" content="Ahmed Wagdy — A year in production">
+<meta property="og:description" content="DevOps, platform and MLOps engineer in Cairo. AI gateways, GPU clusters, Kubernetes and CI security.">
+<meta property="og:image" content="img/myface.jpg">
+<meta name="theme-color" content="#0e1111">
+<link rel="preconnect" href="https://api.fontshare.com">
+<link rel="preconnect" href="https://cdn.fontshare.com" crossorigin>
+<link href="https://api.fontshare.com/v2/css?f[]=switzer@400,500,600&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="styles.css">
+<script>document.documentElement.classList.add('js')</script>
+</head>
+<body>
+
+<div class="mast">
+  <nav class="bar" aria-label="Main">
+    <a class="wm" href="#top">Ahmed Wagdy</a>
+    <div class="tab"><a href="#figures">Figures</a><a href="#work">Work</a><a href="#experience">Experience</a><a href="#letters">Letters</a></div>
+    <a class="act" href="#contact">Contact</a>
+  </nav>
+  <div class="m1 mono"><img src="img/cairo-skyline-panoramic-view-egypt.jpg" alt="Cairo and the Nile in daylight" width="1200" height="800"></div>
+  <div class="m2 stat"><b>8</b><span>cloud and Kubernetes certifications</span></div>
+  <div class="m4 stat"><b>3rd</b><span>of 140+ teams, DevOpsDays Cairo 2026</span></div>
+  <div class="m5 term" data-ui><pre><span class="p">$</span> kubectl get nodes -l accelerator=nvidia
+<span class="d">NAME           STATUS   ROLES    GPU</span>
+dgx-spark-01   Ready    worker   1
+dgx-spark-02   Ready    worker   1
+<span class="p">$</span> securityScan severity=HIGH
+PASS  0 critical, 0 high · gate open</pre></div>
+  <div class="m6"><img src="img/me-in-office.jpg" alt="Ahmed at his desk at Incorta, headphones on, thumbs up" width="896" height="1195"></div>
+  <div class="m3"><img src="img/myface.jpg" alt="Ahmed Wagdy in front of the Incorta sign" width="512" height="512"></div>
+  <div class="m7"><img src="img/setup.jpg" alt="Ahmed’s desk at night: three screens of code, a laptop and a ring light" width="1600" height="900"></div>
+</div>
+
+<main id="top">
+<header class="title">
+  <div>
+    <p class="stand">Ahmed Wagdy, DevOps, platform and MLOps engineer in Cairo, reports on a year of running AI infrastructure in production.</p>
+    <div class="actions">
+      <a class="btn" href="mailto:ahmedwagdymohy@gmail.com?subject=Let%E2%80%99s%20talk%20about%20a%20role">Hire me</a>
+      <a class="link" href="#work">Read the report</a>
+    </div>
+  </div>
+  <h1><span class="ln"><span>A year in</span></span><span class="ln"><span>production</span></span></h1>
+</header>
+
+<!-- figures -->
+<section class="paper figs" id="figures" aria-labelledby="h-figs">
+  <div class="head">
+    <h2 id="h-figs" class="r">The year in figures</h2>
+    <p class="r">Measured where it was measured: on cloud bills, on pipelines, on load times and on a scoreboard.</p>
+  </div>
+  <div class="figgrid">
+    <div class="fig r"><b><span data-count="14">14</span><em>%</em></b><span>off the AWS bill through usage analysis and rightsizing</span></div>
+    <div class="fig r"><b><span data-count="6">6</span><em>×</em></b><span>faster bulk load: 644,000 rows in 25 minutes, down from 2.5 hours</span></div>
+    <div class="fig r"><b>~<span data-count="25">25</span></b><span>delivery pipelines that can add a security gate in one line</span></div>
+    <div class="fig r"><b><span data-count="9">9</span></b><span>public biomedical sources feeding one evidence pipeline</span></div>
+  </div>
+</section>
+
+<div id="work"></div>
+
+<!-- AI platform -->
+<section class="paper-2 ch-ai" aria-labelledby="h-ai">
+  <aside class="r">
+    <img src="img/me-in-office.jpg" alt="Ahmed at his desk at Incorta" width="896" height="1195" loading="lazy">
+    <p class="cap">Incorta, New Cairo. DevOps, platform and MLOps since August 2025.</p>
+  </aside>
+  <h2 id="h-ai" class="r">The AI platform</h2>
+  <div class="colA r">
+    <p>Incorta’s engineers needed one sanctioned way to reach language models. I deployed LiteLLM as the company-wide AI gateway for production and staging on GCP, backed by Cloud SQL, with central access control, a quota for each team and usage tracking.</p>
+    <p>When high-volume usage logs began crashing its dashboard, I built a central observability layer on Langfuse. It ingests OpenTelemetry traces from the dev and prod gateways across GCP projects over Private Service Connect.</p>
+    <p>I developed the internal MLOps portal in React and Python, with real-time API monitoring and automated quota requests.</p>
+  </div>
+  <div class="colB r">
+    <p>Then came the agents. An on-call agent built on OpenClaw and Claude Sonnet lives in Slack and Telegram: it spots incidents early, watches the daily builds and walks through root causes, with automated fixes. An AIOps API on Cloud Run functions lets agents read cluster data from the core Incorta application, and I hardened an internal build of OpenCode with company security controls before it went company-wide.</p>
+    <p>Under all of it sit NVIDIA DGX Spark machines joined to a K3s cluster as GPU nodes, monitored with Prometheus and Grafana, and dedicated CPU and GPU node pools on GKE for GoodMem and the Reranker.</p>
+  </div>
+  <div class="stack r" aria-label="Tools">
+    <span>LiteLLM</span><span>Langfuse</span><span>OpenTelemetry</span><span>GCP</span><span>Cloud SQL</span><span>Private Service Connect</span><span>Cloud Run</span><span>GKE</span><span>K3s</span><span>NVIDIA DGX Spark</span><span>Claude</span><span>React</span><span>Python</span>
+  </div>
+</section>
+
+<!-- platform & devops -->
+<section class="blockpage ch-platform" aria-labelledby="h-plat">
+  <figure>
+    <img data-parallax src="img/setup.jpg" alt="Ahmed’s home desk at night, terminal and editor open across three screens" width="1600" height="900" loading="lazy">
+    <figcaption>Where the evening shift happens.</figcaption>
+  </figure>
+  <div class="head">
+    <h2 id="h-plat" class="r">The platform under it</h2>
+    <p class="r">Production Kubernetes clusters running business-critical workloads, and the tooling that keeps testing and production reliable, scalable and available.</p>
+  </div>
+  <div class="items">
+    <div class="big r"><b>−14%</b><span>AWS infrastructure cost, from resource usage analysis and rightsizing.</span></div>
+    <ul>
+      <li class="r"><b>A terminal in the browser</b>A Cloud Shell-style terminal with multiple sessions and a remote file browser for managing remote machines.</li>
+      <li class="r"><b>Jira from the machine</b>Issues reported straight from remote machines, cutting out the manual triage and logging.</li>
+      <li class="r"><b>Reusable Terraform</b>Modules for networking, Kubernetes, databases and compute provisioning.</li>
+    </ul>
+    <ul>
+      <li class="r"><b>An automated DevOps portal</b>Python Lambda functions, Step Functions and SSM Agent that install and configure Incorta, import daily builds and trigger pipelines on demand.</li>
+      <li class="r"><b>Observability</b>Prometheus and Grafana monitoring and alerting across CI/CD and infrastructure.</li>
+      <li class="r"><b>Production Kubernetes</b>Clusters on EKS and GKE kept healthy for production and testing.</li>
+    </ul>
+  </div>
+</section>
+
+<!-- devsecops -->
+<section class="paper ch-sec" aria-labelledby="h-sec">
+  <div class="head">
+    <h2 id="h-sec" class="r">A security gate in one line</h2>
+    <p class="r">A container image scanning pipeline on Jenkins and Trivy that writes CycloneDX and SPDX SBOMs for production images: the groundwork for supply-chain compliance and tracing every CVE.</p>
+  </div>
+  <div class="body">
+    <div class="side r"><b>~<em>25</em></b><span>delivery pipelines can adopt it without changing anything else.</span></div>
+    <div>
+      <div class="term r" data-ui><pre><code><span class="d">// Jenkinsfile — any delivery pipeline</span>
+<span class="p">@Library</span>('devops-shared') _
+
+securityScan(
+  image:    'incorta/analytics:2026.10',
+  severity: 'HIGH',      <span class="d">// NONE | CRITICAL | HIGH</span>
+  sbom:     ['cyclonedx', 'spdx']
+)</code></pre></div>
+      <div class="sev">
+        <div class="r"><b>NONE</b><span>Report only. Findings and SBOMs are published; nothing is blocked.</span></div>
+        <div class="r"><b>CRITICAL</b><span>Blocks the release when any critical CVE is found.</span></div>
+        <div class="r"><b>HIGH</b><span>Blocks on high or critical. The strictest gate.</span></div>
+      </div>
+      <div class="cols">
+        <p class="r">I packaged the scanner as a reusable Jenkins shared-library step, so a team adds the gate with one line instead of copying a stage between repositories.</p>
+        <p class="r">Severity gating supports both report-only and blocking modes, so a pipeline can watch first and enforce once its images are clean.</p>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- sandbox siege -->
+<section class="blockpage ch-siege" aria-labelledby="h-siege">
+  <div class="side r">
+    <img src="img/devopsdays-winning.jpg" alt="Ahmed and a teammate holding the DevOpsDays Cairo 2026 third-place cheque for 50,000 EGP" width="1200" height="1600" loading="lazy">
+    <p class="cap">DevOpsDays Cairo 2026, third place in the student track, team Fo2 El-Sa7ab.</p>
+  </div>
+  <div>
+    <h2 id="h-siege" class="r">Agents under siege</h2>
+    <p class="lede r">Sandbox Siege is a chaos engineering framework that tests an AI agent’s judgement before it gets real cloud access. We built it at the ITIDA DevOpsDays Hackathon and placed third of more than 140 teams.</p>
+    <div class="facts">
+      <p class="r"><b>A fake cloud with traps.</b> Agents do normal tasks in simulated AWS (LocalStack Pro with IAM enforcement), seeded with realistic resources, permissions, secrets and security traps.</p>
+      <p class="r"><b>Every call intercepted.</b> A Python gateway (FastAPI, boto3) records each tool call, forwards it to LocalStack and runs security and behaviour detectors.</p>
+      <p class="r"><b>A gate in CI.</b> Agent scores become a pass or fail in GitHub Actions, with a React dashboard streaming results over Server-Sent Events.</p>
+    </div>
+
+    <div class="siege r">
+      <h3>Every action gets two verdicts. Pick one an agent tried:</h3>
+      <div class="siege-body">
+        <div class="acts" role="group" aria-label="Agent actions">
+          <button type="button" aria-pressed="true" data-i="0">Scale the checkout deployment to 6 pods</button>
+          <button type="button" aria-pressed="false" data-i="1">Read the database password to debug a timeout</button>
+          <button type="button" aria-pressed="false" data-i="2">Delete the S3 bucket tmp-old-logs</button>
+          <button type="button" aria-pressed="false" data-i="3">Attach AdministratorAccess to its own role</button>
+        </div>
+        <div class="verdicts" aria-live="polite">
+          <div class="verdict"><b id="v1" class="yes">Allowed</b><span>by IAM</span><small id="d1">The role grants the deployment update.</small></div>
+          <div class="verdict"><b id="v2" class="yes">Wise</b><span>by judgement</span><small id="d2">Load was rising and it stayed within limits.</small></div>
+          <div class="why" id="why">Both green. The run passes the CI gate.</div>
+        </div>
+      </div>
+    </div>
+
+    <blockquote class="quote-inline r">“His contributions were a massive part of why we succeeded.”<cite>Ghassan Elgendy, Cloud &amp; Solutions Architect, hackathon teammate</cite></blockquote>
+  </div>
+</section>
+
+<!-- evidence platform -->
+<section class="paper ch-ev" aria-labelledby="h-ev">
+  <div class="head">
+    <h2 id="h-ev" class="r">Evidence, six times faster</h2>
+    <p class="r">For All In Functional Health, a US health company, I built a multi-tenant genomic evidence platform end to end. For any gene or disease it returns ranked variants, related research and an evidence profile for each study.</p>
+  </div>
+  <div class="body">
+    <div class="chart r" role="img" aria-label="Bulk load time: 150 minutes before, 25 minutes after">
+      <h3>Loading 644,000 rows</h3>
+      <div class="bars">
+        <div><span><span>Before</span><span>2 h 30 min</span></span><i style="width:100%"></i></div>
+        <div><span><span>After</span><span>25 min</span></span><i class="after" style="width:16.7%"></i></div>
+      </div>
+      <p class="cap">Streaming parsers, chunked PostgreSQL COPY with a commit per chunk, and indexes built after the load. Release refreshes rebuild only what changed.</p>
+    </div>
+    <div class="colA">
+      <p class="r">Python, Flask and Supabase (PostgreSQL and object storage), deployed on Railway. Automated pipelines pull from nine public biomedical APIs and datasets, score the risk of each variant, retrieve full-text papers as XML, JSON or PDF, and keep strict provenance for every record.</p>
+      <p class="r">An LLM stage classifies each study, cached on model and prompt version, so re-runs return the same answer at no extra cost. A pipeline’s state survives crashes and page reloads mid-job.</p>
+    </div>
+    <div class="colB">
+      <p class="r">Sensitive health data is protected with PostgreSQL row-level security, service-role-only access, private buckets with insert-only upload policies and time-limited signed URLs.</p>
+      <p class="r">I also shipped three patient intake apps in Next.js and TypeScript: multi-step forms with Zod validation across about 90 fields, private lab-file uploads and email notifications through Resend, deployed on Vercel.</p>
+    </div>
+    <div class="tags r" aria-label="Sources">
+      <span>ClinVar</span><span>dbSNP</span><span>PubMed</span><span>OpenAlex</span><span>HGNC</span><span>UniProt</span><span>MANE</span><span>Rhea</span><span>GENCODE</span>
+    </div>
+  </div>
+</section>
+
+<!-- experience -->
+<section class="paper-2 exp" id="experience" aria-labelledby="h-exp">
+  <div class="head">
+    <h2 id="h-exp" class="r">Where I’ve worked</h2>
+    <p class="r">Five teams in two years, from a brokerage in Cairo to a health company in the United States.</p>
+  </div>
+  <div class="rows">
+    <div class="side r"><img src="img/myface.jpg" alt="Ahmed at Incorta’s office" width="512" height="512" loading="lazy"></div>
+    <table class="r">
+      <caption class="vh">Work history</caption>
+      <tr><td><b>Incorta</b><span>New Cairo</span></td><td>DevOps, Platform &amp; MLOps Engineer. The AI gateway, GPU nodes, agents, the security gate and production Kubernetes.</td><td>Aug 2025 – now</td></tr>
+      <tr><td><b>All In Functional Health</b><span>Remote, USA</span></td><td>AI Automation &amp; Full-Stack Engineer, contract. The genomic evidence platform and patient intake apps.</td><td>Jul – Oct 2026</td></tr>
+      <tr><td><b>Alpinum Consulting</b><span>Remote, UK</span></td><td>Software Engineering Instructor, part-time. Taught FreeRTOS and Zephyr RTOS with hands-on labs on Linux servers.</td><td>Jun – Aug 2026</td></tr>
+      <tr><td><b>Inpro.sa</b><span>Remote, KSA</span></td><td>DevOps Engineer. Azure DevOps pipelines with Gitflow and branch policies, ArgoCD with an umbrella chart, Grafana dashboards and alerts for Kubernetes.</td><td>Jun – Sep 2025</td></tr>
+      <tr><td><b>EFG Hermes</b><span>Cairo</span></td><td>SRE / DevOps Intern. CI/CD on Azure DevOps, Nginx as reverse proxy and load balancer, Prometheus, Grafana and Jaeger.</td><td>Oct – Dec 2024</td></tr>
+    </table>
+  </div>
+</section>
+
+<!-- side projects -->
+<section class="blockpage side-projects" aria-labelledby="h-proj">
+  <div class="head">
+    <h2 id="h-proj" class="r">Built on the side</h2>
+    <p class="r">Projects that started as questions: how far down can a cluster scale, and how fast can it come back up?</p>
+  </div>
+  <ul class="proj">
+    <li class="r"><h3>Event-driven autoscaling with KEDA</h3><p>An event-driven platform on GKE where Pub/Sub messages scale deployments from zero to ten pods in seconds. The cluster, VPC, IAM and Workload Identity are all Terraform.</p><p class="st">KEDA · GKE · Pub/Sub · Terraform</p></li>
+    <li class="r"><h3>Serverless Kubernetes with Knative</h3><p>Serverless container workloads on Knative Serving behind Kourier, with scale-to-zero autoscaling that takes idle cost to nothing.</p><p class="st">Knative · Kourier · Kubernetes</p></li>
+    <li class="r"><h3>Three-tier web app on EKS</h3><p>A React frontend and Flask services on AWS EKS, with PostgreSQL on RDS for persistent storage.</p><p class="st">AWS EKS · RDS · React · Flask</p></li>
+    <li class="r"><h3>Qt Factory</h3><p>A C++ desktop app with sign-in and role-based access, real-time sensor dashboards with configurable thresholds, live graphs and weather data. A top-ten global finalist in the Qt World competition.</p><p class="st">C++ · Qt · Scythe Studio</p></li>
+  </ul>
+</section>
+
+<!-- about & record -->
+<section class="paper about" id="about" aria-labelledby="h-about">
+  <div class="row1">
+    <dl class="r">
+      <div><dt>Based in</dt><dd>Cairo, Egypt (GMT+3)</dd></div>
+      <div><dt>Studying</dt><dd>Electronics &amp; Computer Engineering, Cairo University</dd></div>
+      <div><dt>Working at</dt><dd>Incorta</dd></div>
+    </dl>
+    <div class="para">
+      <h2 id="h-about" class="r">Outside the terminal</h2>
+      <p class="r">I’m in my final year of Electronics and Computer Engineering at Cairo University, and I’ve spent most of it shipping infrastructure for real teams at the same time.</p>
+      <p class="r">I learn in public: hackathons, meetups, teaching RTOS to engineers abroad, and a cloud certification whenever a gap shows up in what I know. Sport and charity work fill the rest of the week.</p>
+    </div>
+  </div>
+  <div class="pics">
+    <figure class="r"><img src="img/events-attended.jpg" alt="A Kubernetes talk in a glass-walled meeting room, the audience in white chairs" width="900" height="1600" loading="lazy"><figcaption class="cap">A community Kubernetes meetup in Cairo.</figcaption></figure>
+    <figure class="r"><img src="img/cairo-university-after-sunset.jpg" alt="Cairo University’s dome and clock tower lit at night" width="1200" height="670" loading="lazy"><figcaption class="cap">Cairo University, Faculty of Engineering. Class of 2026, GPA 3.1.</figcaption></figure>
+  </div>
+  <div class="row2">
+    <div class="lead-col r"><h3>The record</h3><p>Certifications earned alongside full-time work, and the competitions that tested them.</p></div>
+    <div class="r">
+      <h3>Certifications</h3>
+      <ul>
+        <li><span>Professional Cloud Architect</span><span>Google Cloud</span></li>
+        <li><span>Solutions Architect – Associate</span><span>AWS</span></li>
+        <li><span>Associate Cloud Engineer</span><span>Google Cloud</span></li>
+        <li><span>CloudOps Engineer</span><span>AWS</span></li>
+        <li><span>Cloud Practitioner</span><span>AWS</span></li>
+        <li><span>Kubernetes and Cloud Native Associate</span><span>CNCF</span></li>
+        <li><span>MLOps</span><span>KodeKloud</span></li>
+        <li><span>Azure Fundamentals (AZ-900)</span><span>Microsoft</span></li>
+      </ul>
+    </div>
+    <div class="r">
+      <h3>Recognition</h3>
+      <ul>
+        <li><span>3rd place of 140+ teams, ITIDA DevOpsDays Hackathon</span><span>2026</span></li>
+        <li><span>Top 10 global finalist, Qt World Competition</span><span>Qt</span></li>
+      </ul>
+      <h3 style="margin-top:40px">Skills</h3>
+      <ul>
+        <li><span>Kubernetes: EKS, GKE, K3s, bare metal, edge</span><span>FluxCD, ArgoCD</span></li>
+        <li><span>Infrastructure as code</span><span>Terraform, CloudFormation, Ansible</span></li>
+        <li><span>Observability</span><span>Prometheus, Grafana, Loki, Tempo, OTel</span></li>
+        <li><span>Security</span><span>SOPS, KMS, Trivy, SBOMs</span></li>
+      </ul>
+    </div>
+  </div>
+</section>
+
+<!-- letters -->
+<section class="blockpage letters" id="letters" aria-labelledby="h-letters">
+  <div>
+    <h2 id="h-letters" class="r">Letters of reference</h2>
+    <div class="who" role="group" aria-label="Choose a letter">
+      <button type="button" aria-pressed="true" data-i="0">Mohamed Ghayaty</button>
+      <button type="button" aria-pressed="false" data-i="1">Amr ElNaggar</button>
+      <button type="button" aria-pressed="false" data-i="2">Ghassan Elgendy</button>
+      <button type="button" aria-pressed="false" data-i="3">Mariam El Madbouly</button>
+    </div>
+  </div>
+  <div class="letter" aria-live="polite">
+    <blockquote id="q">He quickly became someone the team relied on, not just “the intern.” A true DevOps geek who can also build products end to end.</blockquote>
+    <cite id="c">Mohamed Ghayaty, Senior Engineering Manager, Incorta. Managed Ahmed directly.</cite>
+    <p class="all"><a class="link" href="https://linkedin.com/in/ahmedwagdymohy">Read the full letters on LinkedIn</a></p>
+  </div>
+</section>
+</main>
+
+<footer id="contact">
+  <div class="cta">
+    <h2 class="r">Tell me about your system</h2>
+    <p class="r">Open to platform, DevOps and MLOps roles, remote or in Cairo.</p>
+    <div class="actions r">
+      <a class="btn" href="mailto:ahmedwagdymohy@gmail.com?subject=Let%E2%80%99s%20talk%20about%20a%20role">ahmedwagdymohy@gmail.com</a>
+      <a class="link" href="https://linkedin.com/in/ahmedwagdymohy">LinkedIn</a>
+    </div>
+  </div>
+  <div class="fcols">
+    <div><span>Write</span><a href="mailto:ahmedwagdymohy@gmail.com">ahmedwagdymohy@gmail.com</a></div>
+    <div><span>Call</span><a href="tel:+201003207939">+20 10032 07939</a></div>
+    <div><span>Elsewhere</span><a href="https://github.com/Ahmedwagdymohy">GitHub</a><a href="https://linkedin.com/in/ahmedwagdymohy">LinkedIn</a></div>
+    <div><span>Pages</span><a href="#figures">Figures</a><a href="#work">Work</a><a href="#experience">Experience</a></div>
+  </div>
+  <svg class="wordmark" viewBox="0 0 1000 124" role="img" aria-label="Ahmed Wagdy"><text x="0" y="108" textLength="1000" lengthAdjust="spacingAndGlyphs" font-family="Switzer, sans-serif" font-weight="600" font-size="150" letter-spacing="-6" fill="currentColor">Ahmed Wagdy</text></svg>
+  <p class="credits">© 2026 Ahmed Wagdy Mohy. Photos of Cairo and Cairo University via Wikimedia Commons: <a href="https://commons.wikimedia.org/wiki/File:Cairo_skyline,_Panoramic_view,_Egypt.jpg">Vyacheslav Argenberg, CC BY 4.0</a>; <a href="https://commons.wikimedia.org/wiki/File:Cairo_University_after_sunset.JPG">Faris knight, CC BY-SA 3.0</a>.</p>
+</footer>
+
+<script src="main.js" defer></script>
+</body>
+</html>

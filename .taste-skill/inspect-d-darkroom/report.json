@@ -1,0 +1,1844 @@
+{
+ "url": "http://localhost:4104/",
+ "at": "2026-10-23T12:38:22.540Z",
+ "allow": [],
+ "viewports": [
+  {
+   "width": 1440,
+   "height": 900,
+   "load": "load",
+   "screens": 7,
+   "filled": [
+    0.31,
+    0.44,
+    0.32,
+    0.48,
+    0.3,
+    0.8,
+    1
+   ],
+   "motion": {
+    "elements": 16,
+    "css": 0,
+    "transitions": 16,
+    "scripted": 0,
+    "videos": 0,
+    "playingVideos": 0
+   },
+   "metrics": {
+    "viewport": {
+     "w": 1440,
+     "h": 900
+    },
+    "page": {
+     "height": 5571,
+     "screens": 6.2,
+     "words": 282,
+     "img": 6,
+     "video": 0,
+     "canvas": 0,
+     "svg": 0,
+     "sections": 5,
+     "horizontalOverflow": 0,
+     "overflowCulprits": [],
+     "uiFragments": 1,
+     "uiAbuse": false,
+     "realPictures": 6,
+     "videoCount": 0,
+     "uiPictures": 1,
+     "pictureSamples": [
+      "cairo-university-after-sunset.jpg",
+      "portrait.jpg",
+      "duga-1-radar-data-center-inside-empty.jpg",
+      "racks-amravati-data-center.jpg",
+      "racks-amravati-data-center.jpg",
+      "cairo-skyline-nile-river-egypt.jpg"
+     ],
+     "blendText": 0,
+     "sideScrollers": 0,
+     "brokenImages": [],
+     "emoji": [],
+     "videosNoPoster": 0
+    },
+    "hero": {
+     "text": "Ahmed Wagdy, platform engineer in Cairo.",
+     "words": 6,
+     "chars": 40,
+     "lines": 2,
+     "size": 40.3,
+     "vw": 2.8,
+     "font": "Zodiak",
+     "weight": 300,
+     "tracking": -0.01,
+     "leading": 1,
+     "upper": false,
+     "italic": false,
+     "mono": false,
+     "align": "left",
+     "position": "left",
+     "widthRatio": 0.44,
+     "top": 789,
+     "tag": "h1",
+     "kind": "heading"
+    },
+    "h1": {
+     "text": "Ahmed Wagdy, platform engineer in Cairo.",
+     "words": 6,
+     "lines": 2,
+     "size": 40.3,
+     "font": "Zodiak"
+    },
+    "headings": [
+     {
+      "text": "Ahmed Wagdy, platform engineer in Cairo.",
+      "words": 6,
+      "chars": 40,
+      "lines": 2,
+      "size": 40.3,
+      "vw": 2.8,
+      "font": "Zodiak",
+      "weight": 300,
+      "tracking": -0.01,
+      "leading": 1,
+      "upper": false,
+      "italic": false,
+      "mono": false,
+      "align": "left",
+      "position": "left",
+      "widthRatio": 0.44,
+      "top": 789,
+      "tag": "h1",
+      "kind": "heading"
+     },
+     {
+      "text": "The gateway",
+      "words": 2,
+      "chars": 11,
+      "lines": 1,
+      "size": 64,
+      "vw": 4.4,
+      "font": "Zodiak",
+      "weight": 100,
+      "tracking": -0.01,
+      "leading": 1,
+      "upper": false,
+      "italic": false,
+      "mono": false,
+      "align": "left",
+      "position": "right",
+      "widthRatio": 0.31,
+      "top": 1630,
+      "tag": "h2",
+      "kind": "heading"
+     },
+     {
+      "text": "The evidence engine",
+      "words": 3,
+      "chars": 19,
+      "lines": 2,
+      "size": 64,
+      "vw": 4.4,
+      "font": "Zodiak",
+      "weight": 100,
+      "tracking": -0.01,
+      "leading": 1,
+      "upper": false,
+      "italic": false,
+      "mono": false,
+      "align": "left",
+      "position": "left",
+      "widthRatio": 0.31,
+      "top": 2757,
+      "tag": "h2",
+      "kind": "heading"
+     },
+     {
+      "text": "Ask the night shift.",
+      "words": 4,
+      "chars": 20,
+      "lines": 2,
+      "size": 82.6,
+      "vw": 5.7,
+      "font": "Zodiak",
+      "weight": 100,
+      "tracking": -0.01,
+      "leading": 1,
+      "upper": false,
+      "italic": false,
+      "mono": false,
+      "align": "left",
+      "position": "left",
+      "widthRatio": 0.38,
+      "top": 3380,
+      "tag": "h2",
+      "kind": "heading"
+     },
+     {
+      "text": "The record",
+      "words": 2,
+      "chars": 10,
+      "lines": 1,
+      "size": 43.2,
+      "vw": 3,
+      "font": "Zodiak",
+      "weight": 300,
+      "tracking": -0.01,
+      "leading": 1,
+      "upper": false,
+      "italic": false,
+      "mono": false,
+      "align": "left",
+      "position": "left",
+      "widthRatio": 0.31,
+      "top": 4231,
+      "tag": "h2",
+      "kind": "heading"
+     },
+     {
+      "text": "ahmedwagdymohy@ gmail.com",
+      "words": 2,
+      "chars": 25,
+      "lines": 2,
+      "size": 92.2,
+      "vw": 6.4,
+      "font": "Zodiak",
+      "weight": 300,
+      "tracking": -0.03,
+      "leading": 1,
+      "upper": false,
+      "italic": false,
+      "mono": false,
+      "align": "left",
+      "position": "center",
+      "widthRatio": 0.96,
+      "top": 5262,
+      "tag": "a",
+      "kind": "heading"
+     }
+    ],
+    "headingSummary": {
+     "count": 6,
+     "maxLines": 2,
+     "over2Lines": 0,
+     "statements": 0,
+     "centered": 0,
+     "medianWords": 2,
+     "mixedFontHeadings": 0
+    },
+    "type": {
+     "families": [
+      {
+       "family": "Hanken Grotesk",
+       "share": 0.93,
+       "mono": false
+      },
+      {
+       "family": "Zodiak",
+       "share": 0.07,
+       "mono": false
+      }
+     ],
+     "familyCount": 2,
+     "sizes": [
+      14,
+      15,
+      16,
+      19,
+      22,
+      40,
+      43,
+      64,
+      83,
+      92
+     ],
+     "sizeCount": 10,
+     "notLoaded": [],
+     "body": {
+      "font": "Hanken Grotesk",
+      "size": 19,
+      "leading": 1.6,
+      "weight": 400,
+      "tracking": 0,
+      "contrast": 16.6
+     },
+     "measureChars": 47,
+     "max": {
+      "size": 92.2,
+      "vw": 6.4,
+      "font": "Zodiak",
+      "text": "ahmedwagdymohy@gmail.com"
+     },
+     "monoShare": 0,
+     "monoProseShare": 0,
+     "monoFamilies": [],
+     "monoSamples": [],
+     "microLabels": 0,
+     "microLabelShare": 0,
+     "microSamples": [],
+     "upperShare": 0.01,
+     "centerShare": 0,
+     "smallText": 0
+    },
+    "eyebrows": [],
+    "numbered": [],
+    "color": {
+     "bodyBg": "#0e110f",
+     "bodyBgHsl": {
+      "h": 140,
+      "s": 0.1,
+      "l": 0.06
+     },
+     "dark": true,
+     "sectionBgs": [
+      {
+       "color": "#eef0ec",
+       "top": 4671,
+       "hsl": {
+        "h": 90,
+        "s": 0.12,
+        "l": 0.93
+       }
+      }
+     ],
+     "textColors": [
+      {
+       "color": "#eef0ec",
+       "share": 0.54
+      },
+      {
+       "color": "#0e110f",
+       "share": 0.16
+      },
+      {
+       "color": "#8f948f",
+       "share": 0.16
+      },
+      {
+       "color": "#d6d9d4",
+       "share": 0.13
+      },
+      {
+       "color": "#0f0f0f",
+       "share": 0.01
+      }
+     ],
+     "button": {
+      "bg": "#181c19",
+      "hsl": {
+       "h": 135,
+       "s": 0.08,
+       "l": 0.1
+      },
+      "fg": "#eef0ec"
+     },
+     "lowContrast": []
+    },
+    "buttons": {
+     "count": 4,
+     "inHero": 1,
+     "radius": 0,
+     "height": 58,
+     "withShadow": 0,
+     "withGradient": 0,
+     "mono": 0,
+     "upper": 0,
+     "heroLabels": [
+      "Get in touch"
+     ]
+    },
+    "surfaces": {
+     "shadowStatic": 0,
+     "shadowOverlay": 0,
+     "shadowSamples": [],
+     "gradients": 0,
+     "scrims": 0,
+     "gradientSamples": [],
+     "gradientText": 0,
+     "hairlines": 0,
+     "hairlineSamples": [],
+     "outlinedBoxes": 0,
+     "dashed": 0,
+     "blurred": 0,
+     "roundedBoxes": 0,
+     "boxRadius": 0,
+     "squareMedia": 6,
+     "roundedMedia": 0,
+     "mediaRadius": 0,
+     "textShadow": 0,
+     "cardRows": []
+    },
+    "heroMedia": [
+     {
+      "type": "img",
+      "ratio": 0.23
+     },
+     {
+      "type": "img",
+      "ratio": 0.23
+     },
+     {
+      "type": "img",
+      "ratio": 0.23
+     }
+    ],
+    "nav": {
+     "links": 5,
+     "fixed": false,
+     "height": 900,
+     "floatingPill": false,
+     "blur": false
+    },
+    "fontsLoaded": [
+     "zodiak",
+     "hanken grotesk"
+    ]
+   },
+   "layout": {
+    "viewport": {
+     "w": 1440,
+     "h": 900
+    },
+    "pageH": 5571,
+    "margins": {
+     "left": 30,
+     "right": 30
+    },
+    "sections": [
+     {
+      "sel": "header.hero",
+      "tag": "header",
+      "top": 0,
+      "height": 900,
+      "words": 32,
+      "media": 3,
+      "middle": 106,
+      "heading": null,
+      "left": 30,
+      "right": 34,
+      "textLeft": 30,
+      "textRight": 34,
+      "fullBleed": false,
+      "footer": false,
+      "hero": true,
+      "continues": false,
+      "pinned": false
+     },
+     {
+      "sel": "section#work.exhibit",
+      "tag": "section",
+      "top": 900,
+      "height": 1160,
+      "words": 41,
+      "media": 1,
+      "middle": 141,
+      "heading": null,
+      "left": 147,
+      "right": 48,
+      "textLeft": 966,
+      "textRight": 48,
+      "fullBleed": false,
+      "footer": false,
+      "hero": false,
+      "continues": false,
+      "pinned": false
+     },
+     {
+      "sel": "section.exhibit.flip",
+      "tag": "section",
+      "top": 2060,
+      "height": 1160,
+      "words": 36,
+      "media": 1,
+      "middle": 141,
+      "heading": null,
+      "left": 30,
+      "right": 147,
+      "textLeft": 30,
+      "textRight": 966,
+      "fullBleed": false,
+      "footer": false,
+      "hero": false,
+      "continues": false,
+      "pinned": false
+     },
+     {
+      "sel": "section#agent.agent",
+      "tag": "section",
+      "top": 3220,
+      "height": 851,
+      "words": 92,
+      "media": 0,
+      "middle": 98,
+      "heading": {
+       "text": "Ask the night shift.",
+       "size": 83,
+       "tag": "h2"
+      },
+      "left": 30,
+      "right": 71,
+      "textLeft": 30,
+      "textRight": 71,
+      "fullBleed": false,
+      "footer": false,
+      "hero": false,
+      "continues": false,
+      "pinned": false
+     },
+     {
+      "sel": "section#record.records",
+      "tag": "section",
+      "top": 4071,
+      "height": 599,
+      "words": 46,
+      "media": 0,
+      "middle": 245,
+      "heading": {
+       "text": "The record",
+       "size": 43,
+       "tag": "h2"
+      },
+      "left": 30,
+      "right": 30,
+      "textLeft": 30,
+      "textRight": 30,
+      "fullBleed": false,
+      "footer": false,
+      "hero": false,
+      "continues": false,
+      "pinned": false
+     },
+     {
+      "sel": "section#contact.contact",
+      "tag": "section",
+      "top": 4671,
+      "height": 900,
+      "words": 39,
+      "media": 0,
+      "middle": 181,
+      "heading": null,
+      "left": 30,
+      "right": 30,
+      "textLeft": 30,
+      "textRight": 30,
+      "fullBleed": false,
+      "footer": true,
+      "hero": false,
+      "continues": false,
+      "pinned": false
+     }
+    ],
+    "gaps": [
+     {
+      "top": 1880,
+      "height": 360
+     },
+     {
+      "top": 3040,
+      "height": 328
+     },
+     {
+      "top": 3912,
+      "height": 312
+     },
+     {
+      "top": 4768,
+      "height": 480
+     }
+    ],
+    "h1s": [
+     {
+      "text": "Ahmed Wagdy, platform engineer in Cairo.",
+      "size": 40,
+      "top": 789,
+      "firstScreen": true
+     }
+    ],
+    "edgeText": [],
+    "edges": [
+     {
+      "x": 30,
+      "n": 8
+     },
+     {
+      "x": 966,
+      "n": 3
+     },
+     {
+      "x": 498,
+      "n": 1
+     },
+     {
+      "x": 1195,
+      "n": 1
+     }
+    ],
+    "leftBlocks": 13,
+    "bodySize": 19,
+    "stage": false,
+    "explains": false,
+    "slivers": [],
+    "voidShare": 0.14,
+    "voidBox": {
+     "x": 1140,
+     "y": 120,
+     "w": 300,
+     "h": 600
+    }
+   },
+   "app": null,
+   "consoleErrors": []
+  },
+  {
+   "width": 768,
+   "height": 1024,
+   "load": "load",
+   "screens": 7,
+   "filled": [
+    0.59,
+    0.79,
+    0.74,
+    0.58,
+    0.43,
+    0.87,
+    1
+   ],
+   "motion": {
+    "elements": 16,
+    "css": 0,
+    "transitions": 16,
+    "scripted": 0,
+    "videos": 0,
+    "playingVideos": 0
+   },
+   "metrics": {
+    "viewport": {
+     "w": 768,
+     "h": 1024
+    },
+    "page": {
+     "height": 6259,
+     "screens": 6.1,
+     "words": 276,
+     "img": 6,
+     "video": 0,
+     "canvas": 0,
+     "svg": 0,
+     "sections": 5,
+     "horizontalOverflow": 0,
+     "overflowCulprits": [],
+     "uiFragments": 1,
+     "uiAbuse": false,
+     "realPictures": 6,
+     "videoCount": 0,
+     "uiPictures": 1,
+     "pictureSamples": [
+      "cairo-university-after-sunset.jpg",
+      "portrait.jpg",
+      "duga-1-radar-data-center-inside-empty.jpg",
+      "racks-amravati-data-center.jpg",
+      "racks-amravati-data-center.jpg",
+      "cairo-skyline-nile-river-egypt.jpg"
+     ],
+     "blendText": 0,
+     "sideScrollers": 0,
+     "brokenImages": [],
+     "emoji": [],
+     "videosNoPoster": 0
+    },
+    "hero": {
+     "text": "Ahmed Wagdy, platform engineer in Cairo.",
+     "words": 6,
+     "chars": 40,
+     "lines": 3,
+     "size": 50.7,
+     "vw": 6.6,
+     "font": "Zodiak",
+     "weight": 300,
+     "tracking": -0.01,
+     "leading": 1,
+     "upper": false,
+     "italic": false,
+     "mono": false,
+     "align": "left",
+     "position": "center",
+     "widthRatio": 0.97,
+     "top": 752,
+     "tag": "h1",
+     "kind": "heading"
+    },
+    "h1": {
+     "text": "Ahmed Wagdy, platform engineer in Cairo.",
+     "words": 6,
+     "lines": 3,
+     "size": 50.7,
+     "font": "Zodiak"
+    },
+    "headings": [
+     {
+      "text": "Ahmed Wagdy, platform engineer in Cairo.",
+      "words": 6,
+      "chars": 40,
+      "lines": 3,
+      "size": 50.7,
+      "vw": 6.6,
+      "font": "Zodiak",
+      "weight": 300,
+      "tracking": -0.01,
+      "leading": 1,
+      "upper": false,
+      "italic": false,
+      "mono": false,
+      "align": "left",
+      "position": "center",
+      "widthRatio": 0.97,
+      "top": 752,
+      "tag": "h1",
+      "kind": "heading"
+     },
+     {
+      "text": "The gateway",
+      "words": 2,
+      "chars": 11,
+      "lines": 1,
+      "size": 42.1,
+      "vw": 5.5,
+      "font": "Zodiak",
+      "weight": 100,
+      "tracking": -0.01,
+      "leading": 1,
+      "upper": false,
+      "italic": false,
+      "mono": false,
+      "align": "left",
+      "position": "center",
+      "widthRatio": 0.95,
+      "top": 1948,
+      "tag": "h2",
+      "kind": "heading"
+     },
+     {
+      "text": "The evidence engine",
+      "words": 3,
+      "chars": 19,
+      "lines": 1,
+      "size": 42.1,
+      "vw": 5.5,
+      "font": "Zodiak",
+      "weight": 100,
+      "tracking": -0.01,
+      "leading": 1,
+      "upper": false,
+      "italic": false,
+      "mono": false,
+      "align": "left",
+      "position": "center",
+      "widthRatio": 0.95,
+      "top": 3135,
+      "tag": "h2",
+      "kind": "heading"
+     },
+     {
+      "text": "Ask the night shift.",
+      "words": 4,
+      "chars": 20,
+      "lines": 1,
+      "size": 53,
+      "vw": 6.9,
+      "font": "Zodiak",
+      "weight": 100,
+      "tracking": -0.01,
+      "leading": 1,
+      "upper": false,
+      "italic": false,
+      "mono": false,
+      "align": "left",
+      "position": "center",
+      "widthRatio": 0.95,
+      "top": 3499,
+      "tag": "h2",
+      "kind": "heading"
+     },
+     {
+      "text": "The record",
+      "words": 2,
+      "chars": 10,
+      "lines": 1,
+      "size": 32,
+      "vw": 4.2,
+      "font": "Zodiak",
+      "weight": 300,
+      "tracking": -0.01,
+      "leading": 1,
+      "upper": false,
+      "italic": false,
+      "mono": false,
+      "align": "left",
+      "position": "center",
+      "widthRatio": 0.95,
+      "top": 4615,
+      "tag": "h2",
+      "kind": "heading"
+     },
+     {
+      "text": "ahmedwagdymohy@ gmail.com",
+      "words": 2,
+      "chars": 25,
+      "lines": 2,
+      "size": 49.2,
+      "vw": 6.4,
+      "font": "Zodiak",
+      "weight": 300,
+      "tracking": -0.03,
+      "leading": 1,
+      "upper": false,
+      "italic": false,
+      "mono": false,
+      "align": "left",
+      "position": "center",
+      "widthRatio": 0.95,
+      "top": 5937,
+      "tag": "a",
+      "kind": "heading"
+     }
+    ],
+    "headingSummary": {
+     "count": 6,
+     "maxLines": 3,
+     "over2Lines": 1,
+     "statements": 0,
+     "centered": 0,
+     "medianWords": 2,
+     "mixedFontHeadings": 0
+    },
+    "type": {
+     "families": [
+      {
+       "family": "Hanken Grotesk",
+       "share": 0.92,
+       "mono": false
+      },
+      {
+       "family": "Zodiak",
+       "share": 0.08,
+       "mono": false
+      }
+     ],
+     "familyCount": 2,
+     "sizes": [
+      14,
+      15,
+      16,
+      18,
+      22,
+      32,
+      42,
+      49,
+      51,
+      53
+     ],
+     "sizeCount": 10,
+     "notLoaded": [],
+     "body": {
+      "font": "Hanken Grotesk",
+      "size": 17.9,
+      "leading": 1.6,
+      "weight": 400,
+      "tracking": 0,
+      "contrast": 16.6
+     },
+     "measureChars": 81,
+     "max": {
+      "size": 53,
+      "vw": 6.9,
+      "font": "Zodiak",
+      "text": "Ask the night shift."
+     },
+     "monoShare": 0,
+     "monoProseShare": 0,
+     "monoFamilies": [],
+     "monoSamples": [],
+     "microLabels": 0,
+     "microLabelShare": 0,
+     "microSamples": [],
+     "upperShare": 0.01,
+     "centerShare": 0,
+     "smallText": 0
+    },
+    "eyebrows": [],
+    "numbered": [],
+    "color": {
+     "bodyBg": "#0e110f",
+     "bodyBgHsl": {
+      "h": 140,
+      "s": 0.1,
+      "l": 0.06
+     },
+     "dark": true,
+     "sectionBgs": [
+      {
+       "color": "#181c19",
+       "top": 3975,
+       "hsl": {
+        "h": 135,
+        "s": 0.08,
+        "l": 0.1
+       }
+      },
+      {
+       "color": "#eef0ec",
+       "top": 5235,
+       "hsl": {
+        "h": 90,
+        "s": 0.12,
+        "l": 0.93
+       }
+      }
+     ],
+     "textColors": [
+      {
+       "color": "#eef0ec",
+       "share": 0.55
+      },
+      {
+       "color": "#0e110f",
+       "share": 0.17
+      },
+      {
+       "color": "#8f948f",
+       "share": 0.15
+      },
+      {
+       "color": "#d6d9d4",
+       "share": 0.13
+      },
+      {
+       "color": "#0f0f0f",
+       "share": 0.01
+      }
+     ],
+     "button": {
+      "bg": "#181c19",
+      "hsl": {
+       "h": 135,
+       "s": 0.08,
+       "l": 0.1
+      },
+      "fg": "#eef0ec"
+     },
+     "lowContrast": []
+    },
+    "buttons": {
+     "count": 4,
+     "inHero": 1,
+     "radius": 0,
+     "height": 58,
+     "withShadow": 0,
+     "withGradient": 0,
+     "mono": 0,
+     "upper": 0,
+     "heroLabels": [
+      "Get in touch"
+     ]
+    },
+    "surfaces": {
+     "shadowStatic": 0,
+     "shadowOverlay": 0,
+     "shadowSamples": [],
+     "gradients": 0,
+     "scrims": 0,
+     "gradientSamples": [],
+     "gradientText": 0,
+     "hairlines": 0,
+     "hairlineSamples": [],
+     "outlinedBoxes": 0,
+     "dashed": 0,
+     "blurred": 0,
+     "roundedBoxes": 0,
+     "boxRadius": 0,
+     "squareMedia": 6,
+     "roundedMedia": 0,
+     "mediaRadius": 0,
+     "textShadow": 0,
+     "cardRows": []
+    },
+    "heroMedia": [
+     {
+      "type": "img",
+      "ratio": 0.57
+     },
+     {
+      "type": "img",
+      "ratio": 0.57
+     },
+     {
+      "type": "img",
+      "ratio": 0.57
+     }
+    ],
+    "nav": {
+     "links": 1,
+     "fixed": false,
+     "height": 1024,
+     "floatingPill": false,
+     "blur": false
+    },
+    "fontsLoaded": [
+     "zodiak",
+     "hanken grotesk"
+    ]
+   },
+   "layout": {
+    "viewport": {
+     "w": 768,
+     "h": 1024
+    },
+    "pageH": 6259,
+    "margins": {
+     "left": 20,
+     "right": 20
+    },
+    "sections": [
+     {
+      "sel": "header.hero",
+      "tag": "header",
+      "top": 0,
+      "height": 1024,
+      "words": 26,
+      "media": 3,
+      "middle": 0,
+      "heading": null,
+      "left": 20,
+      "right": 20,
+      "textLeft": 20,
+      "textRight": 42,
+      "fullBleed": false,
+      "footer": false,
+      "hero": true,
+      "continues": false,
+      "pinned": false
+     },
+     {
+      "sel": "section#work.exhibit",
+      "tag": "section",
+      "top": 1024,
+      "height": 1187,
+      "words": 41,
+      "media": 1,
+      "middle": 0,
+      "heading": null,
+      "left": 20,
+      "right": 20,
+      "textLeft": 20,
+      "textRight": 34,
+      "fullBleed": false,
+      "footer": false,
+      "hero": false,
+      "continues": false,
+      "pinned": false
+     },
+     {
+      "sel": "section.exhibit.flip",
+      "tag": "section",
+      "top": 2211,
+      "height": 1187,
+      "words": 36,
+      "media": 1,
+      "middle": 0,
+      "heading": null,
+      "left": 20,
+      "right": 20,
+      "textLeft": 20,
+      "textRight": 25,
+      "fullBleed": false,
+      "footer": false,
+      "hero": false,
+      "continues": false,
+      "pinned": false
+     },
+     {
+      "sel": "section#agent.agent",
+      "tag": "section",
+      "top": 3399,
+      "height": 1116,
+      "words": 92,
+      "media": 0,
+      "middle": 0,
+      "heading": {
+       "text": "Ask the night shift.",
+       "size": 53,
+       "tag": "h2"
+      },
+      "left": 20,
+      "right": 20,
+      "textLeft": 20,
+      "textRight": 48,
+      "fullBleed": false,
+      "footer": false,
+      "hero": false,
+      "continues": false,
+      "pinned": false
+     },
+     {
+      "sel": "section#record.records",
+      "tag": "section",
+      "top": 4515,
+      "height": 720,
+      "words": 46,
+      "media": 0,
+      "middle": 309,
+      "heading": {
+       "text": "The record",
+       "size": 32,
+       "tag": "h2"
+      },
+      "left": 20,
+      "right": 20,
+      "textLeft": 20,
+      "textRight": 20,
+      "fullBleed": false,
+      "footer": false,
+      "hero": false,
+      "continues": false,
+      "pinned": false
+     },
+     {
+      "sel": "section#contact.contact",
+      "tag": "section",
+      "top": 5235,
+      "height": 1024,
+      "words": 39,
+      "media": 0,
+      "middle": 0,
+      "heading": null,
+      "left": 20,
+      "right": 59,
+      "textLeft": 20,
+      "textRight": 59,
+      "fullBleed": false,
+      "footer": true,
+      "hero": false,
+      "continues": false,
+      "pinned": false
+     }
+    ],
+    "gaps": [
+     {
+      "top": 4152,
+      "height": 456
+     },
+     {
+      "top": 5324,
+      "height": 604
+     }
+    ],
+    "h1s": [
+     {
+      "text": "Ahmed Wagdy, platform engineer in Cairo.",
+      "size": 51,
+      "top": 752,
+      "firstScreen": true
+     }
+    ],
+    "edgeText": [],
+    "edges": [
+     {
+      "x": 20,
+      "n": 13
+     }
+    ],
+    "leftBlocks": 13,
+    "bodySize": 18,
+    "stage": false,
+    "explains": false,
+    "slivers": [],
+    "voidShare": 0,
+    "voidBox": null
+   },
+   "app": null,
+   "consoleErrors": []
+  },
+  {
+   "width": 390,
+   "height": 844,
+   "load": "load",
+   "screens": 8,
+   "filled": [
+    0.53,
+    0.79,
+    0.66,
+    0.62,
+    0.72,
+    0.29,
+    0.87,
+    1
+   ],
+   "motion": {
+    "elements": 16,
+    "css": 0,
+    "transitions": 16,
+    "scripted": 0,
+    "videos": 0,
+    "playingVideos": 0
+   },
+   "metrics": {
+    "viewport": {
+     "w": 390,
+     "h": 844
+    },
+    "page": {
+     "height": 6043,
+     "screens": 7.2,
+     "words": 276,
+     "img": 6,
+     "video": 0,
+     "canvas": 0,
+     "svg": 0,
+     "sections": 5,
+     "horizontalOverflow": 0,
+     "overflowCulprits": [],
+     "uiFragments": 1,
+     "uiAbuse": false,
+     "realPictures": 5,
+     "videoCount": 0,
+     "uiPictures": 1,
+     "pictureSamples": [
+      "portrait.jpg",
+      "duga-1-radar-data-center-inside-empty.jpg",
+      "racks-amravati-data-center.jpg",
+      "racks-amravati-data-center.jpg",
+      "cairo-skyline-nile-river-egypt.jpg"
+     ],
+     "blendText": 0,
+     "sideScrollers": 0,
+     "brokenImages": [],
+     "emoji": [],
+     "videosNoPoster": 0
+    },
+    "hero": {
+     "text": "Ahmed Wagdy, platform engineer in Cairo.",
+     "words": 6,
+     "chars": 40,
+     "lines": 3,
+     "size": 25.7,
+     "vw": 6.6,
+     "font": "Zodiak",
+     "weight": 300,
+     "tracking": -0.01,
+     "leading": 1,
+     "upper": false,
+     "italic": false,
+     "mono": false,
+     "align": "left",
+     "position": "center",
+     "widthRatio": 0.95,
+     "top": 647,
+     "tag": "h1",
+     "kind": "heading"
+    },
+    "h1": {
+     "text": "Ahmed Wagdy, platform engineer in Cairo.",
+     "words": 6,
+     "lines": 3,
+     "size": 25.7,
+     "font": "Zodiak"
+    },
+    "headings": [
+     {
+      "text": "Ahmed Wagdy, platform engineer in Cairo.",
+      "words": 6,
+      "chars": 40,
+      "lines": 3,
+      "size": 25.7,
+      "vw": 6.6,
+      "font": "Zodiak",
+      "weight": 300,
+      "tracking": -0.01,
+      "leading": 1,
+      "upper": false,
+      "italic": false,
+      "mono": false,
+      "align": "left",
+      "position": "center",
+      "widthRatio": 0.95,
+      "top": 647,
+      "tag": "h1",
+      "kind": "heading"
+     },
+     {
+      "text": "The gateway",
+      "words": 2,
+      "chars": 11,
+      "lines": 1,
+      "size": 35.2,
+      "vw": 9,
+      "font": "Zodiak",
+      "weight": 100,
+      "tracking": -0.01,
+      "leading": 1,
+      "upper": false,
+      "italic": false,
+      "mono": false,
+      "align": "left",
+      "position": "center",
+      "widthRatio": 0.9,
+      "top": 1768,
+      "tag": "h2",
+      "kind": "heading"
+     },
+     {
+      "text": "The evidence engine",
+      "words": 3,
+      "chars": 19,
+      "lines": 1,
+      "size": 35.2,
+      "vw": 9,
+      "font": "Zodiak",
+      "weight": 100,
+      "tracking": -0.01,
+      "leading": 1,
+      "upper": false,
+      "italic": false,
+      "mono": false,
+      "align": "left",
+      "position": "center",
+      "widthRatio": 0.9,
+      "top": 3027,
+      "tag": "h2",
+      "kind": "heading"
+     },
+     {
+      "text": "Ask the night shift.",
+      "words": 4,
+      "chars": 20,
+      "lines": 1,
+      "size": 38.4,
+      "vw": 9.8,
+      "font": "Zodiak",
+      "weight": 100,
+      "tracking": -0.01,
+      "leading": 1,
+      "upper": false,
+      "italic": false,
+      "mono": false,
+      "align": "left",
+      "position": "center",
+      "widthRatio": 0.9,
+      "top": 3432,
+      "tag": "h2",
+      "kind": "heading"
+     },
+     {
+      "text": "The record",
+      "words": 2,
+      "chars": 10,
+      "lines": 1,
+      "size": 32,
+      "vw": 8.2,
+      "font": "Zodiak",
+      "weight": 300,
+      "tracking": -0.01,
+      "leading": 1,
+      "upper": false,
+      "italic": false,
+      "mono": false,
+      "align": "left",
+      "position": "center",
+      "widthRatio": 0.9,
+      "top": 4528,
+      "tag": "h2",
+      "kind": "heading"
+     },
+     {
+      "text": "Hiring for platform, DevOps or MLOps? Tell me about the system.",
+      "words": 11,
+      "chars": 63,
+      "lines": 2,
+      "size": 22,
+      "vw": 5.6,
+      "font": "Hanken Grotesk",
+      "weight": 400,
+      "tracking": 0,
+      "leading": 1.6,
+      "upper": false,
+      "italic": false,
+      "mono": false,
+      "align": "left",
+      "position": "center",
+      "widthRatio": 0.9,
+      "top": 5219,
+      "tag": "p",
+      "kind": "statement"
+     },
+     {
+      "text": "ahmedwagdymohy@ gmail.com",
+      "words": 2,
+      "chars": 25,
+      "lines": 2,
+      "size": 34,
+      "vw": 8.7,
+      "font": "Zodiak",
+      "weight": 300,
+      "tracking": -0.03,
+      "leading": 1,
+      "upper": false,
+      "italic": false,
+      "mono": false,
+      "align": "left",
+      "position": "center",
+      "widthRatio": 0.9,
+      "top": 5743,
+      "tag": "a",
+      "kind": "heading"
+     }
+    ],
+    "headingSummary": {
+     "count": 7,
+     "maxLines": 3,
+     "over2Lines": 1,
+     "statements": 1,
+     "centered": 0,
+     "medianWords": 3,
+     "mixedFontHeadings": 0
+    },
+    "type": {
+     "families": [
+      {
+       "family": "Hanken Grotesk",
+       "share": 0.92,
+       "mono": false
+      },
+      {
+       "family": "Zodiak",
+       "share": 0.08,
+       "mono": false
+      }
+     ],
+     "familyCount": 2,
+     "sizes": [
+      14,
+      15,
+      16,
+      17,
+      22,
+      26,
+      32,
+      34,
+      35,
+      38
+     ],
+     "sizeCount": 10,
+     "notLoaded": [],
+     "body": {
+      "font": "Hanken Grotesk",
+      "size": 17,
+      "leading": 1.6,
+      "weight": 400,
+      "tracking": 0,
+      "contrast": 16.6
+     },
+     "measureChars": 41,
+     "max": {
+      "size": 38.4,
+      "vw": 9.8,
+      "font": "Zodiak",
+      "text": "Ask the night shift."
+     },
+     "monoShare": 0,
+     "monoProseShare": 0,
+     "monoFamilies": [],
+     "monoSamples": [],
+     "microLabels": 0,
+     "microLabelShare": 0,
+     "microSamples": [],
+     "upperShare": 0.01,
+     "centerShare": 0,
+     "smallText": 0
+    },
+    "eyebrows": [],
+    "numbered": [],
+    "color": {
+     "bodyBg": "#0e110f",
+     "bodyBgHsl": {
+      "h": 140,
+      "s": 0.1,
+      "l": 0.06
+     },
+     "dark": true,
+     "sectionBgs": [
+      {
+       "color": "#181c19",
+       "top": 3888,
+       "hsl": {
+        "h": 135,
+        "s": 0.08,
+        "l": 0.1
+       }
+      },
+      {
+       "color": "#eef0ec",
+       "top": 5199,
+       "hsl": {
+        "h": 90,
+        "s": 0.12,
+        "l": 0.93
+       }
+      }
+     ],
+     "textColors": [
+      {
+       "color": "#eef0ec",
+       "share": 0.55
+      },
+      {
+       "color": "#0e110f",
+       "share": 0.17
+      },
+      {
+       "color": "#8f948f",
+       "share": 0.15
+      },
+      {
+       "color": "#d6d9d4",
+       "share": 0.13
+      },
+      {
+       "color": "#0f0f0f",
+       "share": 0.01
+      }
+     ],
+     "button": {
+      "bg": "#181c19",
+      "hsl": {
+       "h": 135,
+       "s": 0.08,
+       "l": 0.1
+      },
+      "fg": "#eef0ec"
+     },
+     "lowContrast": []
+    },
+    "buttons": {
+     "count": 4,
+     "inHero": 1,
+     "radius": 0,
+     "height": 58,
+     "withShadow": 0,
+     "withGradient": 0,
+     "mono": 0,
+     "upper": 0,
+     "heroLabels": [
+      "Get in touch"
+     ]
+    },
+    "surfaces": {
+     "shadowStatic": 0,
+     "shadowOverlay": 0,
+     "shadowSamples": [],
+     "gradients": 0,
+     "scrims": 0,
+     "gradientSamples": [],
+     "gradientText": 0,
+     "hairlines": 0,
+     "hairlineSamples": [],
+     "outlinedBoxes": 0,
+     "dashed": 0,
+     "blurred": 0,
+     "roundedBoxes": 0,
+     "boxRadius": 0,
+     "squareMedia": 5,
+     "roundedMedia": 0,
+     "mediaRadius": 0,
+     "textShadow": 0,
+     "cardRows": []
+    },
+    "heroMedia": [
+     {
+      "type": "img",
+      "ratio": 0.35
+     },
+     {
+      "type": "img",
+      "ratio": 0.35
+     },
+     {
+      "type": "img",
+      "ratio": 0.35
+     }
+    ],
+    "nav": {
+     "links": 1,
+     "fixed": false,
+     "height": 844,
+     "floatingPill": false,
+     "blur": false
+    },
+    "fontsLoaded": [
+     "zodiak",
+     "hanken grotesk"
+    ]
+   },
+   "layout": {
+    "viewport": {
+     "w": 390,
+     "h": 844
+    },
+    "pageH": 6043,
+    "margins": {
+     "left": 20,
+     "right": 20
+    },
+    "sections": [
+     {
+      "sel": "header.hero",
+      "tag": "header",
+      "top": 0,
+      "height": 844,
+      "words": 26,
+      "media": 2,
+      "middle": 0,
+      "heading": null,
+      "left": 20,
+      "right": 20,
+      "textLeft": 20,
+      "textRight": 42,
+      "fullBleed": false,
+      "footer": false,
+      "hero": true,
+      "continues": false,
+      "pinned": false
+     },
+     {
+      "sel": "section#work.exhibit",
+      "tag": "section",
+      "top": 844,
+      "height": 1259,
+      "words": 41,
+      "media": 1,
+      "middle": 0,
+      "heading": null,
+      "left": 20,
+      "right": 20,
+      "textLeft": 20,
+      "textRight": 29,
+      "fullBleed": false,
+      "footer": false,
+      "hero": false,
+      "continues": false,
+      "pinned": false
+     },
+     {
+      "sel": "section.exhibit.flip",
+      "tag": "section",
+      "top": 2103,
+      "height": 1229,
+      "words": 36,
+      "media": 1,
+      "middle": 0,
+      "heading": null,
+      "left": 20,
+      "right": 20,
+      "textLeft": 20,
+      "textRight": 24,
+      "fullBleed": false,
+      "footer": false,
+      "hero": false,
+      "continues": false,
+      "pinned": false
+     },
+     {
+      "sel": "section#agent.agent",
+      "tag": "section",
+      "top": 3332,
+      "height": 1096,
+      "words": 92,
+      "media": 0,
+      "middle": 0,
+      "heading": {
+       "text": "Ask the night shift.",
+       "size": 38,
+       "tag": "h2"
+      },
+      "left": 20,
+      "right": 20,
+      "textLeft": 20,
+      "textRight": 39,
+      "fullBleed": false,
+      "footer": false,
+      "hero": false,
+      "continues": false,
+      "pinned": false
+     },
+     {
+      "sel": "section#record.records",
+      "tag": "section",
+      "top": 4428,
+      "height": 771,
+      "words": 46,
+      "media": 0,
+      "middle": 6,
+      "heading": {
+       "text": "The record",
+       "size": 32,
+       "tag": "h2"
+      },
+      "left": 20,
+      "right": 20,
+      "textLeft": 20,
+      "textRight": 20,
+      "fullBleed": false,
+      "footer": false,
+      "hero": false,
+      "continues": false,
+      "pinned": false
+     },
+     {
+      "sel": "section#contact.contact",
+      "tag": "section",
+      "top": 5199,
+      "height": 844,
+      "words": 39,
+      "media": 0,
+      "middle": 0,
+      "heading": null,
+      "left": 20,
+      "right": 33,
+      "textLeft": 20,
+      "textRight": 33,
+      "fullBleed": false,
+      "footer": true,
+      "hero": false,
+      "continues": false,
+      "pinned": false
+     }
+    ],
+    "gaps": [
+     {
+      "top": 4168,
+      "height": 352
+     },
+     {
+      "top": 5288,
+      "height": 448
+     }
+    ],
+    "h1s": [
+     {
+      "text": "Ahmed Wagdy, platform engineer in Cairo.",
+      "size": 26,
+      "top": 647,
+      "firstScreen": true
+     }
+    ],
+    "edgeText": [],
+    "edges": [
+     {
+      "x": 20,
+      "n": 13
+     }
+    ],
+    "leftBlocks": 13,
+    "bodySize": 17,
+    "stage": false,
+    "explains": false,
+    "slivers": [],
+    "voidShare": 0,
+    "voidBox": null
+   },
+   "app": null,
+   "consoleErrors": []
+  }
+ ],
+ "findings": [
+  {
+   "level": "WARN",
+   "id": "size-count",
+   "width": 1440,
+   "message": "10 different font sizes (14, 15, 16, 19, 22, 40, 43, 64, 83, 92).",
+   "fix": "A page needs about five: display, heading, lead, body, small.",
+   "alsoAt": [
+    768,
+    390
+   ]
+  },
+  {
+   "level": "WARN",
+   "id": "no-footage",
+   "width": 1440,
+   "message": "No video anywhere on the page.",
+   "fix": "Look for one honest clip with scripts/assets.mjs --video (the place, the material, the process) and use it as a muted loop with a poster frame. Defend its absence only if no clip fits the subject."
+  },
+  {
+   "level": "WARN",
+   "id": "blank-gap",
+   "width": 1440,
+   "message": "A 480px stretch at 4768px holds nothing.",
+   "fix": "Check that it is a deliberate rest (once per page at most); otherwise close it to the normal section gap.",
+   "alsoAt": [
+    390
+   ]
+  },
+  {
+   "level": "FAIL",
+   "id": "untitled-section",
+   "width": 1440,
+   "message": "2 sections carry text but no heading: section#work.exhibit at 900px (41 words); section.exhibit.flip at 2060px (36 words)",
+   "fix": "Give each section a short heading that names what it holds (the menu, the rooms, how it works, the price), in the heading face at the section size.",
+   "alsoAt": [
+    768,
+    390
+   ]
+  },
+  {
+   "level": "FAIL",
+   "id": "headline-lines",
+   "width": 768,
+   "message": "1 headline(s) wrap past two lines at 768px: \"Ahmed Wagdy, platform engineer in Cairo.\" → 3 lines (6 words, 50.7px)",
+   "fix": "Cut words first (a headline is a title, not a sentence). Then give it a wider measure. Lower the size only as a last resort and never below the scale you chose. A real statement paragraph belongs in a <p> or <blockquote> at 32px or less."
+  },
+  {
+   "level": "FAIL",
+   "id": "blank-gap",
+   "width": 768,
+   "message": "2 stretch(es) of the page hold nothing at all: 456px at 4152px; 604px at 5324px (the screen is 1024px tall).",
+   "fix": "Close the gap: a section gap is 120–240px on desktop and 72–112px on a phone. Look for a min-height: 100vh on a short section, an empty grid row, a hidden element still holding its space, or a reveal that never fired. A deliberate rest is a placed picture or colour field, not nothing."
+  },
+  {
+   "level": "FAIL",
+   "id": "headline-lines",
+   "width": 390,
+   "message": "1 headline(s) wrap past two lines at 390px: \"Ahmed Wagdy, platform engineer in Cairo.\" → 3 lines (6 words, 25.7px)",
+   "fix": "Cut words first (a headline is a title, not a sentence). Then give it a wider measure. Lower the size only as a last resort and never below the scale you chose. A real statement paragraph belongs in a <p> or <blockquote> at 24px or less."
+  }
+ ],
+ "images": [
+  {
+   "viewport": "desktop",
+   "width": 1440,
+   "fold": "/Users/wagdy/Desktop/Professional-Portfolio/.taste-skill/inspect-d-darkroom/desktop-fold.jpg",
+   "pages": [
+    "/Users/wagdy/Desktop/Professional-Portfolio/.taste-skill/inspect-d-darkroom/desktop-page-01.jpg",
+    "/Users/wagdy/Desktop/Professional-Portfolio/.taste-skill/inspect-d-darkroom/desktop-page-02.jpg"
+   ],
+   "film": []
+  },
+  {
+   "viewport": "tablet",
+   "width": 768,
+   "fold": "/Users/wagdy/Desktop/Professional-Portfolio/.taste-skill/inspect-d-darkroom/tablet-fold.jpg",
+   "pages": [
+    "/Users/wagdy/Desktop/Professional-Portfolio/.taste-skill/inspect-d-darkroom/tablet-page-01.jpg",
+    "/Users/wagdy/Desktop/Professional-Portfolio/.taste-skill/inspect-d-darkroom/tablet-page-02.jpg"
+   ],
+   "film": []
+  },
+  {
+   "viewport": "mobile",
+   "width": 390,
+   "fold": "/Users/wagdy/Desktop/Professional-Portfolio/.taste-skill/inspect-d-darkroom/mobile-fold.jpg",
+   "pages": [
+    "/Users/wagdy/Desktop/Professional-Portfolio/.taste-skill/inspect-d-darkroom/mobile-page-01.jpg"
+   ],
+   "film": []
+  }
+ ]
+}

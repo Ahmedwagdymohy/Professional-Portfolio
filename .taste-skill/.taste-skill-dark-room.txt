@@ -1,0 +1,195 @@
+# DIRECTION SHEET — The dark room
+seed 1994286797 · drawn 2026-10-23 · sector personal-portfolio
+Brief: Ahmed Wagdy, DevOps / Platform / MLOps engineer in Cairo; runs AI gateways, GPU clusters, Kubernetes, CI security gates
+
+| | |
+| --- | --- |
+| Direction | The dark room |
+| Hero | Two prints in darkness |
+| Type | Zodiak / Hanken Grotesk |
+| Colour | Soot and lime |
+| Sections | intro (Right-half paragraph, lone photo) → work (Full panels, one midline row) → list (Line-up at one type size) → testimonial (Quotation over a photograph) → about (Pinned title, portraits pass) → contact (The email as display type) → footer (Name across the last photograph) |
+| Motion | Slow crossfade |
+| Photographs | the "Architecture" set, as atmosphere |
+
+This is the direction for this build. Adopt it. Do not blend it with the layout you would have made anyway,
+and do not redraw because it is unfamiliar: unfamiliar is the point. Redraw a slot only when it conflicts
+with a stated brand constraint or needs an asset that does not exist, and say why in your report.
+
+The parts of this sheet were written separately and will disagree in small ways. Settle every disagreement in this order:
+**house rules** (including type no smaller than 13px and body text of 16px or more) → **the direction** (the idea, the composition habits, where the
+one accent goes) → **the type system and the palette** (which face does which job, the five size steps, which colour is the ground and where the
+accent goes) → **the hero blueprint** → **the section blueprints**. Under each blueprint below, "Adjusted for this page" lists where it disagrees.
+In practice: take geometry from blueprints (columns, proportions, what sits where) and take everything else from above them. Map every size a
+blueprint names onto one of your five type steps instead of adding a sixth. Use one button shape, one corner radius and one pair of page margins on
+the whole page, whatever individual blueprints say. If a blueprint names a kind of typeface (a light serif, a heavy grotesk), use the dealt face.
+
+## 1. The idea
+One dark field from top to bottom, and in it, lit things. Photographs and objects appear like exhibits in a dim gallery: each with space around it, each the brightest thing on its screen. Type is light, small and sparse. The darkness is not a theme switch; it is a room, and the page is a slow walk through it. It suits subjects sold on atmosphere and material: an evening restaurant, a metal card, a record, a house at dusk.
+
+Before anything else, write one sentence in your notes: "On this page, <the subject's own material> becomes <the device>."
+Fill the first blank from your inventory of what only this client has (its name and what it means, its street, its numbers, its
+constraint), then put the nearest competitor in the sentence: if it still works, the idea is the category's, not the client's.
+Then name the one live thing the visitor can do on the page (SKILL.md step 4).
+
+## 2. Composition
+A single near-black or deep-toned ground runs the full page with no section bands. First screen: either the name at full width in a light weight along the bottom edge with one dim photograph above it, or one object or photograph centred at 40–50% of the viewport with a line of text beneath at 16–18px. Each later screen holds one or two lit items at a generous size (the main one 40–60% of the screen width) with its text set beside it at full reading size; the darkness frames the items, it does not replace content. Images vary in size but all share the same darkness at their edges so they sit in the ground without frames. Practical details come last in a simple two-column text block. The only solid light element on the page is the single primary action.
+
+## 3. Type — Zodiak / Hanken Grotesk
+Hairline serif capitals set large enough that the thin strokes read as drawing, with a small neutral sans for everything practical. Suits lodges, spas, architecture and interiors; keep it on flat pale or dark fields where the strokes have full contrast.
+```html
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="preconnect" href="https://api.fontshare.com">
+<link rel="preconnect" href="https://cdn.fontshare.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Hanken+Grotesk:wght@400;500&display=swap" rel="stylesheet">
+<link href="https://api.fontshare.com/v2/css?f[]=zodiak@100,300&display=swap" rel="stylesheet">
+```
+- Display: **Zodiak** — weight 100 above 96px, 300 for 28–36px statements · tracking -0.01em · leading 1.0 · capitals for the headline, sentence case for statements; never bold
+- Text: **Hanken Grotesk** — 400 for body, 500 for emphasis · leading 1.5 · tracking 0
+```css
+:root {
+  --step-small: clamp(0.8125rem, 0.79rem + 0.1vw, 0.875rem);
+  --step-body: clamp(1.125rem, 1.05rem + 0.3vw, 1.3125rem);
+  --step-lead: clamp(1.25rem, 1.1rem + 0.7vw, 1.625rem);
+  --step-head: clamp(2rem, 1.3rem + 3.2vw, 4rem);
+}
+```
+Light or regular weights; they glow on dark. Avoid heavy bold, which looks cheap on black. Headings 4–7vw at most; text 16–18px with leading 1.6 and a slightly lifted ink (not pure white).
+The direction decides sizes and how many of them; the type system decides how this face is set. Where the two give different tracking or leading, use the values of the type system: they are tuned to this face.
+The display size itself comes from the hero blueprint below.
+
+## 4. Colour — Soot and lime
+```css
+:root {
+  --bg: #0f0f0f;
+  --surface: #1a1a1a;
+  --ink: #ffffff;
+  --muted: #8f8f8f;
+  --accent: #dafa9c;
+  --accent-ink: #0f0f0f;
+  --field-1: #ffffff;  --field-1-ink: #0f0f0f;
+  --field-2: #dafa9c;  --field-2-ink: #0f0f0f;
+}
+```
+A soot-black opening and close bracket white middle sections, all in black, white and grey. Pale lime is the single action colour: every button, and at most one headline set in it on the dark ground.
+A dark ground with a tint (blue-black, green-black, brown-black), a soft light ink, a dimmer ink for secondary text, and one warm or bright accent used once per screen at most.
+
+## 5. Imagery
+**The project has no photographs of its own yet.** First choice: **real pictures of the subject's world from the open collections**: its city and street in old postcards and photographs, an old map of the neighbourhood, its materials up close, its trade in engravings, museum objects of its kind (references/imagery.md §3). Start with `node /Users/wagdy/.agents/skills/design-taste-frontend/scripts/assets.mjs "cairo postcard"`, then "cairo old map" and "personal portfolio", then queries from your inventory (its street, its materials, its trade's tools and history). Download what you use into the project with `--get` and credit every one on the page (`--credits` prints the footer line). They show the world around the client, never the client's own room, dish, product, person or team. Second, for what no honest picture exists of: draw the subject's own things in code, large, in one flat graphic language and the palette's real colours (its tiles, its windows, its objects; references/imagery.md §8). Third: the dealt photographs, only where an honestly generic picture fits (the sea, the weather, a material), never one a visitor could take for the thing itself and never an unrelated scene. One treatment for all of them. If this direction is built on photographs, plan the set before building (four to six pictures of one family) and reuse them at different crops and scales instead of finding or drawing a new picture for every slot; keep drawings as `<symbol>` + `<use>` or generate them with a small script so the page stays light. List every found picture (with its source and licence), every dealt photograph and every drawing that stands in for photography in your report.
+
+Low-key photographs: dark backgrounds, one light source, subjects emerging from shadow. Their dark edges should blend into the page ground.
+
+**Floor (the inspector checks it):** at least four real pictures on the page, usually six to twelve; SVG drawings do not count. One moving picture where an honest clip exists: `node <skill>/scripts/assets.mjs --video "<query>"`, used as a muted loop with a poster frame. Whatever this direction says about pictures, it is carried out with real ones.
+
+Photographs dealt for this build, from the "Architecture" set (structure, lines, bridges, facades and building interiors)
+Order of preference for imagery: (1) the project's own photographs and product shots; (2) images you generate, if an image tool is
+available; (3) real pictures of the subject's world found in the open collections (assets.mjs, downloaded and credited on the page);
+(4) drawings of the subject in code; (5) these. They are real photographs (Unsplash licence, served by picsum.photos) of places, light and
+texture. They are atmosphere, never a stand-in for a specific product, dish, person or interface. List the ones you use in your report so
+they can be replaced.
+Treatment: If a photograph's background is lighter than the page, darken the image slightly (`filter: brightness(0.85) contrast(1.05)`) rather than adding a frame.
+- `https://picsum.photos/id/781/1600/1000` — Dark station platform with a row of bright windows, black and white · dark tone · black, white, charcoal · black-and-white · calm area: top · native landscape · photo: Matthew Wiebe
+- `https://picsum.photos/id/942/1600/1000` — White angular concrete building against a black sky · dark tone · black, white, pale grey · black-and-white · calm area: top · native landscape · photo: Carl Nenzen Loven
+- `https://picsum.photos/id/693/1600/1000` — Red suspension bridge tower rising from fog above rugged cliffs · mid tone · rust red, grey, dark teal · calm area: left · native landscape · photo: Rob Bye
+- `https://picsum.photos/id/1031/1600/1000` — Twin glass towers converging upward against a grey sky · mid tone · steel grey, dark blue, pale grey · native landscape · photo: Mike Wilson
+- `https://picsum.photos/id/639/1600/1000` — White Ferris wheel curving against a clear blue sky · mid tone · bright blue, white · calm area: left · native landscape · photo: Ilya
+- `https://picsum.photos/id/276/1600/1000` — Wide stone stairway rising into thick fog, black and white · mid tone · grey, charcoal, white · black-and-white · calm area: top · native landscape · photo: davide ragusa
+- `https://picsum.photos/id/859/1600/1000` — Red brick building with a cream door, red shutters and a parked bicycle · mid tone · brick red, cream · native square · photo: Brennan Ehrhardt
+- `https://picsum.photos/id/315/1600/1000` — View straight up a dark building lightwell to bright sky · dark tone · dark brown, white, olive · native landscape · photo: Liam Andrew
+The last two path numbers are width and height: request the exact crop you render (`/1200/1500` for a 4:5 portrait, `/2400/1350` for a hero) and
+add `?grayscale` to desaturate. Use three to six of them, not all eight. Always set `width`, `height`, `alt` and `loading="lazy"` (not on the hero image).
+Other sets that fit this brief: people, fog-and-quiet, hands-and-making, object-still — `node draw.mjs --photos <set>` prints one in full; `--photos list` shows all sets. Taking photographs from another set is your call and is not a redraw; keep them to one light and one treatment.
+
+## 6. Hero — Two prints in darkness
+One near-black field with a slight colour tint, about 75% of it left empty. Navigation is split between the top corners at 15px on 30px margins: the wordmark and three text links top-left, the single action top-right as the page's one solid light rectangle. Two low-key photographs sit in the dark like lit exhibits, both with square corners and no frame. The larger, a 4:5 portrait about 34% of the viewport wide (columns 6-9), has its top at 14% of the height, so it sits a little above the midline. The smaller, a 1:1 about 12% of the viewport wide (columns 2-3), sits far from it with its top at 52% of the height, dimmed with filter: brightness(0.7) so the large one stays the brightest thing on screen. The headline is modest: two lines at clamp(28px, 2.5vw, 40px) in a regular weight, flush to the bottom-left corner on the 30px margin. Columns 10-12 hold one sentence at 16px in the dimmer ink, bottom-aligned to the headline's last baseline, max 24ch. Nothing else is on screen.
+
+On a phone: The large photograph takes 78% of the width, pushed to the right margin, its top at 12% of the height. The small square sits at 30% of the width on the left margin, overlapping the large one's lower-left corner by 24px. The headline sets at 6.4vw on two lines bottom-left with the sentence beneath at 15px. The action is a small solid rectangle top-right; links fold behind a menu word.
+Headline: A quiet statement of 4-7 words at 28-40px, at most 44 characters on two lines.
+
+Adjusted for this page:
+- It names colours (black): map them onto this palette's roles (ground `--bg`, panels `--surface` and the fields, text `--ink`/`--muted`, the accent `--accent` on the primary action only).
+
+## 7. Sections, in order
+Each is a composition to rebuild with this project's content. Keep the geometry; change the subject. Re-order or drop a
+section when the argument of the page needs it (see references/copy.md), never to fall back to a card grid.
+
+### 1. intro — Right-half paragraph, lone photo (split)
+No heading. On a 12-column grid with 5vw margins, one statement paragraph of 45–70 words occupies columns 7–12 only, set at clamp(24px, 2.2vw, 34px) with leading 1.25 and a first-line indent of 3em. Its top edge sits 18vh below the section top. Columns 1–6 stay empty except for a single square photograph, 20vw wide, in columns 1–3, placed so its top aligns with the paragraph's last line and it hangs below the text by most of its height. A five-line note at 14px, 180px wide, sits in columns 1–2, 96px beneath the photograph. Section padding is 160px top and bottom. Nothing is centred: the paragraph's left edge is the midpoint of the page, and later text blocks on the page may reuse that line. Holds one paragraph, one photograph and one note.
+On a phone: The paragraph comes first at 22px, full width with 20px margins and no indent. The photograph follows at 62% width, pushed to the right margin, in a 4:5 crop instead of square. The small note sits to its left, bottom-aligned with the photograph, in the remaining 30% of the width.
+
+### 2. work — Full panels, one midline row (full-bleed)
+Four to seven consecutive panels, each 100vw by 100svh, butted together with no gap. Each panel is one photograph of the project cropped much tighter than its frame (`object-fit: cover` with the image scaled to 130%), so a detail fills the screen. The same three-part text row sits at exactly 50% of the height on every panel, in white with `mix-blend-mode: difference` or over a neutral dark scrim band 90px tall: the date or year at the left margin at 15px, the project title in capitals at clamp(22px, 2vw, 30px) starting 10% in from the left, and one fact (location, client, number of pieces) at the right margin at 15px. Because the row never moves, scrolling reads like turning plates in a book. Panels may be `position: sticky; top: 0` so each slides over the last. There is no section heading; the first panel's title row is the heading.
+On a phone: Panels are 100vw by 82svh. The row drops to the bottom of each panel, 20px above its edge: the title at 22px on the first line, then date at the left and fact at the right on a second line at 13px, over the same scrim band.
+
+Adjusted for this page:
+- It names a kind of typeface: use the dealt faces (display Zodiak, text Hanken Grotesk) and their settings; capitals only where the type system sets them.
+- It names colours (white): map them onto this palette's roles (ground `--bg`, panels `--surface` and the fields, text `--ink`/`--muted`, the accent `--accent` on the primary action only).
+- It blends text with `difference`: over anything but black, white or grey that gives random hues. Use a solid ink chosen for each ground instead.
+
+### 3. list — Line-up at one type size (table)
+A full-bleed flat section. The programme is a four-column table spanning the full width between 24px margins, with every cell at one size, clamp(20px, 2.1vw, 30px), one weight, no bold: the act or session flush left, the format starting at 33%, the room or stage at 66%, and the time range right-aligned at the far edge with tabular figures. Rows are 1.5em tall and separated by nothing but that leading; the fixed column starts do the organising. Day or part headings are a single line at the same size in the accent ink with 72px above and 20px below, and may be `position: sticky; top: 0` on a strip of the section's ground colour so the current day stays in view. Breaks and changeovers are rows set in capitals in the soft ink. There is no other heading. Comfortably holds 12–40 rows; with fewer than eight, raise the size to 3vw.
+On a phone: Each entry becomes two lines: the act at 22px on the first, then format, room and time on one line at 14px in the soft ink with the time right-aligned. 18px between entries. Day headings stay sticky at the top on the ground colour.
+
+Adjusted for this page:
+- It names a kind of typeface: use the dealt faces (display Zodiak, text Hanken Grotesk) and their settings; capitals only where the type system sets them.
+
+### 4. testimonial — Quotation over a photograph (full-bleed)
+One photograph fills the section edge to edge at 100vw by 90svh with `object-fit: cover`; choose a frame with a calm lower half. The quotation is set directly on it in the paper colour: two or three lines at clamp(36px, 5vw, 80px), leading 1.0, flush left in columns 1–9, its last baseline 64px above the bottom edge. The speaker's name and role sit at 16px on that same baseline, right-aligned in columns 10–12. For legibility, darken the whole image evenly with `filter: brightness(0.7)` instead of placing a panel behind the words; the photograph must still read as a photograph. There is no heading, no frame and no oversized quotation-mark ornament, only plain curly quotes in the text. The section butts directly against its neighbours with no margin, so the image edge is the section edge.
+On a phone: The photograph becomes 100vw by 80svh, cropped to its strongest vertical slice. The quotation sits in the lower half at 9vw over four lines at most, flush left with 20px margins; the name and role follow under it on one line at 15px.
+
+Adjusted for this page:
+- It sets a sentence large over several lines: jurors read that as a long headline. Either cut it to a two-line headline at display size, or keep it a statement at 36px or less on three lines (24px, four lines on a phone).
+
+### 5. about — Pinned title, portraits pass (pinned)
+A wrapper tall enough for its portraits: about 90svh per person, up to six people. A `position: sticky; top: 0` layer of 100svh holds the heading, two words at clamp(88px, 12vw, 180px), leading 0.85, centred at mid-height, in white with `mix-blend-mode: difference` so it reads over ground and photographs alike. Beneath it in the stacking order, portraits scroll past in normal flow: each a 4:5 photograph 26–30vw wide, alternately starting at column 2 and ending at column 11, 60svh apart, so each one passes behind a different half of the heading. Under each portrait's left corner: the name at 18px, the role at 14px in the soft ink, and one sentence of up to 30 words in a 280px measure. The last portrait is followed by 40svh of empty ground before the heading releases. Square corners. Nothing else is on screen.
+On a phone: The heading shrinks to 17vw and pins 16px from the top instead of at mid-height. Portraits become 72% wide, alternating between the left and right margins, 48px apart, each with name, role and sentence beneath at the portrait's width.
+
+Adjusted for this page:
+- It names colours (white): map them onto this palette's roles (ground `--bg`, panels `--surface` and the fields, text `--ink`/`--muted`, the accent `--accent` on the primary action only).
+- It blends text with `difference`: over anything but black, white or grey that gives random hues. Use a solid ink chosen for each ground instead.
+
+### 6. contact — The email as display type (statement)
+The section is 100svh in the inverse of the page's colours. A single email address is set as one line of display type spanning the content width: the font-size is fitted so the address runs from margin to margin (about 7–9vw for 20 characters; break after the @ onto two lines if it is longer than 26), light or regular weight, tight tracking, sitting on a baseline 12vh above the bottom edge. It is a `mailto:` link; on hover the whole line takes the accent ink. In the top-left corner, a sentence of up to 12 words at 20–22px says what to write about. In the two bottom corners at 14px: phone and city at the left, two or three social links at the right. No heading and no form. For a pinned ending, make the section `position: sticky; bottom: 0` beneath the page so the previous section lifts off it.
+On a phone: The address breaks after the @ onto two lines at 11.5vw, left-aligned, sitting at 55% of an 86svh screen. The sentence sits at the top-left at 18px. Phone, city and social links stack at the bottom-left at 15px with 12px between them.
+
+### 7. footer — Name across the last photograph (full-bleed)
+The footer is the page's last photograph, full-bleed at 100vw by 100svh, darkened evenly with `filter: brightness(0.62)` so paper-coloured type reads everywhere on it. Three layers of text sit on the image. Top row, 32px from the edge: a short link list at 16px at the left margin and contact details at the right margin, each no wider than three columns. Mid-height is left to the photograph. Along the bottom, the wordmark runs the full width in the paper colour, letters about 12–20vw tall depending on the name's length, baseline 56px above the edge; under it one line of legal text at 13px. Choose an image whose interest is in its middle band, since the top and bottom carry text. No panel, no box and no colour block separates the footer from the image: the photograph is the footer.
+On a phone: The photograph is 100vw by 88svh, cropped to its strongest vertical slice. Links stack at the top-left at 16px, contact beneath them. The wordmark is fitted to the width along the bottom, with the legal line under it at 12px.
+
+Adjusted for this page:
+- It sets text at 12px: use your small step (13px or more) instead.
+
+## 8. Motion — Slow crossfade
+The principal photograph quietly changes: three or four images of the same framing crossfade over about 1.6 seconds, holding five to six seconds each, or the fixed image changes when its matching section arrives. It should feel like light shifting in a room. Pause when the tab is hidden; under reduced motion show only the first image.
+This is the signature move, the one loud moment. Around it the page still needs the rest of the motion layer (SKILL.md step 9): an entrance for the parts of every section, feedback on every control, and one moving picture. The inspector fails a page that barely moves. Recipes: references/motion.md.
+
+## 10. Where the richness comes from
+Light against dark, and the slow pacing.
+
+## 11. How this direction goes wrong
+Grey text on black fails contrast quickly: check it. No glow effects, no neon accent, no coloured light blobs. A dark page with a bright busy photograph is not this direction; choose low-key images. Dark does not mean empty: every screen still carries its content at a readable size, and running text is a light ink at 7:1 or more, not a dim grey.
+
+## 12. Real references
+Studied sites that work this way. Take the principle, never the specifics: no names, copy, images or signature assets of theirs.
+- **Moto Finance** (Awwwards Site of the Day, studied score 7.3) `aww-moto-finance`
+  Idea: A metal card presented like a museum piece: lit by a single overhead light box in a black room, then orbiting through dim architectural stills.
+  Hero: Black full-bleed 3D scene. A pale silver-lavender light panel, a trapezoid in perspective like a ceiling light box, occupies the top 20% and centre 55% of the viewport. The two-line uppercase headline, centred at 4.4vw in medium grotesk with tight leading, straddles the panel's lower edge so its first line sits half on light, half on black. In the exact centre a small metal card stands on a low plinth, only about 150px wide, surrounded by darkness. A light-grey pill button (about 250 by 52px) is centred near the bottom; the logo is top-left and a dark pill button top-right.
+  Worth taking: Let a headline straddle the edge of a light shape so one line is half on light and half on dark.
+- **Kereliott** (One Page Love, studied score 7.3) `opl-kereliott`
+  Idea: A quiet house gets a quiet page: one dark field, one typeface, the name set as wide as the screen and photographs left to drift in generous darkness.
+  Hero: Very dark green-black field with cream type. A two-line introductory sentence at about 30px sits top-left inside 30px margins; a small cream rectangular button sits top-right. The upper half is otherwise empty. The house name fills the full content width in a flared humanist sans, mixed case, with capitals about 19vw tall, its baseline at roughly 87% of the viewport height. Immediately beneath, separated by a gap of a few pixels, the top sliver of a full-width landscape photograph enters from the bottom edge.
+  Worth taking: Size the wordmark to fill the content width exactly and let the first photograph tuck directly under its baseline.
+- **Maria Vasilyeva** (Awwwards Site of the Day, studied score 7.4) `aww-maria-vasilyeva-portfolio`
+  Idea: A designer's work treated as a playlist: every project is a track on one horizontal timeline, the wheel moves a playhead along it, and the track under the playhead blooms out of a thin strip of thumbnails into a scattered collage, with a hand-written layer of margin notes on top that can be switched off like the sound.
+  Hero: One fixed 1440x900 off-white stage. Two near-black rails about 26px wide, inset 10px from the left and right edges, carry all the chrome as small vertical caps: name and role on the left reading upward, the menu and on/off toggles for sound and notes on the right. Seven faint lines every 112px divide the field into eight tracks; along the middle one runs a 32px strip of miniature thumbnails across the full width, the whole body of work in sequence, crossed by a thin vertical playhead. Around the playhead the current project's 10-20 images leave the strip and settle into an overlapping collage about 450-770px wide, with a small uppercase serif title and superscript year pinned to its upper-left corner. A hand-written scroll cue sits in a drawn oval at top centre (about 2.5vw), and a bottom row at y=868 gives the project number, name and link. No headline.
+  Worth taking: Take the whole interface from one metaphor of the subject, here a playlist: a timeline strip, a playhead, a sound toggle and loader wording that all speak it, so nothing on the screen is filler.
+Full notes on any of them: `node draw.mjs --site <id>`.
+
+## Always
+Headlines two lines or fewer at every width. No eyebrow labels, no monospace, no 01/02/03, no thin rules, no gradients, no shadows at rest,
+no cream-and-terracotta, no violet. The frame: one h1 on the first screen that says what this is, equal outer margins, no
+section huddled on one side with the other half empty, no blank stretch over half a screen, a heading on every section.
+`inspect.mjs` measures all of it.
+
+Saved to /Users/wagdy/Desktop/Professional-Portfolio/.taste-skill/dark-room/direction.json · reprint with `node draw.mjs --show`

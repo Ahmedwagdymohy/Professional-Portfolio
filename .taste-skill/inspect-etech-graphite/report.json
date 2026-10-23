@@ -1,0 +1,2314 @@
+{
+ "url": "http://localhost:4106/?theme=graphite",
+ "at": "2026-10-23T18:44:17.871Z",
+ "allow": [],
+ "viewports": [
+  {
+   "width": 1440,
+   "height": 900,
+   "load": "load",
+   "screens": 6,
+   "filled": [
+    0.7,
+    0.87,
+    1,
+    1,
+    1,
+    0.41
+   ],
+   "motion": {
+    "elements": 15,
+    "css": 2,
+    "transitions": 12,
+    "scripted": 1,
+    "videos": 0,
+    "playingVideos": 0
+   },
+   "metrics": {
+    "viewport": {
+     "w": 1440,
+     "h": 900
+    },
+    "page": {
+     "height": 5287,
+     "screens": 5.9,
+     "words": 397,
+     "img": 5,
+     "video": 0,
+     "canvas": 0,
+     "svg": 1,
+     "sections": 4,
+     "horizontalOverflow": 0,
+     "overflowCulprits": [],
+     "uiFragments": 1,
+     "uiAbuse": false,
+     "realPictures": 5,
+     "videoCount": 0,
+     "uiPictures": 1,
+     "pictureSamples": [
+      "cairo-skyline-panoramic-view-egypt.jpg",
+      "cairo-university-3.jpg",
+      "portrait.jpg",
+      "racks-amravati-data-center.jpg",
+      "cairo-university-after-sunset.jpg"
+     ],
+     "blendText": 0,
+     "sideScrollers": 0,
+     "brokenImages": [],
+     "emoji": [],
+     "videosNoPoster": 0
+    },
+    "hero": {
+     "text": "A year in production",
+     "words": 4,
+     "chars": 20,
+     "lines": 2,
+     "size": 119.5,
+     "vw": 8.3,
+     "font": "Switzer",
+     "weight": 600,
+     "tracking": -0.05,
+     "leading": 0.92,
+     "upper": false,
+     "italic": false,
+     "mono": false,
+     "align": "left",
+     "position": "right",
+     "widthRatio": 0.57,
+     "top": 643,
+     "tag": "h1",
+     "kind": "heading"
+    },
+    "h1": {
+     "text": "A year in production",
+     "words": 4,
+     "lines": 2,
+     "size": 119.5,
+     "font": "Switzer"
+    },
+    "headings": [
+     {
+      "text": "3rd",
+      "words": 1,
+      "chars": 3,
+      "lines": 1,
+      "size": 57.6,
+      "vw": 4,
+      "font": "Switzer",
+      "weight": 600,
+      "tracking": -0.05,
+      "leading": 0.9,
+      "upper": false,
+      "italic": false,
+      "mono": false,
+      "align": "left",
+      "position": "right",
+      "widthRatio": 0.14,
+      "top": 165,
+      "tag": "b",
+      "kind": "heading"
+     },
+     {
+      "text": "8",
+      "words": 1,
+      "chars": 1,
+      "lines": 1,
+      "size": 86.4,
+      "vw": 6,
+      "font": "Switzer",
+      "weight": 600,
+      "tracking": -0.05,
+      "leading": 0.9,
+      "upper": false,
+      "italic": false,
+      "mono": false,
+      "align": "left",
+      "position": "left",
+      "widthRatio": 0.14,
+      "top": 367,
+      "tag": "b",
+      "kind": "heading"
+     },
+     {
+      "text": "A year in production",
+      "words": 4,
+      "chars": 20,
+      "lines": 2,
+      "size": 119.5,
+      "vw": 8.3,
+      "font": "Switzer",
+      "weight": 600,
+      "tracking": -0.05,
+      "leading": 0.92,
+      "upper": false,
+      "italic": false,
+      "mono": false,
+      "align": "left",
+      "position": "right",
+      "widthRatio": 0.57,
+      "top": 643,
+      "tag": "h1",
+      "kind": "heading"
+     },
+     {
+      "text": "The year in figures",
+      "words": 4,
+      "chars": 19,
+      "lines": 1,
+      "size": 78.4,
+      "vw": 5.4,
+      "font": "Switzer",
+      "weight": 600,
+      "tracking": -0.04,
+      "leading": 1,
+      "upper": false,
+      "italic": false,
+      "mono": false,
+      "align": "left",
+      "position": "right",
+      "widthRatio": 0.57,
+      "top": 1157,
+      "tag": "h2",
+      "kind": "heading"
+     },
+     {
+      "text": "14%",
+      "words": 1,
+      "chars": 3,
+      "lines": 1,
+      "size": 100.8,
+      "vw": 7,
+      "font": "Switzer",
+      "weight": 600,
+      "tracking": -0.055,
+      "leading": 0.9,
+      "upper": false,
+      "italic": false,
+      "mono": false,
+      "align": "left",
+      "position": "left",
+      "widthRatio": 0.23,
+      "top": 1452,
+      "tag": "b",
+      "kind": "heading"
+     },
+     {
+      "text": "6×",
+      "words": 1,
+      "chars": 2,
+      "lines": 1,
+      "size": 100.8,
+      "vw": 7,
+      "font": "Switzer",
+      "weight": 600,
+      "tracking": -0.055,
+      "leading": 0.9,
+      "upper": false,
+      "italic": false,
+      "mono": false,
+      "align": "left",
+      "position": "left",
+      "widthRatio": 0.23,
+      "top": 1452,
+      "tag": "b",
+      "kind": "heading"
+     },
+     {
+      "text": "~25",
+      "words": 1,
+      "chars": 3,
+      "lines": 1,
+      "size": 100.8,
+      "vw": 7,
+      "font": "Switzer",
+      "weight": 600,
+      "tracking": -0.055,
+      "leading": 0.9,
+      "upper": false,
+      "italic": false,
+      "mono": false,
+      "align": "left",
+      "position": "right",
+      "widthRatio": 0.23,
+      "top": 1452,
+      "tag": "b",
+      "kind": "heading"
+     },
+     {
+      "text": "9",
+      "words": 1,
+      "chars": 1,
+      "lines": 1,
+      "size": 100.8,
+      "vw": 7,
+      "font": "Switzer",
+      "weight": 600,
+      "tracking": -0.055,
+      "leading": 0.9,
+      "upper": false,
+      "italic": false,
+      "mono": false,
+      "align": "left",
+      "position": "right",
+      "widthRatio": 0.23,
+      "top": 1452,
+      "tag": "b",
+      "kind": "heading"
+     },
+     {
+      "text": "Where I’ve worked",
+      "words": 3,
+      "chars": 17,
+      "lines": 1,
+      "size": 78.4,
+      "vw": 5.4,
+      "font": "Switzer",
+      "weight": 600,
+      "tracking": -0.04,
+      "leading": 1,
+      "upper": false,
+      "italic": false,
+      "mono": false,
+      "align": "left",
+      "position": "right",
+      "widthRatio": 0.57,
+      "top": 1835,
+      "tag": "h2",
+      "kind": "heading"
+     },
+     {
+      "text": "Chapter one: the AI platform",
+      "words": 5,
+      "chars": 28,
+      "lines": 2,
+      "size": 78.4,
+      "vw": 5.4,
+      "font": "Switzer",
+      "weight": 600,
+      "tracking": -0.04,
+      "leading": 1,
+      "upper": false,
+      "italic": false,
+      "mono": false,
+      "align": "left",
+      "position": "right",
+      "widthRatio": 0.54,
+      "top": 2573,
+      "tag": "h2",
+      "kind": "heading"
+     },
+     {
+      "text": "Letters of reference",
+      "words": 3,
+      "chars": 20,
+      "lines": 2,
+      "size": 78.4,
+      "vw": 5.4,
+      "font": "Switzer",
+      "weight": 600,
+      "tracking": -0.04,
+      "leading": 1,
+      "upper": false,
+      "italic": false,
+      "mono": false,
+      "align": "left",
+      "position": "left",
+      "widthRatio": 0.41,
+      "top": 3936,
+      "tag": "h2",
+      "kind": "heading"
+     },
+     {
+      "text": "He quickly became someone the team relied on, not just “the intern.” A true DevOps geek who can also build products end to end.",
+      "words": 24,
+      "chars": 127,
+      "lines": 3,
+      "size": 33.1,
+      "vw": 2.3,
+      "font": "Switzer",
+      "weight": 500,
+      "tracking": -0.02,
+      "leading": 1.25,
+      "upper": false,
+      "italic": false,
+      "mono": false,
+      "align": "left",
+      "position": "right",
+      "widthRatio": 0.45,
+      "top": 3936,
+      "tag": "blockquote",
+      "kind": "statement"
+     }
+    ],
+    "headingSummary": {
+     "count": 12,
+     "maxLines": 3,
+     "over2Lines": 0,
+     "statements": 1,
+     "centered": 0,
+     "medianWords": 1,
+     "mixedFontHeadings": 0
+    },
+    "type": {
+     "families": [
+      {
+       "family": "Switzer",
+       "share": 0.92,
+       "mono": false
+      },
+      {
+       "family": "ui-monospace",
+       "share": 0.08,
+       "mono": false
+      }
+     ],
+     "familyCount": 2,
+     "sizes": [
+      13,
+      15,
+      16,
+      17,
+      18,
+      19,
+      20,
+      33,
+      58,
+      78,
+      86,
+      101,
+      120
+     ],
+     "sizeCount": 13,
+     "notLoaded": [],
+     "body": {
+      "font": "Switzer",
+      "size": 19,
+      "leading": 1.5,
+      "weight": 400,
+      "tracking": -0.005,
+      "contrast": 19
+     },
+     "measureChars": 39,
+     "max": {
+      "size": 119.5,
+      "vw": 8.3,
+      "font": "Switzer",
+      "text": "A year in"
+     },
+     "monoShare": 0.08,
+     "monoProseShare": 0,
+     "monoFamilies": [
+      "ui-monospace"
+     ],
+     "monoSamples": [],
+     "microLabels": 0,
+     "microLabelShare": 0,
+     "microSamples": [],
+     "upperShare": 0.01,
+     "centerShare": 0.02,
+     "smallText": 0
+    },
+    "eyebrows": [],
+    "numbered": [],
+    "color": {
+     "bodyBg": "#0e1111",
+     "bodyBgHsl": {
+      "h": 180,
+      "s": 0.1,
+      "l": 0.06
+     },
+     "dark": true,
+     "sectionBgs": [
+      {
+       "color": "#ffffff",
+       "top": 997,
+       "hsl": {
+        "h": 0,
+        "s": 0,
+        "l": 1
+       }
+      },
+      {
+       "color": "#eef1f0",
+       "top": 2413,
+       "hsl": {
+        "h": 160,
+        "s": 0.1,
+        "l": 0.94
+       }
+      },
+      {
+       "color": "#16201c",
+       "top": 3776,
+       "hsl": {
+        "h": 156,
+        "s": 0.19,
+        "l": 0.11
+       }
+      },
+      {
+       "color": "#0e1111",
+       "top": 4477,
+       "hsl": {
+        "h": 180,
+        "s": 0.1,
+        "l": 0.06
+       }
+      }
+     ],
+     "textColors": [
+      {
+       "color": "#0e1111",
+       "share": 0.54
+      },
+      {
+       "color": "#eef1f0",
+       "share": 0.17
+      },
+      {
+       "color": "#8d9794",
+       "share": 0.11
+      },
+      {
+       "color": "#cfd6d3",
+       "share": 0.08
+      },
+      {
+       "color": "#56605d",
+       "share": 0.04
+      }
+     ],
+     "button": {
+      "bg": "#0e1111",
+      "hsl": {
+       "h": 180,
+       "s": 0.1,
+       "l": 0.06
+      },
+      "fg": "#eef1f0"
+     },
+     "lowContrast": []
+    },
+    "buttons": {
+     "count": 4,
+     "inHero": 4,
+     "radius": 0,
+     "height": 52,
+     "withShadow": 0,
+     "withGradient": 0,
+     "mono": 0,
+     "upper": 0,
+     "heroLabels": [
+      "Graphite + green",
+      "Ahmed Wagdy",
+      "Contact",
+      "Hire me"
+     ]
+    },
+    "surfaces": {
+     "shadowStatic": 0,
+     "shadowOverlay": 0,
+     "shadowSamples": [],
+     "gradients": 0,
+     "scrims": 0,
+     "gradientSamples": [],
+     "gradientText": 0,
+     "hairlines": 0,
+     "hairlineSamples": [],
+     "outlinedBoxes": 0,
+     "dashed": 0,
+     "blurred": 0,
+     "roundedBoxes": 0,
+     "boxRadius": 0,
+     "squareMedia": 5,
+     "roundedMedia": 0,
+     "mediaRadius": 0,
+     "textShadow": 0,
+     "cardRows": []
+    },
+    "heroMedia": [
+     {
+      "type": "img",
+      "ratio": 0.14
+     },
+     {
+      "type": "img",
+      "ratio": 0.09
+     }
+    ],
+    "nav": {
+     "links": 5,
+     "fixed": false,
+     "height": 52,
+     "floatingPill": false,
+     "blur": false
+    },
+    "fontsLoaded": [
+     "switzer"
+    ]
+   },
+   "layout": {
+    "viewport": {
+     "w": 1440,
+     "h": 900
+    },
+    "pageH": 5287,
+    "margins": {
+     "left": 16,
+     "right": 29
+    },
+    "sections": [
+     {
+      "sel": "div.mast",
+      "tag": "div",
+      "top": 43,
+      "height": 504,
+      "words": 42,
+      "media": 4,
+      "middle": 128,
+      "heading": {
+       "text": "3rd",
+       "size": 58,
+       "tag": "b"
+      },
+      "left": 0,
+      "right": 0,
+      "textLeft": 20,
+      "textRight": 20,
+      "fullBleed": false,
+      "footer": false,
+      "hero": true,
+      "continues": false,
+      "pinned": false
+     },
+     {
+      "sel": "header.title",
+      "tag": "header",
+      "top": 547,
+      "height": 450,
+      "words": 26,
+      "media": 0,
+      "middle": 296,
+      "heading": {
+       "text": "A year in",
+       "size": 120,
+       "tag": "h1"
+      },
+      "left": 16,
+      "right": 292,
+      "textLeft": 16,
+      "textRight": 292,
+      "fullBleed": false,
+      "footer": false,
+      "hero": false,
+      "continues": false,
+      "pinned": false
+     },
+     {
+      "sel": "section#figures.paper.figs",
+      "tag": "section",
+      "top": 997,
+      "height": 839,
+      "words": 54,
+      "media": 0,
+      "middle": 178,
+      "heading": {
+       "text": "14",
+       "size": 101,
+       "tag": "b"
+      },
+      "left": 16,
+      "right": 154,
+      "textLeft": 16,
+      "textRight": 154,
+      "fullBleed": false,
+      "footer": false,
+      "hero": false,
+      "continues": false,
+      "pinned": false
+     },
+     {
+      "sel": "section#experience.paper.exp",
+      "tag": "section",
+      "top": 1835,
+      "height": 578,
+      "words": 51,
+      "media": 0,
+      "middle": 96,
+      "heading": null,
+      "left": 623,
+      "right": 32,
+      "textLeft": 623,
+      "textRight": 32,
+      "fullBleed": false,
+      "footer": false,
+      "hero": false,
+      "continues": false,
+      "pinned": false
+     },
+     {
+      "sel": "section#incorta.chapter",
+      "tag": "section",
+      "top": 2413,
+      "height": 1363,
+      "words": 134,
+      "media": 1,
+      "middle": 240,
+      "heading": {
+       "text": "Chapter one: the AI platform",
+       "size": 78,
+       "tag": "h2"
+      },
+      "left": 16,
+      "right": 29,
+      "textLeft": 16,
+      "textRight": 29,
+      "fullBleed": false,
+      "footer": false,
+      "hero": false,
+      "continues": false,
+      "pinned": false
+     },
+     {
+      "sel": "section#letters.letters",
+      "tag": "section",
+      "top": 3776,
+      "height": 701,
+      "words": 46,
+      "media": 0,
+      "middle": 0,
+      "heading": {
+       "text": "Letters of reference",
+       "size": 78,
+       "tag": "h2"
+      },
+      "left": 16,
+      "right": 194,
+      "textLeft": 16,
+      "textRight": 194,
+      "fullBleed": false,
+      "footer": false,
+      "hero": false,
+      "continues": false,
+      "pinned": false
+     },
+     {
+      "sel": "footer",
+      "tag": "footer",
+      "top": 4477,
+      "height": 810,
+      "words": 29,
+      "media": 1,
+      "middle": 282,
+      "heading": null,
+      "left": 16,
+      "right": 265,
+      "textLeft": 16,
+      "textRight": 265,
+      "fullBleed": true,
+      "footer": true,
+      "hero": false,
+      "continues": false,
+      "pinned": false
+     }
+    ],
+    "gaps": [
+     {
+      "top": 2240,
+      "height": 320
+     },
+     {
+      "top": 3616,
+      "height": 308
+     },
+     {
+      "top": 4588,
+      "height": 472
+     }
+    ],
+    "h1s": [
+     {
+      "text": "A year in production",
+      "size": 120,
+      "top": 643,
+      "firstScreen": true
+     }
+    ],
+    "edgeText": [],
+    "edges": [
+     {
+      "x": 607,
+      "n": 6
+     },
+     {
+      "x": 647,
+      "n": 3
+     },
+     {
+      "x": 16,
+      "n": 2
+     },
+     {
+      "x": 1056,
+      "n": 2
+     }
+    ],
+    "leftBlocks": 13,
+    "bodySize": 19,
+    "stage": false,
+    "explains": true,
+    "slivers": [],
+    "voidShare": 0.06,
+    "voidBox": {
+     "x": 480,
+     "y": 120,
+     "w": 240,
+     "h": 300
+    }
+   },
+   "app": null,
+   "consoleErrors": []
+  },
+  {
+   "width": 768,
+   "height": 1024,
+   "load": "load",
+   "screens": 5,
+   "filled": [
+    0.58,
+    1,
+    1,
+    0.78,
+    0.31
+   ],
+   "motion": {
+    "elements": 15,
+    "css": 2,
+    "transitions": 12,
+    "scripted": 1,
+    "videos": 0,
+    "playingVideos": 0
+   },
+   "metrics": {
+    "viewport": {
+     "w": 768,
+     "h": 1024
+    },
+    "page": {
+     "height": 4763,
+     "screens": 4.7,
+     "words": 336,
+     "img": 5,
+     "video": 0,
+     "canvas": 0,
+     "svg": 1,
+     "sections": 4,
+     "horizontalOverflow": 0,
+     "overflowCulprits": [],
+     "uiFragments": 1,
+     "uiAbuse": false,
+     "realPictures": 3,
+     "videoCount": 0,
+     "uiPictures": 0,
+     "pictureSamples": [
+      "cairo-skyline-panoramic-view-egypt.jpg",
+      "portrait.jpg",
+      "racks-amravati-data-center.jpg"
+     ],
+     "blendText": 0,
+     "sideScrollers": 0,
+     "brokenImages": [],
+     "emoji": [],
+     "videosNoPoster": 0
+    },
+    "hero": {
+     "text": "A year in production",
+     "words": 4,
+     "chars": 20,
+     "lines": 2,
+     "size": 99.8,
+     "vw": 13,
+     "font": "Switzer",
+     "weight": 600,
+     "tracking": -0.05,
+     "leading": 0.92,
+     "upper": false,
+     "italic": false,
+     "mono": false,
+     "align": "left",
+     "position": "center",
+     "widthRatio": 0.96,
+     "top": 539,
+     "tag": "h1",
+     "kind": "heading"
+    },
+    "h1": {
+     "text": "A year in production",
+     "words": 4,
+     "lines": 2,
+     "size": 99.8,
+     "font": "Switzer"
+    },
+    "headings": [
+     {
+      "text": "3rd",
+      "words": 1,
+      "chars": 3,
+      "lines": 1,
+      "size": 34,
+      "vw": 4.4,
+      "font": "Switzer",
+      "weight": 600,
+      "tracking": -0.05,
+      "leading": 0.9,
+      "upper": false,
+      "italic": false,
+      "mono": false,
+      "align": "left",
+      "position": "right",
+      "widthRatio": 0.3,
+      "top": 128,
+      "tag": "b",
+      "kind": "heading"
+     },
+     {
+      "text": "8",
+      "words": 1,
+      "chars": 1,
+      "lines": 1,
+      "size": 44,
+      "vw": 5.7,
+      "font": "Switzer",
+      "weight": 600,
+      "tracking": -0.05,
+      "leading": 0.9,
+      "upper": false,
+      "italic": false,
+      "mono": false,
+      "align": "left",
+      "position": "center",
+      "widthRatio": 0.3,
+      "top": 278,
+      "tag": "b",
+      "kind": "heading"
+     },
+     {
+      "text": "A year in production",
+      "words": 4,
+      "chars": 20,
+      "lines": 2,
+      "size": 99.8,
+      "vw": 13,
+      "font": "Switzer",
+      "weight": 600,
+      "tracking": -0.05,
+      "leading": 0.92,
+      "upper": false,
+      "italic": false,
+      "mono": false,
+      "align": "left",
+      "position": "center",
+      "widthRatio": 0.96,
+      "top": 539,
+      "tag": "h1",
+      "kind": "heading"
+     },
+     {
+      "text": "The year in figures",
+      "words": 4,
+      "chars": 19,
+      "lines": 1,
+      "size": 51.5,
+      "vw": 6.7,
+      "font": "Switzer",
+      "weight": 600,
+      "tracking": -0.04,
+      "leading": 1,
+      "upper": false,
+      "italic": false,
+      "mono": false,
+      "align": "left",
+      "position": "center",
+      "widthRatio": 0.96,
+      "top": 1136,
+      "tag": "h2",
+      "kind": "heading"
+     },
+     {
+      "text": "14%",
+      "words": 1,
+      "chars": 3,
+      "lines": 1,
+      "size": 64,
+      "vw": 8.3,
+      "font": "Switzer",
+      "weight": 600,
+      "tracking": -0.055,
+      "leading": 0.9,
+      "upper": false,
+      "italic": false,
+      "mono": false,
+      "align": "left",
+      "position": "left",
+      "widthRatio": 0.45,
+      "top": 1401,
+      "tag": "b",
+      "kind": "heading"
+     },
+     {
+      "text": "6×",
+      "words": 1,
+      "chars": 2,
+      "lines": 1,
+      "size": 64,
+      "vw": 8.3,
+      "font": "Switzer",
+      "weight": 600,
+      "tracking": -0.055,
+      "leading": 0.9,
+      "upper": false,
+      "italic": false,
+      "mono": false,
+      "align": "left",
+      "position": "right",
+      "widthRatio": 0.45,
+      "top": 1401,
+      "tag": "b",
+      "kind": "heading"
+     },
+     {
+      "text": "~25",
+      "words": 1,
+      "chars": 3,
+      "lines": 1,
+      "size": 64,
+      "vw": 8.3,
+      "font": "Switzer",
+      "weight": 600,
+      "tracking": -0.055,
+      "leading": 0.9,
+      "upper": false,
+      "italic": false,
+      "mono": false,
+      "align": "left",
+      "position": "left",
+      "widthRatio": 0.45,
+      "top": 1606,
+      "tag": "b",
+      "kind": "heading"
+     },
+     {
+      "text": "9",
+      "words": 1,
+      "chars": 1,
+      "lines": 1,
+      "size": 64,
+      "vw": 8.3,
+      "font": "Switzer",
+      "weight": 600,
+      "tracking": -0.055,
+      "leading": 0.9,
+      "upper": false,
+      "italic": false,
+      "mono": false,
+      "align": "left",
+      "position": "right",
+      "widthRatio": 0.45,
+      "top": 1606,
+      "tag": "b",
+      "kind": "heading"
+     },
+     {
+      "text": "Where I’ve worked",
+      "words": 3,
+      "chars": 17,
+      "lines": 1,
+      "size": 51.5,
+      "vw": 6.7,
+      "font": "Switzer",
+      "weight": 600,
+      "tracking": -0.04,
+      "leading": 1,
+      "upper": false,
+      "italic": false,
+      "mono": false,
+      "align": "left",
+      "position": "center",
+      "widthRatio": 0.96,
+      "top": 1892,
+      "tag": "h2",
+      "kind": "heading"
+     },
+     {
+      "text": "Chapter one: the AI platform",
+      "words": 5,
+      "chars": 28,
+      "lines": 1,
+      "size": 51.5,
+      "vw": 6.7,
+      "font": "Switzer",
+      "weight": 600,
+      "tracking": -0.04,
+      "leading": 1,
+      "upper": false,
+      "italic": false,
+      "mono": false,
+      "align": "left",
+      "position": "center",
+      "widthRatio": 0.96,
+      "top": 2539,
+      "tag": "h2",
+      "kind": "heading"
+     },
+     {
+      "text": "Letters of reference",
+      "words": 3,
+      "chars": 20,
+      "lines": 1,
+      "size": 51.5,
+      "vw": 6.7,
+      "font": "Switzer",
+      "weight": 600,
+      "tracking": -0.04,
+      "leading": 1,
+      "upper": false,
+      "italic": false,
+      "mono": false,
+      "align": "left",
+      "position": "center",
+      "widthRatio": 0.96,
+      "top": 3323,
+      "tag": "h2",
+      "kind": "heading"
+     }
+    ],
+    "headingSummary": {
+     "count": 11,
+     "maxLines": 2,
+     "over2Lines": 0,
+     "statements": 0,
+     "centered": 0,
+     "medianWords": 1,
+     "mixedFontHeadings": 0
+    },
+    "type": {
+     "families": [
+      {
+       "family": "Switzer",
+       "share": 1,
+       "mono": false
+      }
+     ],
+     "familyCount": 1,
+     "sizes": [
+      13,
+      14,
+      15,
+      16,
+      17,
+      18,
+      20,
+      24,
+      34,
+      44,
+      52,
+      64,
+      100
+     ],
+     "sizeCount": 13,
+     "notLoaded": [],
+     "body": {
+      "font": "Switzer",
+      "size": 17.9,
+      "leading": 1.5,
+      "weight": 400,
+      "tracking": -0.005,
+      "contrast": 19
+     },
+     "measureChars": 46,
+     "max": {
+      "size": 99.8,
+      "vw": 13,
+      "font": "Switzer",
+      "text": "A year in"
+     },
+     "monoShare": 0,
+     "monoProseShare": 0,
+     "monoFamilies": [],
+     "monoSamples": [],
+     "microLabels": 0,
+     "microLabelShare": 0,
+     "microSamples": [],
+     "upperShare": 0,
+     "centerShare": 0.02,
+     "smallText": 0
+    },
+    "eyebrows": [],
+    "numbered": [],
+    "color": {
+     "bodyBg": "#0e1111",
+     "bodyBgHsl": {
+      "h": 180,
+      "s": 0.1,
+      "l": 0.06
+     },
+     "dark": true,
+     "sectionBgs": [
+      {
+       "color": "#ffffff",
+       "top": 1040,
+       "hsl": {
+        "h": 0,
+        "s": 0,
+        "l": 1
+       }
+      },
+      {
+       "color": "#eef1f0",
+       "top": 2443,
+       "hsl": {
+        "h": 160,
+        "s": 0.1,
+        "l": 0.94
+       }
+      },
+      {
+       "color": "#16201c",
+       "top": 3227,
+       "hsl": {
+        "h": 156,
+        "s": 0.19,
+        "l": 0.11
+       }
+      },
+      {
+       "color": "#0e1111",
+       "top": 3842,
+       "hsl": {
+        "h": 180,
+        "s": 0.1,
+        "l": 0.06
+       }
+      }
+     ],
+     "textColors": [
+      {
+       "color": "#0e1111",
+       "share": 0.57
+      },
+      {
+       "color": "#eef1f0",
+       "share": 0.21
+      },
+      {
+       "color": "#8d9794",
+       "share": 0.13
+      },
+      {
+       "color": "#56605d",
+       "share": 0.03
+      },
+      {
+       "color": "#ffffff",
+       "share": 0.02
+      }
+     ],
+     "button": {
+      "bg": "#0e1111",
+      "hsl": {
+       "h": 180,
+       "s": 0.1,
+       "l": 0.06
+      },
+      "fg": "#eef1f0"
+     },
+     "lowContrast": []
+    },
+    "buttons": {
+     "count": 4,
+     "inHero": 4,
+     "radius": 0,
+     "height": 52,
+     "withShadow": 0,
+     "withGradient": 0,
+     "mono": 0,
+     "upper": 0,
+     "heroLabels": [
+      "Graphite + green",
+      "Ahmed Wagdy",
+      "Contact",
+      "Hire me"
+     ]
+    },
+    "surfaces": {
+     "shadowStatic": 0,
+     "shadowOverlay": 0,
+     "shadowSamples": [],
+     "gradients": 0,
+     "scrims": 0,
+     "gradientSamples": [],
+     "gradientText": 0,
+     "hairlines": 0,
+     "hairlineSamples": [],
+     "outlinedBoxes": 0,
+     "dashed": 0,
+     "blurred": 0,
+     "roundedBoxes": 0,
+     "boxRadius": 0,
+     "squareMedia": 3,
+     "roundedMedia": 0,
+     "mediaRadius": 0,
+     "textShadow": 0,
+     "cardRows": []
+    },
+    "heroMedia": [
+     {
+      "type": "img",
+      "ratio": 0.12
+     }
+    ],
+    "nav": {
+     "links": 2,
+     "fixed": false,
+     "height": 52,
+     "floatingPill": false,
+     "blur": false
+    },
+    "fontsLoaded": [
+     "switzer"
+    ]
+   },
+   "layout": {
+    "viewport": {
+     "w": 768,
+     "h": 1024
+    },
+    "pageH": 4763,
+    "margins": {
+     "left": 0,
+     "right": 16
+    },
+    "sections": [
+     {
+      "sel": "div.mast",
+      "tag": "div",
+      "top": 43,
+      "height": 440,
+      "words": 13,
+      "media": 3,
+      "middle": 0,
+      "heading": {
+       "text": "3rd",
+       "size": 34,
+       "tag": "b"
+      },
+      "left": 0,
+      "right": 0,
+      "textLeft": 20,
+      "textRight": 20,
+      "fullBleed": false,
+      "footer": false,
+      "hero": true,
+      "continues": false,
+      "pinned": false
+     },
+     {
+      "sel": "header.title",
+      "tag": "header",
+      "top": 483,
+      "height": 557,
+      "words": 26,
+      "media": 0,
+      "middle": 0,
+      "heading": {
+       "text": "A year in",
+       "size": 100,
+       "tag": "h1"
+      },
+      "left": 16,
+      "right": 301,
+      "textLeft": 16,
+      "textRight": 301,
+      "fullBleed": false,
+      "footer": false,
+      "hero": true,
+      "continues": false,
+      "pinned": false
+     },
+     {
+      "sel": "section#figures.paper.figs",
+      "tag": "section",
+      "top": 1040,
+      "height": 852,
+      "words": 54,
+      "media": 0,
+      "middle": 0,
+      "heading": {
+       "text": "14",
+       "size": 64,
+       "tag": "b"
+      },
+      "left": 16,
+      "right": 170,
+      "textLeft": 16,
+      "textRight": 170,
+      "fullBleed": false,
+      "footer": false,
+      "hero": false,
+      "continues": false,
+      "pinned": false
+     },
+     {
+      "sel": "section#experience.paper.exp",
+      "tag": "section",
+      "top": 1892,
+      "height": 551,
+      "words": 29,
+      "media": 0,
+      "middle": 412,
+      "heading": null,
+      "left": 32,
+      "right": 32,
+      "textLeft": 32,
+      "textRight": 32,
+      "fullBleed": false,
+      "footer": false,
+      "hero": false,
+      "continues": false,
+      "pinned": false
+     },
+     {
+      "sel": "section#incorta.chapter",
+      "tag": "section",
+      "top": 2443,
+      "height": 784,
+      "words": 127,
+      "media": 0,
+      "middle": 0,
+      "heading": {
+       "text": "Chapter one: the AI platform",
+       "size": 52,
+       "tag": "h2"
+      },
+      "left": 16,
+      "right": 148,
+      "textLeft": 16,
+      "textRight": 148,
+      "fullBleed": false,
+      "footer": false,
+      "hero": false,
+      "continues": false,
+      "pinned": false
+     },
+     {
+      "sel": "section#letters.letters",
+      "tag": "section",
+      "top": 3227,
+      "height": 615,
+      "words": 46,
+      "media": 0,
+      "middle": 0,
+      "heading": {
+       "text": "Letters of reference",
+       "size": 52,
+       "tag": "h2"
+      },
+      "left": 16,
+      "right": 16,
+      "textLeft": 16,
+      "textRight": 127,
+      "fullBleed": false,
+      "footer": false,
+      "hero": false,
+      "continues": false,
+      "pinned": false
+     },
+     {
+      "sel": "footer",
+      "tag": "footer",
+      "top": 3842,
+      "height": 922,
+      "words": 29,
+      "media": 1,
+      "middle": 0,
+      "heading": null,
+      "left": 16,
+      "right": 16,
+      "textLeft": 16,
+      "textRight": 91,
+      "fullBleed": false,
+      "footer": true,
+      "hero": false,
+      "continues": false,
+      "pinned": false
+     }
+    ],
+    "gaps": [
+     {
+      "top": 4028,
+      "height": 592
+     }
+    ],
+    "h1s": [
+     {
+      "text": "A year in production",
+      "size": 100,
+      "top": 539,
+      "firstScreen": true
+     }
+    ],
+    "edgeText": [],
+    "edges": [
+     {
+      "x": 16,
+      "n": 13
+     }
+    ],
+    "leftBlocks": 13,
+    "bodySize": 18,
+    "stage": false,
+    "explains": true,
+    "slivers": [],
+    "voidShare": 0,
+    "voidBox": null
+   },
+   "app": null,
+   "consoleErrors": []
+  },
+  {
+   "width": 390,
+   "height": 844,
+   "load": "load",
+   "screens": 6,
+   "filled": [
+    0.67,
+    0.89,
+    1,
+    1,
+    0.66,
+    0.23
+   ],
+   "motion": {
+    "elements": 15,
+    "css": 2,
+    "transitions": 12,
+    "scripted": 1,
+    "videos": 0,
+    "playingVideos": 0
+   },
+   "metrics": {
+    "viewport": {
+     "w": 390,
+     "h": 844
+    },
+    "page": {
+     "height": 4622,
+     "screens": 5.5,
+     "words": 336,
+     "img": 5,
+     "video": 0,
+     "canvas": 0,
+     "svg": 1,
+     "sections": 4,
+     "horizontalOverflow": 0,
+     "overflowCulprits": [],
+     "uiFragments": 1,
+     "uiAbuse": false,
+     "realPictures": 3,
+     "videoCount": 0,
+     "uiPictures": 0,
+     "pictureSamples": [
+      "cairo-skyline-panoramic-view-egypt.jpg",
+      "portrait.jpg",
+      "racks-amravati-data-center.jpg"
+     ],
+     "blendText": 0,
+     "sideScrollers": 0,
+     "brokenImages": [],
+     "emoji": [],
+     "videosNoPoster": 0
+    },
+    "hero": {
+     "text": "A year in production",
+     "words": 4,
+     "chars": 20,
+     "lines": 2,
+     "size": 50.7,
+     "vw": 13,
+     "font": "Switzer",
+     "weight": 600,
+     "tracking": -0.05,
+     "leading": 0.92,
+     "upper": false,
+     "italic": false,
+     "mono": false,
+     "align": "left",
+     "position": "center",
+     "widthRatio": 0.92,
+     "top": 561,
+     "tag": "h1",
+     "kind": "heading"
+    },
+    "h1": {
+     "text": "A year in production",
+     "words": 4,
+     "lines": 2,
+     "size": 50.7,
+     "font": "Switzer"
+    },
+    "headings": [
+     {
+      "text": "3rd",
+      "words": 1,
+      "chars": 3,
+      "lines": 1,
+      "size": 34,
+      "vw": 8.7,
+      "font": "Switzer",
+      "weight": 600,
+      "tracking": -0.05,
+      "leading": 0.9,
+      "upper": false,
+      "italic": false,
+      "mono": false,
+      "align": "left",
+      "position": "right",
+      "widthRatio": 0.27,
+      "top": 129,
+      "tag": "b",
+      "kind": "heading"
+     },
+     {
+      "text": "8",
+      "words": 1,
+      "chars": 1,
+      "lines": 1,
+      "size": 44,
+      "vw": 11.3,
+      "font": "Switzer",
+      "weight": 600,
+      "tracking": -0.05,
+      "leading": 0.9,
+      "upper": false,
+      "italic": false,
+      "mono": false,
+      "align": "left",
+      "position": "center",
+      "widthRatio": 0.27,
+      "top": 300,
+      "tag": "b",
+      "kind": "heading"
+     },
+     {
+      "text": "A year in production",
+      "words": 4,
+      "chars": 20,
+      "lines": 2,
+      "size": 50.7,
+      "vw": 13,
+      "font": "Switzer",
+      "weight": 600,
+      "tracking": -0.05,
+      "leading": 0.92,
+      "upper": false,
+      "italic": false,
+      "mono": false,
+      "align": "left",
+      "position": "center",
+      "widthRatio": 0.92,
+      "top": 561,
+      "tag": "h1",
+      "kind": "heading"
+     },
+     {
+      "text": "The year in figures",
+      "words": 4,
+      "chars": 19,
+      "lines": 1,
+      "size": 38.4,
+      "vw": 9.8,
+      "font": "Switzer",
+      "weight": 600,
+      "tracking": -0.04,
+      "leading": 1,
+      "upper": false,
+      "italic": false,
+      "mono": false,
+      "align": "left",
+      "position": "center",
+      "widthRatio": 0.92,
+      "top": 1062,
+      "tag": "h2",
+      "kind": "heading"
+     },
+     {
+      "text": "14%",
+      "words": 1,
+      "chars": 3,
+      "lines": 1,
+      "size": 64,
+      "vw": 16.4,
+      "font": "Switzer",
+      "weight": 600,
+      "tracking": -0.055,
+      "leading": 0.9,
+      "upper": false,
+      "italic": false,
+      "mono": false,
+      "align": "left",
+      "position": "left",
+      "widthRatio": 0.4,
+      "top": 1311,
+      "tag": "b",
+      "kind": "heading"
+     },
+     {
+      "text": "6×",
+      "words": 1,
+      "chars": 2,
+      "lines": 1,
+      "size": 64,
+      "vw": 16.4,
+      "font": "Switzer",
+      "weight": 600,
+      "tracking": -0.055,
+      "leading": 0.9,
+      "upper": false,
+      "italic": false,
+      "mono": false,
+      "align": "left",
+      "position": "right",
+      "widthRatio": 0.4,
+      "top": 1311,
+      "tag": "b",
+      "kind": "heading"
+     },
+     {
+      "text": "~25",
+      "words": 1,
+      "chars": 3,
+      "lines": 1,
+      "size": 64,
+      "vw": 16.4,
+      "font": "Switzer",
+      "weight": 600,
+      "tracking": -0.055,
+      "leading": 0.9,
+      "upper": false,
+      "italic": false,
+      "mono": false,
+      "align": "left",
+      "position": "left",
+      "widthRatio": 0.4,
+      "top": 1516,
+      "tag": "b",
+      "kind": "heading"
+     },
+     {
+      "text": "9",
+      "words": 1,
+      "chars": 1,
+      "lines": 1,
+      "size": 64,
+      "vw": 16.4,
+      "font": "Switzer",
+      "weight": 600,
+      "tracking": -0.055,
+      "leading": 0.9,
+      "upper": false,
+      "italic": false,
+      "mono": false,
+      "align": "left",
+      "position": "right",
+      "widthRatio": 0.4,
+      "top": 1516,
+      "tag": "b",
+      "kind": "heading"
+     },
+     {
+      "text": "Where I’ve worked",
+      "words": 3,
+      "chars": 17,
+      "lines": 1,
+      "size": 38.4,
+      "vw": 9.8,
+      "font": "Switzer",
+      "weight": 600,
+      "tracking": -0.04,
+      "leading": 1,
+      "upper": false,
+      "italic": false,
+      "mono": false,
+      "align": "left",
+      "position": "center",
+      "widthRatio": 0.92,
+      "top": 1827,
+      "tag": "h2",
+      "kind": "heading"
+     },
+     {
+      "text": "Chapter one: the AI platform",
+      "words": 5,
+      "chars": 28,
+      "lines": 2,
+      "size": 38.4,
+      "vw": 9.8,
+      "font": "Switzer",
+      "weight": 600,
+      "tracking": -0.04,
+      "leading": 1,
+      "upper": false,
+      "italic": false,
+      "mono": false,
+      "align": "left",
+      "position": "center",
+      "widthRatio": 0.92,
+      "top": 2461,
+      "tag": "h2",
+      "kind": "heading"
+     },
+     {
+      "text": "Letters of reference",
+      "words": 3,
+      "chars": 20,
+      "lines": 1,
+      "size": 38.4,
+      "vw": 9.8,
+      "font": "Switzer",
+      "weight": 600,
+      "tracking": -0.04,
+      "leading": 1,
+      "upper": false,
+      "italic": false,
+      "mono": false,
+      "align": "left",
+      "position": "center",
+      "widthRatio": 0.92,
+      "top": 3271,
+      "tag": "h2",
+      "kind": "heading"
+     },
+     {
+      "text": "He quickly became someone the team relied on, not just “the intern.” A true DevOps geek who can also build products end to end.",
+      "words": 24,
+      "chars": 127,
+      "lines": 5,
+      "size": 24,
+      "vw": 6.2,
+      "font": "Switzer",
+      "weight": 500,
+      "tracking": -0.02,
+      "leading": 1.25,
+      "upper": false,
+      "italic": false,
+      "mono": false,
+      "align": "left",
+      "position": "center",
+      "widthRatio": 0.92,
+      "top": 3534,
+      "tag": "blockquote",
+      "kind": "statement"
+     }
+    ],
+    "headingSummary": {
+     "count": 12,
+     "maxLines": 5,
+     "over2Lines": 0,
+     "statements": 1,
+     "centered": 0,
+     "medianWords": 1,
+     "mixedFontHeadings": 0
+    },
+    "type": {
+     "families": [
+      {
+       "family": "Switzer",
+       "share": 1,
+       "mono": false
+      }
+     ],
+     "familyCount": 1,
+     "sizes": [
+      13,
+      14,
+      15,
+      16,
+      17,
+      18,
+      20,
+      24,
+      34,
+      38,
+      44,
+      51,
+      64
+     ],
+     "sizeCount": 13,
+     "notLoaded": [],
+     "body": {
+      "font": "Switzer",
+      "size": 17,
+      "leading": 1.5,
+      "weight": 400,
+      "tracking": -0.005,
+      "contrast": 19
+     },
+     "measureChars": 42,
+     "max": {
+      "size": 64,
+      "vw": 16.4,
+      "font": "Switzer",
+      "text": "14"
+     },
+     "monoShare": 0,
+     "monoProseShare": 0,
+     "monoFamilies": [],
+     "monoSamples": [],
+     "microLabels": 0,
+     "microLabelShare": 0,
+     "microSamples": [],
+     "upperShare": 0,
+     "centerShare": 0.02,
+     "smallText": 0
+    },
+    "eyebrows": [],
+    "numbered": [],
+    "color": {
+     "bodyBg": "#0e1111",
+     "bodyBgHsl": {
+      "h": 180,
+      "s": 0.1,
+      "l": 0.06
+     },
+     "dark": true,
+     "sectionBgs": [
+      {
+       "color": "#ffffff",
+       "top": 966,
+       "hsl": {
+        "h": 0,
+        "s": 0,
+        "l": 1
+       }
+      },
+      {
+       "color": "#eef1f0",
+       "top": 2365,
+       "hsl": {
+        "h": 160,
+        "s": 0.1,
+        "l": 0.94
+       }
+      },
+      {
+       "color": "#16201c",
+       "top": 3175,
+       "hsl": {
+        "h": 156,
+        "s": 0.19,
+        "l": 0.11
+       }
+      },
+      {
+       "color": "#0e1111",
+       "top": 3863,
+       "hsl": {
+        "h": 180,
+        "s": 0.1,
+        "l": 0.06
+       }
+      }
+     ],
+     "textColors": [
+      {
+       "color": "#0e1111",
+       "share": 0.57
+      },
+      {
+       "color": "#eef1f0",
+       "share": 0.21
+      },
+      {
+       "color": "#8d9794",
+       "share": 0.13
+      },
+      {
+       "color": "#56605d",
+       "share": 0.03
+      },
+      {
+       "color": "#ffffff",
+       "share": 0.02
+      }
+     ],
+     "button": {
+      "bg": "#0e1111",
+      "hsl": {
+       "h": 180,
+       "s": 0.1,
+       "l": 0.06
+      },
+      "fg": "#eef1f0"
+     },
+     "lowContrast": []
+    },
+    "buttons": {
+     "count": 4,
+     "inHero": 4,
+     "radius": 0,
+     "height": 52,
+     "withShadow": 0,
+     "withGradient": 0,
+     "mono": 0,
+     "upper": 0,
+     "heroLabels": [
+      "Graphite + green",
+      "Ahmed Wagdy",
+      "Contact",
+      "Hire me"
+     ]
+    },
+    "surfaces": {
+     "shadowStatic": 0,
+     "shadowOverlay": 0,
+     "shadowSamples": [],
+     "gradients": 0,
+     "scrims": 0,
+     "gradientSamples": [],
+     "gradientText": 0,
+     "hairlines": 0,
+     "hairlineSamples": [],
+     "outlinedBoxes": 0,
+     "dashed": 0,
+     "blurred": 0,
+     "roundedBoxes": 0,
+     "boxRadius": 0,
+     "squareMedia": 1,
+     "roundedMedia": 0,
+     "mediaRadius": 0,
+     "textShadow": 0,
+     "cardRows": []
+    },
+    "heroMedia": [
+     {
+      "type": "img",
+      "ratio": 0.14
+     }
+    ],
+    "nav": {
+     "links": 2,
+     "fixed": false,
+     "height": 52,
+     "floatingPill": false,
+     "blur": false
+    },
+    "fontsLoaded": [
+     "switzer"
+    ]
+   },
+   "layout": {
+    "viewport": {
+     "w": 390,
+     "h": 844
+    },
+    "pageH": 4622,
+    "margins": {
+     "left": 0,
+     "right": 0
+    },
+    "sections": [
+     {
+      "sel": "div.mast",
+      "tag": "div",
+      "top": 65,
+      "height": 440,
+      "words": 13,
+      "media": 3,
+      "middle": 0,
+      "heading": {
+       "text": "3rd",
+       "size": 34,
+       "tag": "b"
+      },
+      "left": 0,
+      "right": 0,
+      "textLeft": 20,
+      "textRight": 20,
+      "fullBleed": false,
+      "footer": false,
+      "hero": true,
+      "continues": false,
+      "pinned": false
+     },
+     {
+      "sel": "header.title",
+      "tag": "header",
+      "top": 505,
+      "height": 461,
+      "words": 26,
+      "media": 0,
+      "middle": 0,
+      "heading": {
+       "text": "A year in",
+       "size": 51,
+       "tag": "h1"
+      },
+      "left": 16,
+      "right": 79,
+      "textLeft": 16,
+      "textRight": 79,
+      "fullBleed": false,
+      "footer": false,
+      "hero": false,
+      "continues": false,
+      "pinned": false
+     },
+     {
+      "sel": "section#figures.paper.figs",
+      "tag": "section",
+      "top": 966,
+      "height": 862,
+      "words": 54,
+      "media": 0,
+      "middle": 0,
+      "heading": {
+       "text": "14",
+       "size": 64,
+       "tag": "b"
+      },
+      "left": 16,
+      "right": 30,
+      "textLeft": 16,
+      "textRight": 30,
+      "fullBleed": false,
+      "footer": false,
+      "hero": false,
+      "continues": false,
+      "pinned": false
+     },
+     {
+      "sel": "section#experience.paper.exp",
+      "tag": "section",
+      "top": 1827,
+      "height": 538,
+      "words": 29,
+      "media": 0,
+      "middle": 34,
+      "heading": null,
+      "left": 32,
+      "right": 32,
+      "textLeft": 32,
+      "textRight": 32,
+      "fullBleed": false,
+      "footer": false,
+      "hero": false,
+      "continues": false,
+      "pinned": false
+     },
+     {
+      "sel": "section#incorta.chapter",
+      "tag": "section",
+      "top": 2365,
+      "height": 810,
+      "words": 127,
+      "media": 0,
+      "middle": 0,
+      "heading": {
+       "text": "Chapter one: the AI platform",
+       "size": 38,
+       "tag": "h2"
+      },
+      "left": 16,
+      "right": 16,
+      "textLeft": 16,
+      "textRight": 16,
+      "fullBleed": false,
+      "footer": false,
+      "hero": false,
+      "continues": false,
+      "pinned": false
+     },
+     {
+      "sel": "section#letters.letters",
+      "tag": "section",
+      "top": 3175,
+      "height": 687,
+      "words": 46,
+      "media": 0,
+      "middle": 0,
+      "heading": {
+       "text": "Letters of reference",
+       "size": 38,
+       "tag": "h2"
+      },
+      "left": 16,
+      "right": 16,
+      "textLeft": 16,
+      "textRight": 33,
+      "fullBleed": false,
+      "footer": false,
+      "hero": false,
+      "continues": false,
+      "pinned": false
+     },
+     {
+      "sel": "footer",
+      "tag": "footer",
+      "top": 3863,
+      "height": 760,
+      "words": 29,
+      "media": 0,
+      "middle": 0,
+      "heading": null,
+      "left": 16,
+      "right": 16,
+      "textLeft": 16,
+      "textRight": 26,
+      "fullBleed": false,
+      "footer": true,
+      "hero": false,
+      "continues": false,
+      "pinned": false
+     }
+    ],
+    "gaps": [
+     {
+      "top": 2192,
+      "height": 264
+     },
+     {
+      "top": 4076,
+      "height": 428
+     }
+    ],
+    "h1s": [
+     {
+      "text": "A year in production",
+      "size": 51,
+      "top": 561,
+      "firstScreen": true
+     }
+    ],
+    "edgeText": [],
+    "edges": [
+     {
+      "x": 16,
+      "n": 13
+     }
+    ],
+    "leftBlocks": 13,
+    "bodySize": 17,
+    "stage": false,
+    "explains": true,
+    "slivers": [],
+    "voidShare": 0,
+    "voidBox": null
+   },
+   "app": null,
+   "consoleErrors": []
+  }
+ ],
+ "findings": [
+  {
+   "level": "WARN",
+   "id": "size-count",
+   "width": 1440,
+   "message": "13 different font sizes (13, 15, 16, 17, 18, 19, 20, 33, 58, 78, 86, 101, 120).",
+   "fix": "A page needs about five: display, heading, lead, body, small.",
+   "alsoAt": [
+    768,
+    390
+   ]
+  },
+  {
+   "level": "WARN",
+   "id": "no-footage",
+   "width": 1440,
+   "message": "No video anywhere on the page.",
+   "fix": "Look for one honest clip with scripts/assets.mjs --video (the place, the material, the process) and use it as a muted loop with a poster frame. Defend its absence only if no clip fits the subject."
+  },
+  {
+   "level": "WARN",
+   "id": "lopsided",
+   "width": 1440,
+   "message": "A section keeps its content on one side and leaves 623px of the width empty: section#experience.paper.exp.",
+   "fix": "Fill the other side with what the section has (its picture, a second column, the figure), or defend the void in one sentence."
+  },
+  {
+   "level": "WARN",
+   "id": "blank-gap",
+   "width": 1440,
+   "message": "A 472px stretch at 4588px holds nothing.",
+   "fix": "Check that it is a deliberate rest (once per page at most); otherwise close it to the normal section gap.",
+   "alsoAt": [
+    768,
+    390
+   ]
+  },
+  {
+   "level": "WARN",
+   "id": "untitled-section",
+   "width": 1440,
+   "message": "A section carries text but no heading: section#experience.paper.exp at 1835px.",
+   "fix": "Name it with a short heading unless it is the continuation of the section above."
+  },
+  {
+   "level": "WARN",
+   "id": "still-page",
+   "width": 1440,
+   "message": "Little motion: 15 element(s) moved while the page loaded and scrolled.",
+   "fix": "Give every section an entrance for its parts (not one fade of the whole block) and add one moving picture: a looping clip or a slow move on a photograph."
+  },
+  {
+   "level": "WARN",
+   "id": "off-centre",
+   "width": 768,
+   "message": "The margins differ: 0px on the left, 16px on the right, at 768px.",
+   "fix": "Put the navigation and the content on one pair of margins; check for padding on one side only, a scrollbar gutter, or a header on another inset than the page."
+  },
+  {
+   "level": "WARN",
+   "id": "empty-middle",
+   "width": 768,
+   "message": "1 section(s) have content at both edges and 412px of nothing between: section#experience.paper.exp",
+   "fix": "Bring the two parts together on the grid, or put the picture or figure of the section in the middle. An empty middle third reads as a hole, the same as an empty half."
+  },
+  {
+   "level": "WARN",
+   "id": "statement-length",
+   "width": 390,
+   "message": "1 large-set statement(s) run past 4 lines at 390px: \"He quickly became someone the team relie…\" → 5 lines at 24px",
+   "fix": "A statement set large is about 30 words. Cut it, or set the rest as ordinary body text."
+  }
+ ],
+ "images": [
+  {
+   "viewport": "desktop",
+   "width": 1440,
+   "fold": "/Users/wagdy/Desktop/Professional-Portfolio/.taste-skill/inspect-etech-graphite/desktop-fold.jpg",
+   "pages": [
+    "/Users/wagdy/Desktop/Professional-Portfolio/.taste-skill/inspect-etech-graphite/desktop-page-01.jpg",
+    "/Users/wagdy/Desktop/Professional-Portfolio/.taste-skill/inspect-etech-graphite/desktop-page-02.jpg"
+   ],
+   "film": []
+  },
+  {
+   "viewport": "tablet",
+   "width": 768,
+   "fold": "/Users/wagdy/Desktop/Professional-Portfolio/.taste-skill/inspect-etech-graphite/tablet-fold.jpg",
+   "pages": [
+    "/Users/wagdy/Desktop/Professional-Portfolio/.taste-skill/inspect-etech-graphite/tablet-page-01.jpg"
+   ],
+   "film": []
+  },
+  {
+   "viewport": "mobile",
+   "width": 390,
+   "fold": "/Users/wagdy/Desktop/Professional-Portfolio/.taste-skill/inspect-etech-graphite/mobile-fold.jpg",
+   "pages": [
+    "/Users/wagdy/Desktop/Professional-Portfolio/.taste-skill/inspect-etech-graphite/mobile-page-01.jpg"
+   ],
+   "film": []
+  }
+ ]
+}

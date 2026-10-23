@@ -1,0 +1,2220 @@
+{
+ "url": "http://localhost:4102/",
+ "at": "2026-10-23T12:38:22.295Z",
+ "allow": [],
+ "viewports": [
+  {
+   "width": 1440,
+   "height": 900,
+   "load": "load",
+   "screens": 6,
+   "filled": [
+    0.24,
+    0.33,
+    0.45,
+    0.87,
+    0.61,
+    0.76
+   ],
+   "motion": {
+    "elements": 18,
+    "css": 1,
+    "transitions": 17,
+    "scripted": 0,
+    "videos": 0,
+    "playingVideos": 0
+   },
+   "metrics": {
+    "viewport": {
+     "w": 1440,
+     "h": 900
+    },
+    "page": {
+     "height": 4785,
+     "screens": 5.3,
+     "words": 263,
+     "img": 2,
+     "video": 0,
+     "canvas": 0,
+     "svg": 2,
+     "sections": 3,
+     "horizontalOverflow": 0,
+     "overflowCulprits": [],
+     "uiFragments": 0,
+     "uiAbuse": false,
+     "realPictures": 2,
+     "videoCount": 0,
+     "uiPictures": 0,
+     "pictureSamples": [
+      "portrait.jpg",
+      "racks-amravati-data-center.jpg"
+     ],
+     "blendText": 0,
+     "sideScrollers": 0,
+     "brokenImages": [],
+     "emoji": [],
+     "videosNoPoster": 0
+    },
+    "hero": {
+     "text": "Infrastructure, made to keep time.",
+     "words": 5,
+     "chars": 34,
+     "lines": 1,
+     "size": 86.4,
+     "vw": 6,
+     "font": "Gambarino",
+     "weight": 400,
+     "tracking": -0.02,
+     "leading": 0.95,
+     "upper": false,
+     "italic": false,
+     "mono": false,
+     "align": "center",
+     "position": "center",
+     "widthRatio": 0.81,
+     "top": 638,
+     "tag": "h1",
+     "kind": "heading"
+    },
+    "h1": {
+     "text": "Infrastructure, made to keep time.",
+     "words": 5,
+     "lines": 1,
+     "size": 86.4,
+     "font": "Gambarino"
+    },
+    "headings": [
+     {
+      "text": "Infrastructure, made to keep time.",
+      "words": 5,
+      "chars": 34,
+      "lines": 1,
+      "size": 86.4,
+      "vw": 6,
+      "font": "Gambarino",
+      "weight": 400,
+      "tracking": -0.02,
+      "leading": 0.95,
+      "upper": false,
+      "italic": false,
+      "mono": false,
+      "align": "center",
+      "position": "center",
+      "widthRatio": 0.81,
+      "top": 638,
+      "tag": "h1",
+      "kind": "heading"
+     },
+     {
+      "text": "The catalogue",
+      "words": 2,
+      "chars": 13,
+      "lines": 1,
+      "size": 78.4,
+      "vw": 5.4,
+      "font": "Gambarino",
+      "weight": 400,
+      "tracking": -0.02,
+      "leading": 0.95,
+      "upper": false,
+      "italic": false,
+      "mono": false,
+      "align": "left",
+      "position": "left",
+      "widthRatio": 0.46,
+      "top": 1118,
+      "tag": "h2",
+      "kind": "heading"
+     },
+     {
+      "text": "The Gateway",
+      "words": 2,
+      "chars": 11,
+      "lines": 1,
+      "size": 57.6,
+      "vw": 4,
+      "font": "Gambarino",
+      "weight": 400,
+      "tracking": -0.02,
+      "leading": 0.95,
+      "upper": false,
+      "italic": false,
+      "mono": false,
+      "align": "left",
+      "position": "right",
+      "widthRatio": 0.53,
+      "top": 1403,
+      "tag": "h3",
+      "kind": "heading"
+     },
+     {
+      "text": "The GPU Node",
+      "words": 3,
+      "chars": 12,
+      "lines": 1,
+      "size": 57.6,
+      "vw": 4,
+      "font": "Gambarino",
+      "weight": 400,
+      "tracking": -0.02,
+      "leading": 0.95,
+      "upper": false,
+      "italic": false,
+      "mono": false,
+      "align": "left",
+      "position": "left",
+      "widthRatio": 0.53,
+      "top": 1957,
+      "tag": "h3",
+      "kind": "heading"
+     },
+     {
+      "text": "Six times faster, measured.",
+      "words": 4,
+      "chars": 27,
+      "lines": 2,
+      "size": 78.4,
+      "vw": 5.4,
+      "font": "Gambarino",
+      "weight": 400,
+      "tracking": -0.02,
+      "leading": 0.95,
+      "upper": false,
+      "italic": false,
+      "mono": false,
+      "align": "left",
+      "position": "left",
+      "widthRatio": 0.37,
+      "top": 2849,
+      "tag": "h2",
+      "kind": "heading"
+     },
+     {
+      "text": "0%",
+      "words": 1,
+      "chars": 2,
+      "lines": 1,
+      "size": 40,
+      "vw": 2.8,
+      "font": "Gambarino",
+      "weight": 400,
+      "tracking": 0,
+      "leading": 1,
+      "upper": false,
+      "italic": false,
+      "mono": false,
+      "align": "left",
+      "position": "right",
+      "widthRatio": 0.03,
+      "top": 3259,
+      "tag": "b",
+      "kind": "heading"
+     },
+     {
+      "text": "0%",
+      "words": 1,
+      "chars": 2,
+      "lines": 1,
+      "size": 40,
+      "vw": 2.8,
+      "font": "Gambarino",
+      "weight": 400,
+      "tracking": 0,
+      "leading": 1,
+      "upper": false,
+      "italic": false,
+      "mono": false,
+      "align": "left",
+      "position": "right",
+      "widthRatio": 0.03,
+      "top": 3259,
+      "tag": "b",
+      "kind": "heading"
+     },
+     {
+      "text": "0",
+      "words": 1,
+      "chars": 1,
+      "lines": 1,
+      "size": 40,
+      "vw": 2.8,
+      "font": "Gambarino",
+      "weight": 400,
+      "tracking": 0,
+      "leading": 1,
+      "upper": false,
+      "italic": false,
+      "mono": false,
+      "align": "left",
+      "position": "right",
+      "widthRatio": 0.02,
+      "top": 3259,
+      "tag": "b",
+      "kind": "heading"
+     },
+     {
+      "text": "Letters of reference",
+      "words": 3,
+      "chars": 20,
+      "lines": 1,
+      "size": 78.4,
+      "vw": 5.4,
+      "font": "Gambarino",
+      "weight": 400,
+      "tracking": -0.02,
+      "leading": 0.95,
+      "upper": false,
+      "italic": false,
+      "mono": false,
+      "align": "left",
+      "position": "center",
+      "widthRatio": 0.96,
+      "top": 3648,
+      "tag": "h2",
+      "kind": "heading"
+     },
+     {
+      "text": "A true DevOps geek with real depth in cloud infrastructure, who can also step back and build products end to end.",
+      "words": 21,
+      "chars": 113,
+      "lines": 3,
+      "size": 31.7,
+      "vw": 2.2,
+      "font": "Gambarino",
+      "weight": 400,
+      "tracking": 0,
+      "leading": 1.2,
+      "upper": false,
+      "italic": false,
+      "mono": false,
+      "align": "left",
+      "position": "left",
+      "widthRatio": 0.39,
+      "top": 3859,
+      "tag": "blockquote",
+      "kind": "statement"
+     },
+     {
+      "text": "Any team would be lucky to have Ahmed. He’s talented and reliable.",
+      "words": 12,
+      "chars": 66,
+      "lines": 2,
+      "size": 31.7,
+      "vw": 2.2,
+      "font": "Gambarino",
+      "weight": 400,
+      "tracking": 0,
+      "leading": 1.2,
+      "upper": false,
+      "italic": false,
+      "mono": false,
+      "align": "left",
+      "position": "right",
+      "widthRatio": 0.39,
+      "top": 3859,
+      "tag": "blockquote",
+      "kind": "statement"
+     },
+     {
+      "text": "Available for platform and MLOps work.",
+      "words": 6,
+      "chars": 38,
+      "lines": 1,
+      "size": 43.2,
+      "vw": 3,
+      "font": "Gambarino",
+      "weight": 400,
+      "tracking": -0.02,
+      "leading": 0.95,
+      "upper": false,
+      "italic": false,
+      "mono": false,
+      "align": "center",
+      "position": "center",
+      "widthRatio": 0.96,
+      "top": 4372,
+      "tag": "p",
+      "kind": "statement"
+     },
+     {
+      "text": "AHMED WAGDY",
+      "words": 2,
+      "chars": 11,
+      "lines": 1,
+      "size": 57.6,
+      "vw": 4,
+      "font": "General Sans",
+      "weight": 500,
+      "tracking": 0.6,
+      "leading": 1.5,
+      "upper": true,
+      "italic": false,
+      "mono": false,
+      "align": "center",
+      "position": "center",
+      "widthRatio": 0.98,
+      "top": 4615,
+      "tag": "div",
+      "kind": "heading"
+     }
+    ],
+    "headingSummary": {
+     "count": 13,
+     "maxLines": 3,
+     "over2Lines": 0,
+     "statements": 3,
+     "centered": 3,
+     "medianWords": 3,
+     "mixedFontHeadings": 0
+    },
+    "type": {
+     "families": [
+      {
+       "family": "General Sans",
+       "share": 0.79,
+       "mono": false
+      },
+      {
+       "family": "Gambarino",
+       "share": 0.21,
+       "mono": false
+      }
+     ],
+     "familyCount": 2,
+     "sizes": [
+      13,
+      15,
+      16,
+      19,
+      23,
+      32,
+      40,
+      43,
+      58,
+      78,
+      86
+     ],
+     "sizeCount": 11,
+     "notLoaded": [],
+     "body": {
+      "font": "General Sans",
+      "size": 19,
+      "leading": 1.5,
+      "weight": 400,
+      "tracking": 0,
+      "contrast": 8.7
+     },
+     "measureChars": 54,
+     "max": {
+      "size": 86.4,
+      "vw": 6,
+      "font": "Gambarino",
+      "text": "Infrastructure, made to keep time."
+     },
+     "monoShare": 0,
+     "monoProseShare": 0,
+     "monoFamilies": [],
+     "monoSamples": [],
+     "microLabels": 0,
+     "microLabelShare": 0,
+     "microSamples": [],
+     "upperShare": 0.02,
+     "centerShare": 0.17,
+     "smallText": 0
+    },
+    "eyebrows": [],
+    "numbered": [],
+    "color": {
+     "bodyBg": "#ecebe7",
+     "bodyBgHsl": {
+      "h": 48,
+      "s": 0.12,
+      "l": 0.92
+     },
+     "dark": false,
+     "sectionBgs": [
+      {
+       "color": "#38450f",
+       "top": 2516,
+       "hsl": {
+        "h": 74,
+        "s": 0.64,
+        "l": 0.16
+       }
+      }
+     ],
+     "textColors": [
+      {
+       "color": "#38450f",
+       "share": 0.64
+      },
+      {
+       "color": "#ecebe7",
+       "share": 0.23
+      },
+      {
+       "color": "#5d683a",
+       "share": 0.13
+      }
+     ],
+     "button": {
+      "bg": "#38450f",
+      "hsl": {
+       "h": 74,
+       "s": 0.64,
+       "l": 0.16
+      },
+      "fg": "#ecebe7"
+     },
+     "lowContrast": []
+    },
+    "buttons": {
+     "count": 2,
+     "inHero": 1,
+     "radius": 0,
+     "height": 51,
+     "withShadow": 0,
+     "withGradient": 0,
+     "mono": 0,
+     "upper": 0,
+     "heroLabels": [
+      "Request a conversation"
+     ]
+    },
+    "surfaces": {
+     "shadowStatic": 0,
+     "shadowOverlay": 0,
+     "shadowSamples": [],
+     "gradients": 0,
+     "scrims": 0,
+     "gradientSamples": [],
+     "gradientText": 0,
+     "hairlines": 0,
+     "hairlineSamples": [],
+     "outlinedBoxes": 0,
+     "dashed": 0,
+     "blurred": 0,
+     "roundedBoxes": 0,
+     "boxRadius": 0,
+     "squareMedia": 2,
+     "roundedMedia": 0,
+     "mediaRadius": 0,
+     "textShadow": 0,
+     "cardRows": []
+    },
+    "heroMedia": [
+     {
+      "type": "img",
+      "ratio": 0.13
+     }
+    ],
+    "nav": {
+     "links": 4,
+     "fixed": false,
+     "height": 79,
+     "floatingPill": false,
+     "blur": false
+    },
+    "fontsLoaded": [
+     "gambarino",
+     "general sans"
+    ]
+   },
+   "layout": {
+    "viewport": {
+     "w": 1440,
+     "h": 900
+    },
+    "pageH": 4785,
+    "margins": {
+     "left": 32,
+     "right": 32
+    },
+    "sections": [
+     {
+      "sel": "header.hero",
+      "tag": "header",
+      "top": 79,
+      "height": 820,
+      "words": 17,
+      "media": 1,
+      "middle": 0,
+      "heading": null,
+      "left": 134,
+      "right": 134,
+      "textLeft": 134,
+      "textRight": 134,
+      "fullBleed": false,
+      "footer": false,
+      "hero": true,
+      "continues": false,
+      "pinned": false
+     },
+     {
+      "sel": "article.piece",
+      "tag": "article",
+      "top": 1289,
+      "height": 554,
+      "words": 53,
+      "media": 1,
+      "middle": 64,
+      "heading": {
+       "text": "The Gateway",
+       "size": 58,
+       "tag": "h3"
+      },
+      "left": 32,
+      "right": 247,
+      "textLeft": 643,
+      "textRight": 247,
+      "fullBleed": false,
+      "footer": false,
+      "hero": false,
+      "continues": true,
+      "pinned": false
+     },
+     {
+      "sel": "article.piece",
+      "tag": "article",
+      "top": 1842,
+      "height": 554,
+      "words": 48,
+      "media": 1,
+      "middle": 317,
+      "heading": {
+       "text": "The GPU Node",
+       "size": 58,
+       "tag": "h3"
+      },
+      "left": 32,
+      "right": 32,
+      "textLeft": 32,
+      "textRight": 895,
+      "fullBleed": false,
+      "footer": false,
+      "hero": false,
+      "continues": true,
+      "pinned": false
+     },
+     {
+      "sel": "section.dial-wrap",
+      "tag": "section",
+      "top": 2516,
+      "height": 952,
+      "words": 37,
+      "media": 1,
+      "middle": 370,
+      "heading": {
+       "text": "Six times faster, measured.",
+       "size": 78,
+       "tag": "h2"
+      },
+      "left": 32,
+      "right": 32,
+      "textLeft": 32,
+      "textRight": 54,
+      "fullBleed": false,
+      "footer": false,
+      "hero": false,
+      "continues": false,
+      "pinned": false
+     },
+     {
+      "sel": "section#letters.letters",
+      "tag": "section",
+      "top": 3468,
+      "height": 783,
+      "words": 49,
+      "media": 0,
+      "middle": 170,
+      "heading": {
+       "text": "Letters of reference",
+       "size": 78,
+       "tag": "h2"
+      },
+      "left": 32,
+      "right": 95,
+      "textLeft": 32,
+      "textRight": 95,
+      "fullBleed": false,
+      "footer": false,
+      "hero": false,
+      "continues": false,
+      "pinned": false
+     },
+     {
+      "sel": "footer#contact",
+      "tag": "footer",
+      "top": 4252,
+      "height": 533,
+      "words": 21,
+      "media": 0,
+      "middle": 0,
+      "heading": {
+       "text": "AHMED WAGDY",
+       "size": 58,
+       "tag": "div"
+      },
+      "left": 332,
+      "right": 298,
+      "textLeft": 332,
+      "textRight": 298,
+      "fullBleed": false,
+      "footer": true,
+      "hero": false,
+      "continues": false,
+      "pinned": false
+     }
+    ],
+    "gaps": [
+     {
+      "top": 792,
+      "height": 288
+     },
+     {
+      "top": 2328,
+      "height": 348
+     },
+     {
+      "top": 3316,
+      "height": 312
+     },
+     {
+      "top": 4024,
+      "height": 336
+     }
+    ],
+    "h1s": [
+     {
+      "text": "Infrastructure, made to keep time.",
+      "size": 86,
+      "top": 638,
+      "firstScreen": true
+     }
+    ],
+    "edgeText": [],
+    "edges": [
+     {
+      "x": 32,
+      "n": 6
+     },
+     {
+      "x": 643,
+      "n": 2
+     },
+     {
+      "x": 80,
+      "n": 1
+     },
+     {
+      "x": 752,
+      "n": 1
+     },
+     {
+      "x": 800,
+      "n": 1
+     }
+    ],
+    "leftBlocks": 11,
+    "bodySize": 19,
+    "stage": false,
+    "explains": false,
+    "slivers": [],
+    "voidShare": 0.18,
+    "voidBox": {
+     "x": 0,
+     "y": 120,
+     "w": 480,
+     "h": 480
+    }
+   },
+   "app": null,
+   "consoleErrors": []
+  },
+  {
+   "width": 768,
+   "height": 1024,
+   "load": "load",
+   "screens": 7,
+   "filled": [
+    0.63,
+    0.48,
+    0.61,
+    0.65,
+    0.87,
+    0.83,
+    0.83
+   ],
+   "motion": {
+    "elements": 18,
+    "css": 1,
+    "transitions": 17,
+    "scripted": 0,
+    "videos": 0,
+    "playingVideos": 0
+   },
+   "metrics": {
+    "viewport": {
+     "w": 768,
+     "h": 1024
+    },
+    "page": {
+     "height": 6146,
+     "screens": 6,
+     "words": 260,
+     "img": 2,
+     "video": 0,
+     "canvas": 0,
+     "svg": 2,
+     "sections": 3,
+     "horizontalOverflow": 0,
+     "overflowCulprits": [],
+     "uiFragments": 0,
+     "uiAbuse": false,
+     "realPictures": 2,
+     "videoCount": 0,
+     "uiPictures": 0,
+     "pictureSamples": [
+      "portrait.jpg",
+      "racks-amravati-data-center.jpg"
+     ],
+     "blendText": 0,
+     "sideScrollers": 0,
+     "brokenImages": [],
+     "emoji": [],
+     "videosNoPoster": 0
+    },
+    "hero": {
+     "text": "Infrastructure, made to keep time.",
+     "words": 5,
+     "chars": 34,
+     "lines": 2,
+     "size": 69.1,
+     "vw": 9,
+     "font": "Gambarino",
+     "weight": 400,
+     "tracking": -0.02,
+     "leading": 0.95,
+     "upper": false,
+     "italic": false,
+     "mono": false,
+     "align": "center",
+     "position": "center",
+     "widthRatio": 0.95,
+     "top": 844,
+     "tag": "h1",
+     "kind": "heading"
+    },
+    "h1": {
+     "text": "Infrastructure, made to keep time.",
+     "words": 5,
+     "lines": 2,
+     "size": 69.1,
+     "font": "Gambarino"
+    },
+    "headings": [
+     {
+      "text": "AHMED WAGDY",
+      "words": 2,
+      "chars": 11,
+      "lines": 1,
+      "size": 35.3,
+      "vw": 4.6,
+      "font": "General Sans",
+      "weight": 500,
+      "tracking": 0.4,
+      "leading": 1,
+      "upper": true,
+      "italic": false,
+      "mono": false,
+      "align": "center",
+      "position": "center",
+      "widthRatio": 0.55,
+      "top": 786,
+      "tag": "p",
+      "kind": "statement"
+     },
+     {
+      "text": "Infrastructure, made to keep time.",
+      "words": 5,
+      "chars": 34,
+      "lines": 2,
+      "size": 69.1,
+      "vw": 9,
+      "font": "Gambarino",
+      "weight": 400,
+      "tracking": -0.02,
+      "leading": 0.95,
+      "upper": false,
+      "italic": false,
+      "mono": false,
+      "align": "center",
+      "position": "center",
+      "widthRatio": 0.95,
+      "top": 844,
+      "tag": "h1",
+      "kind": "heading"
+     },
+     {
+      "text": "The catalogue",
+      "words": 2,
+      "chars": 13,
+      "lines": 1,
+      "size": 51.5,
+      "vw": 6.7,
+      "font": "Gambarino",
+      "weight": 400,
+      "tracking": -0.02,
+      "leading": 0.95,
+      "upper": false,
+      "italic": false,
+      "mono": false,
+      "align": "left",
+      "position": "center",
+      "widthRatio": 0.95,
+      "top": 1295,
+      "tag": "h2",
+      "kind": "heading"
+     },
+     {
+      "text": "The Gateway",
+      "words": 2,
+      "chars": 11,
+      "lines": 1,
+      "size": 36,
+      "vw": 4.7,
+      "font": "Gambarino",
+      "weight": 400,
+      "tracking": -0.02,
+      "leading": 0.95,
+      "upper": false,
+      "italic": false,
+      "mono": false,
+      "align": "left",
+      "position": "center",
+      "widthRatio": 0.95,
+      "top": 2229,
+      "tag": "h3",
+      "kind": "heading"
+     },
+     {
+      "text": "The GPU Node",
+      "words": 3,
+      "chars": 12,
+      "lines": 1,
+      "size": 36,
+      "vw": 4.7,
+      "font": "Gambarino",
+      "weight": 400,
+      "tracking": -0.02,
+      "leading": 0.95,
+      "upper": false,
+      "italic": false,
+      "mono": false,
+      "align": "left",
+      "position": "center",
+      "widthRatio": 0.95,
+      "top": 3250,
+      "tag": "h3",
+      "kind": "heading"
+     },
+     {
+      "text": "Six times faster, measured.",
+      "words": 4,
+      "chars": 27,
+      "lines": 2,
+      "size": 51.5,
+      "vw": 6.7,
+      "font": "Gambarino",
+      "weight": 400,
+      "tracking": -0.02,
+      "leading": 0.95,
+      "upper": false,
+      "italic": false,
+      "mono": false,
+      "align": "left",
+      "position": "left",
+      "widthRatio": 0.45,
+      "top": 3878,
+      "tag": "h2",
+      "kind": "heading"
+     },
+     {
+      "text": "0%",
+      "words": 1,
+      "chars": 2,
+      "lines": 1,
+      "size": 40,
+      "vw": 5.2,
+      "font": "Gambarino",
+      "weight": 400,
+      "tracking": 0,
+      "leading": 1,
+      "upper": false,
+      "italic": false,
+      "mono": false,
+      "align": "left",
+      "position": "left",
+      "widthRatio": 0.06,
+      "top": 4721,
+      "tag": "b",
+      "kind": "heading"
+     },
+     {
+      "text": "0%",
+      "words": 1,
+      "chars": 2,
+      "lines": 1,
+      "size": 40,
+      "vw": 5.2,
+      "font": "Gambarino",
+      "weight": 400,
+      "tracking": 0,
+      "leading": 1,
+      "upper": false,
+      "italic": false,
+      "mono": false,
+      "align": "left",
+      "position": "left",
+      "widthRatio": 0.06,
+      "top": 4721,
+      "tag": "b",
+      "kind": "heading"
+     },
+     {
+      "text": "0",
+      "words": 1,
+      "chars": 1,
+      "lines": 1,
+      "size": 40,
+      "vw": 5.2,
+      "font": "Gambarino",
+      "weight": 400,
+      "tracking": 0,
+      "leading": 1,
+      "upper": false,
+      "italic": false,
+      "mono": false,
+      "align": "left",
+      "position": "right",
+      "widthRatio": 0.03,
+      "top": 4721,
+      "tag": "b",
+      "kind": "heading"
+     },
+     {
+      "text": "Letters of reference",
+      "words": 3,
+      "chars": 20,
+      "lines": 1,
+      "size": 51.5,
+      "vw": 6.7,
+      "font": "Gambarino",
+      "weight": 400,
+      "tracking": -0.02,
+      "leading": 0.95,
+      "upper": false,
+      "italic": false,
+      "mono": false,
+      "align": "left",
+      "position": "center",
+      "widthRatio": 0.95,
+      "top": 5026,
+      "tag": "h2",
+      "kind": "heading"
+     },
+     {
+      "text": "Available for platform and MLOps work.",
+      "words": 6,
+      "chars": 38,
+      "lines": 1,
+      "size": 28,
+      "vw": 3.6,
+      "font": "Gambarino",
+      "weight": 400,
+      "tracking": -0.02,
+      "leading": 0.95,
+      "upper": false,
+      "italic": false,
+      "mono": false,
+      "align": "center",
+      "position": "center",
+      "widthRatio": 0.95,
+      "top": 5787,
+      "tag": "p",
+      "kind": "statement"
+     },
+     {
+      "text": "AHMED WAGDY",
+      "words": 2,
+      "chars": 11,
+      "lines": 1,
+      "size": 30.7,
+      "vw": 4,
+      "font": "General Sans",
+      "weight": 500,
+      "tracking": 0.6,
+      "leading": 1.5,
+      "upper": true,
+      "italic": false,
+      "mono": false,
+      "align": "center",
+      "position": "center",
+      "widthRatio": 0.97,
+      "top": 6016,
+      "tag": "div",
+      "kind": "heading"
+     }
+    ],
+    "headingSummary": {
+     "count": 12,
+     "maxLines": 2,
+     "over2Lines": 0,
+     "statements": 2,
+     "centered": 4,
+     "medianWords": 2,
+     "mixedFontHeadings": 0
+    },
+    "type": {
+     "families": [
+      {
+       "family": "General Sans",
+       "share": 0.79,
+       "mono": false
+      },
+      {
+       "family": "Gambarino",
+       "share": 0.21,
+       "mono": false
+      }
+     ],
+     "familyCount": 2,
+     "sizes": [
+      13,
+      15,
+      16,
+      18,
+      24,
+      28,
+      31,
+      35,
+      36,
+      40,
+      52,
+      69
+     ],
+     "sizeCount": 12,
+     "notLoaded": [],
+     "body": {
+      "font": "General Sans",
+      "size": 17.9,
+      "leading": 1.5,
+      "weight": 400,
+      "tracking": 0,
+      "contrast": 8.7
+     },
+     "measureChars": 54,
+     "max": {
+      "size": 69.1,
+      "vw": 9,
+      "font": "Gambarino",
+      "text": "Infrastructure, made to keep time."
+     },
+     "monoShare": 0,
+     "monoProseShare": 0,
+     "monoFamilies": [],
+     "monoSamples": [],
+     "microLabels": 0,
+     "microLabelShare": 0,
+     "microSamples": [],
+     "upperShare": 0.02,
+     "centerShare": 0.17,
+     "smallText": 0
+    },
+    "eyebrows": [],
+    "numbered": [],
+    "color": {
+     "bodyBg": "#ecebe7",
+     "bodyBgHsl": {
+      "h": 48,
+      "s": 0.12,
+      "l": 0.92
+     },
+     "dark": false,
+     "sectionBgs": [
+      {
+       "color": "#e1dfd9",
+       "top": 79,
+       "hsl": {
+        "h": 45,
+        "s": 0.12,
+        "l": 0.87
+       }
+      },
+      {
+       "color": "#38450f",
+       "top": 3718,
+       "hsl": {
+        "h": 74,
+        "s": 0.64,
+        "l": 0.16
+       }
+      }
+     ],
+     "textColors": [
+      {
+       "color": "#38450f",
+       "share": 0.63
+      },
+      {
+       "color": "#ecebe7",
+       "share": 0.23
+      },
+      {
+       "color": "#5d683a",
+       "share": 0.13
+      }
+     ],
+     "button": {
+      "bg": "#38450f",
+      "hsl": {
+       "h": 74,
+       "s": 0.64,
+       "l": 0.16
+      },
+      "fg": "#ecebe7"
+     },
+     "lowContrast": []
+    },
+    "buttons": {
+     "count": 2,
+     "inHero": 0,
+     "radius": 0,
+     "height": 51,
+     "withShadow": 0,
+     "withGradient": 0,
+     "mono": 0,
+     "upper": 0,
+     "heroLabels": []
+    },
+    "surfaces": {
+     "shadowStatic": 0,
+     "shadowOverlay": 0,
+     "shadowSamples": [],
+     "gradients": 0,
+     "scrims": 0,
+     "gradientSamples": [],
+     "gradientText": 0,
+     "hairlines": 0,
+     "hairlineSamples": [],
+     "outlinedBoxes": 0,
+     "dashed": 0,
+     "blurred": 0,
+     "roundedBoxes": 0,
+     "boxRadius": 0,
+     "squareMedia": 2,
+     "roundedMedia": 0,
+     "mediaRadius": 0,
+     "textShadow": 0,
+     "cardRows": []
+    },
+    "heroMedia": [
+     {
+      "type": "img",
+      "ratio": 0.49
+     }
+    ],
+    "nav": {
+     "links": 1,
+     "fixed": false,
+     "height": 79,
+     "floatingPill": false,
+     "blur": false
+    },
+    "fontsLoaded": [
+     "gambarino",
+     "general sans"
+    ]
+   },
+   "layout": {
+    "viewport": {
+     "w": 768,
+     "h": 1024
+    },
+    "pageH": 6146,
+    "margins": {
+     "left": 20,
+     "right": 20
+    },
+    "sections": [
+     {
+      "sel": "header.hero",
+      "tag": "header",
+      "top": 79,
+      "height": 1120,
+      "words": 17,
+      "media": 0,
+      "middle": 0,
+      "heading": null,
+      "left": 65,
+      "right": 65,
+      "textLeft": 65,
+      "textRight": 65,
+      "fullBleed": false,
+      "footer": false,
+      "hero": true,
+      "continues": false,
+      "pinned": false
+     },
+     {
+      "sel": "div.cat-head",
+      "tag": "div",
+      "top": 1295,
+      "height": 188,
+      "words": 33,
+      "media": 0,
+      "middle": 0,
+      "heading": null,
+      "left": 20,
+      "right": 315,
+      "textLeft": 20,
+      "textRight": 315,
+      "fullBleed": false,
+      "footer": false,
+      "hero": false,
+      "continues": true,
+      "pinned": false
+     },
+     {
+      "sel": "article.piece",
+      "tag": "article",
+      "top": 1579,
+      "height": 1021,
+      "words": 53,
+      "media": 1,
+      "middle": 0,
+      "heading": null,
+      "left": 20,
+      "right": 20,
+      "textLeft": 20,
+      "textRight": 198,
+      "fullBleed": false,
+      "footer": false,
+      "hero": false,
+      "continues": true,
+      "pinned": false
+     },
+     {
+      "sel": "article.piece",
+      "tag": "article",
+      "top": 2600,
+      "height": 1021,
+      "words": 48,
+      "media": 1,
+      "middle": 0,
+      "heading": null,
+      "left": 20,
+      "right": 20,
+      "textLeft": 20,
+      "textRight": 240,
+      "fullBleed": false,
+      "footer": false,
+      "hero": false,
+      "continues": true,
+      "pinned": false
+     },
+     {
+      "sel": "section.dial-wrap",
+      "tag": "section",
+      "top": 3718,
+      "height": 1212,
+      "words": 37,
+      "media": 1,
+      "middle": 0,
+      "heading": {
+       "text": "Six times faster, measured.",
+       "size": 52,
+       "tag": "h2"
+      },
+      "left": 20,
+      "right": 228,
+      "textLeft": 20,
+      "textRight": 250,
+      "fullBleed": false,
+      "footer": false,
+      "hero": false,
+      "continues": false,
+      "pinned": false
+     },
+     {
+      "sel": "section#letters.letters",
+      "tag": "section",
+      "top": 4930,
+      "height": 737,
+      "words": 49,
+      "media": 0,
+      "middle": 0,
+      "heading": {
+       "text": "Letters of reference",
+       "size": 52,
+       "tag": "h2"
+      },
+      "left": 20,
+      "right": 111,
+      "textLeft": 20,
+      "textRight": 111,
+      "fullBleed": false,
+      "footer": false,
+      "hero": false,
+      "continues": false,
+      "pinned": false
+     },
+     {
+      "sel": "footer#contact",
+      "tag": "footer",
+      "top": 5667,
+      "height": 479,
+      "words": 21,
+      "media": 0,
+      "middle": 0,
+      "heading": {
+       "text": "AHMED WAGDY",
+       "size": 31,
+       "tag": "div"
+      },
+      "left": 112,
+      "right": 112,
+      "textLeft": 112,
+      "textRight": 112,
+      "fullBleed": false,
+      "footer": true,
+      "hero": false,
+      "continues": false,
+      "pinned": false
+     }
+    ],
+    "gaps": [
+     {
+      "top": 3548,
+      "height": 316
+     }
+    ],
+    "h1s": [
+     {
+      "text": "Infrastructure, made to keep time.",
+      "size": 69,
+      "top": 844,
+      "firstScreen": true
+     }
+    ],
+    "edgeText": [],
+    "edges": [
+     {
+      "x": 20,
+      "n": 9
+     },
+     {
+      "x": 68,
+      "n": 2
+     }
+    ],
+    "leftBlocks": 11,
+    "bodySize": 18,
+    "stage": false,
+    "explains": false,
+    "slivers": [],
+    "voidShare": 0,
+    "voidBox": null
+   },
+   "app": null,
+   "consoleErrors": []
+  },
+  {
+   "width": 390,
+   "height": 844,
+   "load": "load",
+   "screens": 7,
+   "filled": [
+    0.49,
+    0.53,
+    0.59,
+    0.74,
+    0.78,
+    0.76,
+    0.8
+   ],
+   "motion": {
+    "elements": 18,
+    "css": 1,
+    "transitions": 17,
+    "scripted": 0,
+    "videos": 0,
+    "playingVideos": 0
+   },
+   "metrics": {
+    "viewport": {
+     "w": 390,
+     "h": 844
+    },
+    "page": {
+     "height": 5341,
+     "screens": 6.3,
+     "words": 260,
+     "img": 2,
+     "video": 0,
+     "canvas": 0,
+     "svg": 2,
+     "sections": 3,
+     "horizontalOverflow": 0,
+     "overflowCulprits": [],
+     "uiFragments": 0,
+     "uiAbuse": false,
+     "realPictures": 2,
+     "videoCount": 0,
+     "uiPictures": 0,
+     "pictureSamples": [
+      "portrait.jpg",
+      "racks-amravati-data-center.jpg"
+     ],
+     "blendText": 0,
+     "sideScrollers": 0,
+     "brokenImages": [],
+     "emoji": [],
+     "videosNoPoster": 0
+    },
+    "hero": {
+     "text": "Infrastructure, made to keep time.",
+     "words": 5,
+     "chars": 34,
+     "lines": 2,
+     "size": 35.1,
+     "vw": 9,
+     "font": "Gambarino",
+     "weight": 400,
+     "tracking": -0.02,
+     "leading": 0.95,
+     "upper": false,
+     "italic": false,
+     "mono": false,
+     "align": "center",
+     "position": "center",
+     "widthRatio": 0.9,
+     "top": 524,
+     "tag": "h1",
+     "kind": "heading"
+    },
+    "h1": {
+     "text": "Infrastructure, made to keep time.",
+     "words": 5,
+     "lines": 2,
+     "size": 35.1,
+     "font": "Gambarino"
+    },
+    "headings": [
+     {
+      "text": "Infrastructure, made to keep time.",
+      "words": 5,
+      "chars": 34,
+      "lines": 2,
+      "size": 35.1,
+      "vw": 9,
+      "font": "Gambarino",
+      "weight": 400,
+      "tracking": -0.02,
+      "leading": 0.95,
+      "upper": false,
+      "italic": false,
+      "mono": false,
+      "align": "center",
+      "position": "center",
+      "widthRatio": 0.9,
+      "top": 524,
+      "tag": "h1",
+      "kind": "heading"
+     },
+     {
+      "text": "The catalogue",
+      "words": 2,
+      "chars": 13,
+      "lines": 1,
+      "size": 38.4,
+      "vw": 9.8,
+      "font": "Gambarino",
+      "weight": 400,
+      "tracking": -0.02,
+      "leading": 0.95,
+      "upper": false,
+      "italic": false,
+      "mono": false,
+      "align": "left",
+      "position": "center",
+      "widthRatio": 0.9,
+      "top": 939,
+      "tag": "h2",
+      "kind": "heading"
+     },
+     {
+      "text": "The Gateway",
+      "words": 2,
+      "chars": 11,
+      "lines": 1,
+      "size": 36,
+      "vw": 9.2,
+      "font": "Gambarino",
+      "weight": 400,
+      "tracking": -0.02,
+      "leading": 0.95,
+      "upper": false,
+      "italic": false,
+      "mono": false,
+      "align": "left",
+      "position": "center",
+      "widthRatio": 0.9,
+      "top": 1597,
+      "tag": "h3",
+      "kind": "heading"
+     },
+     {
+      "text": "The GPU Node",
+      "words": 3,
+      "chars": 12,
+      "lines": 1,
+      "size": 36,
+      "vw": 9.2,
+      "font": "Gambarino",
+      "weight": 400,
+      "tracking": -0.02,
+      "leading": 0.95,
+      "upper": false,
+      "italic": false,
+      "mono": false,
+      "align": "left",
+      "position": "center",
+      "widthRatio": 0.9,
+      "top": 2452,
+      "tag": "h3",
+      "kind": "heading"
+     },
+     {
+      "text": "Six times faster, measured.",
+      "words": 4,
+      "chars": 27,
+      "lines": 2,
+      "size": 38.4,
+      "vw": 9.8,
+      "font": "Gambarino",
+      "weight": 400,
+      "tracking": -0.02,
+      "leading": 0.95,
+      "upper": false,
+      "italic": false,
+      "mono": false,
+      "align": "left",
+      "position": "left",
+      "widthRatio": 0.66,
+      "top": 3099,
+      "tag": "h2",
+      "kind": "heading"
+     },
+     {
+      "text": "0%",
+      "words": 1,
+      "chars": 2,
+      "lines": 1,
+      "size": 40,
+      "vw": 10.3,
+      "font": "Gambarino",
+      "weight": 400,
+      "tracking": 0,
+      "leading": 1,
+      "upper": false,
+      "italic": false,
+      "mono": false,
+      "align": "left",
+      "position": "left",
+      "widthRatio": 0.13,
+      "top": 3741,
+      "tag": "b",
+      "kind": "heading"
+     },
+     {
+      "text": "0%",
+      "words": 1,
+      "chars": 2,
+      "lines": 1,
+      "size": 40,
+      "vw": 10.3,
+      "font": "Gambarino",
+      "weight": 400,
+      "tracking": 0,
+      "leading": 1,
+      "upper": false,
+      "italic": false,
+      "mono": false,
+      "align": "left",
+      "position": "center",
+      "widthRatio": 0.13,
+      "top": 3741,
+      "tag": "b",
+      "kind": "heading"
+     },
+     {
+      "text": "0",
+      "words": 1,
+      "chars": 1,
+      "lines": 1,
+      "size": 40,
+      "vw": 10.3,
+      "font": "Gambarino",
+      "weight": 400,
+      "tracking": 0,
+      "leading": 1,
+      "upper": false,
+      "italic": false,
+      "mono": false,
+      "align": "left",
+      "position": "right",
+      "widthRatio": 0.06,
+      "top": 3741,
+      "tag": "b",
+      "kind": "heading"
+     },
+     {
+      "text": "Letters of reference",
+      "words": 3,
+      "chars": 20,
+      "lines": 1,
+      "size": 38.4,
+      "vw": 9.8,
+      "font": "Gambarino",
+      "weight": 400,
+      "tracking": -0.02,
+      "leading": 0.95,
+      "upper": false,
+      "italic": false,
+      "mono": false,
+      "align": "left",
+      "position": "center",
+      "widthRatio": 0.9,
+      "top": 4046,
+      "tag": "h2",
+      "kind": "heading"
+     },
+     {
+      "text": "A true DevOps geek with real depth in cloud infrastructure, who can also step back and build products end to end.",
+      "words": 21,
+      "chars": 113,
+      "lines": 5,
+      "size": 24,
+      "vw": 6.2,
+      "font": "Gambarino",
+      "weight": 400,
+      "tracking": 0,
+      "leading": 1.2,
+      "upper": false,
+      "italic": false,
+      "mono": false,
+      "align": "left",
+      "position": "center",
+      "widthRatio": 0.65,
+      "top": 4187,
+      "tag": "blockquote",
+      "kind": "statement"
+     },
+     {
+      "text": "Any team would be lucky to have Ahmed. He’s talented and reliable.",
+      "words": 12,
+      "chars": 66,
+      "lines": 3,
+      "size": 24,
+      "vw": 6.2,
+      "font": "Gambarino",
+      "weight": 400,
+      "tracking": 0,
+      "leading": 1.2,
+      "upper": false,
+      "italic": false,
+      "mono": false,
+      "align": "left",
+      "position": "center",
+      "widthRatio": 0.65,
+      "top": 4532,
+      "tag": "blockquote",
+      "kind": "statement"
+     },
+     {
+      "text": "Available for platform and MLOps work.",
+      "words": 6,
+      "chars": 38,
+      "lines": 2,
+      "size": 28,
+      "vw": 7.2,
+      "font": "Gambarino",
+      "weight": 400,
+      "tracking": -0.02,
+      "leading": 0.95,
+      "upper": false,
+      "italic": false,
+      "mono": false,
+      "align": "center",
+      "position": "center",
+      "widthRatio": 0.9,
+      "top": 4955,
+      "tag": "p",
+      "kind": "statement"
+     }
+    ],
+    "headingSummary": {
+     "count": 12,
+     "maxLines": 5,
+     "over2Lines": 0,
+     "statements": 3,
+     "centered": 2,
+     "medianWords": 3,
+     "mixedFontHeadings": 0
+    },
+    "type": {
+     "families": [
+      {
+       "family": "General Sans",
+       "share": 0.79,
+       "mono": false
+      },
+      {
+       "family": "Gambarino",
+       "share": 0.21,
+       "mono": false
+      }
+     ],
+     "familyCount": 2,
+     "sizes": [
+      13,
+      15,
+      16,
+      17,
+      18,
+      24,
+      28,
+      35,
+      36,
+      38,
+      40
+     ],
+     "sizeCount": 11,
+     "notLoaded": [],
+     "body": {
+      "font": "General Sans",
+      "size": 17,
+      "leading": 1.5,
+      "weight": 400,
+      "tracking": 0,
+      "contrast": 8.7
+     },
+     "measureChars": 41,
+     "max": {
+      "size": 40,
+      "vw": 10.3,
+      "font": "Gambarino",
+      "text": "0%"
+     },
+     "monoShare": 0,
+     "monoProseShare": 0,
+     "monoFamilies": [],
+     "monoSamples": [],
+     "microLabels": 0,
+     "microLabelShare": 0,
+     "microSamples": [],
+     "upperShare": 0.02,
+     "centerShare": 0.17,
+     "smallText": 0
+    },
+    "eyebrows": [],
+    "numbered": [],
+    "color": {
+     "bodyBg": "#ecebe7",
+     "bodyBgHsl": {
+      "h": 48,
+      "s": 0.12,
+      "l": 0.92
+     },
+     "dark": false,
+     "sectionBgs": [
+      {
+       "color": "#38450f",
+       "top": 2939,
+       "hsl": {
+        "h": 74,
+        "s": 0.64,
+        "l": 0.16
+       }
+      },
+      {
+       "color": "#e1dfd9",
+       "top": 4139,
+       "hsl": {
+        "h": 45,
+        "s": 0.12,
+        "l": 0.87
+       }
+      }
+     ],
+     "textColors": [
+      {
+       "color": "#38450f",
+       "share": 0.63
+      },
+      {
+       "color": "#ecebe7",
+       "share": 0.23
+      },
+      {
+       "color": "#5d683a",
+       "share": 0.13
+      }
+     ],
+     "button": {
+      "bg": "#38450f",
+      "hsl": {
+       "h": 74,
+       "s": 0.64,
+       "l": 0.16
+      },
+      "fg": "#ecebe7"
+     },
+     "lowContrast": []
+    },
+    "buttons": {
+     "count": 2,
+     "inHero": 1,
+     "radius": 0,
+     "height": 51,
+     "withShadow": 0,
+     "withGradient": 0,
+     "mono": 0,
+     "upper": 0,
+     "heroLabels": [
+      "Request a conversation"
+     ]
+    },
+    "surfaces": {
+     "shadowStatic": 0,
+     "shadowOverlay": 0,
+     "shadowSamples": [],
+     "gradients": 0,
+     "scrims": 0,
+     "gradientSamples": [],
+     "gradientText": 0,
+     "hairlines": 0,
+     "hairlineSamples": [],
+     "outlinedBoxes": 0,
+     "dashed": 0,
+     "blurred": 0,
+     "roundedBoxes": 0,
+     "boxRadius": 0,
+     "squareMedia": 2,
+     "roundedMedia": 0,
+     "mediaRadius": 0,
+     "textShadow": 0,
+     "cardRows": []
+    },
+    "heroMedia": [
+     {
+      "type": "img",
+      "ratio": 0.3
+     }
+    ],
+    "nav": {
+     "links": 1,
+     "fixed": false,
+     "height": 79,
+     "floatingPill": false,
+     "blur": false
+    },
+    "fontsLoaded": [
+     "gambarino",
+     "general sans"
+    ]
+   },
+   "layout": {
+    "viewport": {
+     "w": 390,
+     "h": 844
+    },
+    "pageH": 5341,
+    "margins": {
+     "left": 20,
+     "right": 20
+    },
+    "sections": [
+     {
+      "sel": "header.hero",
+      "tag": "header",
+      "top": 79,
+      "height": 764,
+      "words": 17,
+      "media": 1,
+      "middle": 0,
+      "heading": {
+       "text": "Infrastructure, made to keep time.",
+       "size": 35,
+       "tag": "h1"
+      },
+      "left": 33,
+      "right": 33,
+      "textLeft": 33,
+      "textRight": 33,
+      "fullBleed": false,
+      "footer": false,
+      "hero": true,
+      "continues": false,
+      "pinned": false
+     },
+     {
+      "sel": "div.cat-head",
+      "tag": "div",
+      "top": 939,
+      "height": 196,
+      "words": 33,
+      "media": 0,
+      "middle": 0,
+      "heading": null,
+      "left": 20,
+      "right": 38,
+      "textLeft": 20,
+      "textRight": 38,
+      "fullBleed": false,
+      "footer": false,
+      "hero": false,
+      "continues": true,
+      "pinned": false
+     },
+     {
+      "sel": "article.piece",
+      "tag": "article",
+      "top": 1230,
+      "height": 855,
+      "words": 53,
+      "media": 1,
+      "middle": 0,
+      "heading": {
+       "text": "The Gateway",
+       "size": 36,
+       "tag": "h3"
+      },
+      "left": 20,
+      "right": 20,
+      "textLeft": 20,
+      "textRight": 22,
+      "fullBleed": false,
+      "footer": false,
+      "hero": false,
+      "continues": true,
+      "pinned": false
+     },
+     {
+      "sel": "article.piece",
+      "tag": "article",
+      "top": 2086,
+      "height": 758,
+      "words": 48,
+      "media": 1,
+      "middle": 0,
+      "heading": {
+       "text": "The GPU Node",
+       "size": 36,
+       "tag": "h3"
+      },
+      "left": 20,
+      "right": 20,
+      "textLeft": 20,
+      "textRight": 29,
+      "fullBleed": false,
+      "footer": false,
+      "hero": false,
+      "continues": true,
+      "pinned": false
+     },
+     {
+      "sel": "section.dial-wrap",
+      "tag": "section",
+      "top": 2939,
+      "height": 1011,
+      "words": 37,
+      "media": 1,
+      "middle": 0,
+      "heading": {
+       "text": "Six times faster, measured.",
+       "size": 38,
+       "tag": "h2"
+      },
+      "left": 20,
+      "right": 20,
+      "textLeft": 20,
+      "textRight": 26,
+      "fullBleed": false,
+      "footer": false,
+      "hero": false,
+      "continues": false,
+      "pinned": false
+     },
+     {
+      "sel": "section#letters.letters",
+      "tag": "section",
+      "top": 3950,
+      "height": 885,
+      "words": 49,
+      "media": 0,
+      "middle": 0,
+      "heading": {
+       "text": "Letters of reference",
+       "size": 38,
+       "tag": "h2"
+      },
+      "left": 20,
+      "right": 70,
+      "textLeft": 20,
+      "textRight": 70,
+      "fullBleed": false,
+      "footer": false,
+      "hero": false,
+      "continues": false,
+      "pinned": false
+     },
+     {
+      "sel": "footer#contact",
+      "tag": "footer",
+      "top": 4835,
+      "height": 506,
+      "words": 21,
+      "media": 0,
+      "middle": 0,
+      "heading": {
+       "text": "Available for platform and MLOps work.",
+       "size": 28,
+       "tag": "p"
+      },
+      "left": 29,
+      "right": 29,
+      "textLeft": 29,
+      "textRight": 29,
+      "fullBleed": false,
+      "footer": true,
+      "hero": false,
+      "continues": false,
+      "pinned": false
+     }
+    ],
+    "gaps": [
+     {
+      "top": 2772,
+      "height": 316
+     },
+     {
+      "top": 4692,
+      "height": 256
+     }
+    ],
+    "h1s": [
+     {
+      "text": "Infrastructure, made to keep time.",
+      "size": 35,
+      "top": 524,
+      "firstScreen": true
+     }
+    ],
+    "edgeText": [],
+    "edges": [
+     {
+      "x": 20,
+      "n": 9
+     },
+     {
+      "x": 68,
+      "n": 2
+     }
+    ],
+    "leftBlocks": 11,
+    "bodySize": 17,
+    "stage": false,
+    "explains": false,
+    "slivers": [],
+    "voidShare": 0,
+    "voidBox": null
+   },
+   "app": null,
+   "consoleErrors": []
+  }
+ ],
+ "findings": [
+  {
+   "level": "WARN",
+   "id": "size-count",
+   "width": 1440,
+   "message": "11 different font sizes (13, 15, 16, 19, 23, 32, 40, 43, 58, 78, 86).",
+   "fix": "A page needs about five: display, heading, lead, body, small.",
+   "alsoAt": [
+    768,
+    390
+   ]
+  },
+  {
+   "level": "FAIL",
+   "id": "few-pictures",
+   "width": 1440,
+   "message": "Only 2 picture(s) on the page (2 photographs, footage or raster images, 0 interface fragments). Drawings in SVG do not count.",
+   "fix": "Find real pictures of the subject's world with scripts/assets.mjs (photographs, archival images, maps, engravings, footage), download them to assets/ and give them room: a hero picture, one per section that has a subject, a full-width band. At least four, usually six to twelve."
+  },
+  {
+   "level": "WARN",
+   "id": "no-footage",
+   "width": 1440,
+   "message": "No video anywhere on the page.",
+   "fix": "Look for one honest clip with scripts/assets.mjs --video (the place, the material, the process) and use it as a muted loop with a poster frame. Defend its absence only if no clip fits the subject."
+  },
+  {
+   "level": "WARN",
+   "id": "first-action",
+   "width": 768,
+   "message": "No visible button in the first screen.",
+   "fix": "Give the one primary action a real button in the first screen (a filled or solid-bordered control, 44px or taller), not only a link in the navigation."
+  },
+  {
+   "level": "WARN",
+   "id": "statement-length",
+   "width": 390,
+   "message": "1 large-set statement(s) run past 4 lines at 390px: \"A true DevOps geek with real depth in cl…\" → 5 lines at 24px",
+   "fix": "A statement set large is about 30 words. Cut it, or set the rest as ordinary body text."
+  }
+ ],
+ "images": [
+  {
+   "viewport": "desktop",
+   "width": 1440,
+   "fold": "/Users/wagdy/Desktop/Professional-Portfolio/.taste-skill/inspect-b-instrument/desktop-fold.jpg",
+   "pages": [
+    "/Users/wagdy/Desktop/Professional-Portfolio/.taste-skill/inspect-b-instrument/desktop-page-01.jpg",
+    "/Users/wagdy/Desktop/Professional-Portfolio/.taste-skill/inspect-b-instrument/desktop-page-02.jpg"
+   ],
+   "film": []
+  },
+  {
+   "viewport": "tablet",
+   "width": 768,
+   "fold": "/Users/wagdy/Desktop/Professional-Portfolio/.taste-skill/inspect-b-instrument/tablet-fold.jpg",
+   "pages": [
+    "/Users/wagdy/Desktop/Professional-Portfolio/.taste-skill/inspect-b-instrument/tablet-page-01.jpg",
+    "/Users/wagdy/Desktop/Professional-Portfolio/.taste-skill/inspect-b-instrument/tablet-page-02.jpg"
+   ],
+   "film": []
+  },
+  {
+   "viewport": "mobile",
+   "width": 390,
+   "fold": "/Users/wagdy/Desktop/Professional-Portfolio/.taste-skill/inspect-b-instrument/mobile-fold.jpg",
+   "pages": [
+    "/Users/wagdy/Desktop/Professional-Portfolio/.taste-skill/inspect-b-instrument/mobile-page-01.jpg"
+   ],
+   "film": []
+  }
+ ]
+}

@@ -1,0 +1,190 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Ahmed Wagdy — Annual Report</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=EB+Garamond:ital,wght@0,400;0,500;1,400;1,500&display=swap" rel="stylesheet">
+<style>
+:root{
+  --bg:#0d060b;--surface:#1b0e17;--ink:#ffffff;--muted:#a89ca5;--accent:#ff488b;--accent-ink:#0d060b;
+  --plum:#470c35;--paper:#ffffff;--paper-ink:#101421;--paper-2:#f3f0f2;
+  --body:clamp(1.125rem,1.05rem + .3vw,1.3125rem);--lead:clamp(1.25rem,1.1rem + .7vw,1.625rem);--head:clamp(2.4rem,1.3rem + 4vw,5rem);
+  --m:16px;--axis:42%;
+}
+*{box-sizing:border-box;margin:0;padding:0}
+html{background:var(--bg)}
+body{background:var(--bg);color:var(--ink);font-family:"EB Garamond",Georgia,serif;font-size:var(--body);line-height:1.5;-webkit-font-smoothing:antialiased}
+a{color:inherit}
+img{display:block;max-width:100%}
+
+/* masthead */
+.mast{height:52svh;display:grid;grid-template-columns:repeat(6,1fr);grid-template-rows:1fr 1fr;position:relative}
+.mast > div{overflow:hidden;position:relative}
+.mast img{width:100%;height:100%;object-fit:cover;filter:grayscale(1) contrast(1.05);transition:transform 1.4s cubic-bezier(.2,.7,.2,1)}
+.mast > div:hover img{transform:scale(1.04)}
+.m1{grid-area:1/1/2/3}.m2{background:var(--plum);grid-area:1/3/3/4}.m4{background:var(--accent);grid-area:1/4/2/5}.m5{grid-area:1/5/2/7}.m6{background:var(--paper);grid-area:2/1/3/2}.m3{grid-area:2/2/3/3}.m7{grid-area:2/4/3/7}
+.bar{position:absolute;top:0;left:0;right:0;display:flex;align-items:stretch;font-size:17px;z-index:2}
+.bar .wm{background:var(--bg);padding:14px 20px;text-decoration:none;font-weight:500}
+.bar .tab{background:var(--accent);color:var(--accent-ink);display:flex;gap:28px;padding:14px 22px;width:calc(var(--axis) - 150px)}
+.bar .tab a{text-decoration:none}
+.bar .tab a:hover{text-decoration:underline}
+.bar .act{margin-left:auto;background:var(--bg);padding:14px 20px;text-decoration:none}
+.bar .act:hover{color:var(--accent)}
+
+.title{display:grid;grid-template-columns:var(--axis) 1fr;padding:96px var(--m) 120px;align-items:start}
+.title .stand{font-size:20px;max-width:30ch;padding-right:24px}
+.title .btn{margin-top:28px}
+.title h1{font-size:clamp(64px,8.3vw,128px);font-weight:500;font-style:italic;letter-spacing:-.04em;line-height:.9}
+.title h1 span{display:block;overflow:hidden}
+.title h1 span i{display:block;font-style:inherit;transform:translateY(105%);animation:rise .9s cubic-bezier(.2,.8,.2,1) forwards}
+.title h1 span:nth-child(2) i{animation-delay:.11s}
+@keyframes rise{to{transform:none}}
+.btn{display:inline-block;background:var(--accent);color:var(--accent-ink);text-decoration:none;padding:14px 24px;font-size:18px;font-weight:500;transition:transform .15s,background .2s}
+.btn:hover{background:#ff6fa3}
+.btn:active{transform:scale(.97)}
+
+/* figures, white middle */
+.paper{background:var(--paper);color:var(--paper-ink)}
+.figs{padding:160px var(--m)}
+.figs .head{display:grid;grid-template-columns:var(--axis) 1fr}
+.figs h2{grid-column:2;font-size:var(--head);font-weight:400;letter-spacing:-.03em;line-height:1}
+.figs .head p{grid-column:2;margin-top:24px;max-width:48ch}
+.figgrid{margin-top:96px;display:grid;grid-template-columns:repeat(4,1fr);gap:0}
+.fig{padding:40px 24px 40px 0}
+.fig b{display:block;font-size:clamp(64px,7vw,120px);font-weight:400;letter-spacing:-.04em;line-height:.9}
+.fig b em{font-style:normal;color:var(--accent)}
+.fig span{display:block;margin-top:16px;font-size:18px;max-width:22ch}
+
+/* chapters: text page */
+.chapter{padding:160px var(--m);display:grid;grid-template-columns:var(--axis) 1fr 1fr;gap:0 40px;background:var(--paper-2);color:var(--paper-ink)}
+.chapter aside{font-size:17px;color:#55596a;padding-right:32px}
+.chapter aside img{width:70%;aspect-ratio:4/5;object-fit:cover;filter:grayscale(1);margin-bottom:16px}
+.chapter h2{grid-column:2/4;font-size:var(--head);font-weight:400;letter-spacing:-.03em;line-height:1;margin-bottom:48px}
+.chapter .colA{grid-column:2}.chapter .colB{grid-column:3}
+.chapter p+p{margin-top:1em}
+.chapter p{max-width:40ch}
+
+/* letters: live thing */
+.letters{background:var(--plum);padding:160px var(--m);display:grid;grid-template-columns:var(--axis) 1fr}
+.letters h2{font-size:var(--head);font-weight:400;font-style:italic;letter-spacing:-.03em;line-height:1;padding-right:32px}
+.who{margin-top:40px;display:flex;flex-direction:column;gap:4px}
+.who button{font:inherit;font-size:19px;text-align:left;background:transparent;color:var(--muted);border:0;padding:8px 0;cursor:pointer;transition:color .2s,transform .2s}
+.who button:hover{color:var(--ink);transform:translateX(6px)}
+.who button[aria-pressed=true]{color:var(--accent)}
+.letter blockquote{font-size:clamp(24px,2.3vw,34px);line-height:1.3;max-width:34ch;transition:opacity .35s}
+.letter cite{display:block;margin-top:32px;font-style:normal;font-size:18px;color:var(--muted)}
+
+footer{background:var(--bg);min-height:90svh;display:grid;grid-template-rows:auto 1fr auto;padding:40px var(--m) 20px}
+.fcols{display:grid;grid-template-columns:repeat(4,1fr);gap:24px;font-size:17px}
+.fcols div{display:flex;flex-direction:column}
+.fcols div > :first-child{color:var(--muted)}
+.fcols a{text-decoration:none}.fcols a:hover{color:var(--accent)}
+footer svg{width:100%;align-self:end}
+footer small{font-size:13px;color:var(--muted);margin-top:12px}
+
+.r{opacity:0;transform:translateY(24px);transition:opacity .8s ease,transform .8s cubic-bezier(.2,.7,.2,1)}
+.r.in{opacity:1;transform:none}
+.no-js .r{opacity:1;transform:none}
+@media (prefers-reduced-motion:reduce){.r{opacity:1;transform:none;transition:none}.title h1 span i{animation:none;transform:none}}
+@media (max-width:860px){
+  .mast{height:38svh;grid-template-columns:repeat(3,1fr)}
+  .m1{grid-area:1/1/2/3}.m4{grid-area:1/3/2/4}.m3{grid-area:2/1/3/2}.m2{grid-area:2/2/3/3}.m7{grid-area:2/3/3/4}.m5,.m6{display:none}
+  .bar .tab{display:none}
+  .title,.figs .head,.chapter,.letters{grid-template-columns:1fr}
+  .title{padding:56px var(--m) 80px}
+  .title h1{font-size:13vw;order:-1;margin-bottom:24px}
+  .figs h2,.figs .head p,.chapter h2,.chapter .colA,.chapter .colB{grid-column:1}
+  .figgrid{grid-template-columns:1fr 1fr}
+  .chapter aside{display:none}
+  .fcols{grid-template-columns:1fr 1fr;row-gap:28px}
+}
+</style>
+</head>
+<body class="no-js">
+<div class="mast">
+  <nav class="bar"><a class="wm" href="#">Ahmed Wagdy</a><div class="tab"><a href="#figures">Figures</a><a href="#incorta">Chapters</a><a href="#letters">Letters</a></div><a class="act" href="mailto:ahmedwagdymohy@gmail.com">Contact</a></nav>
+  <div class="m1"><img src="shared/cairo-skyline-panoramic-view-egypt.jpg" alt="Panorama of Cairo and the Nile" width="1200" height="800"></div>
+  <div class="m2"></div>
+  <div class="m3"><img src="shared/portrait.jpg" alt="Ahmed Wagdy" width="1000" height="1000" style="object-position:50% 20%"></div>
+  <div class="m4"></div>
+  <div class="m5"><img src="shared/cairo-university-3.jpg" alt="Cairo University main building" width="1200" height="900"></div>
+  <div class="m6"></div>
+  <div class="m7"><img src="shared/racks-amravati-data-center.jpg" alt="An aisle of server racks" width="1200" height="800"></div>
+</div>
+
+<header class="title">
+  <div>
+    <p class="stand">Ahmed Wagdy, DevOps, platform and MLOps engineer in Cairo, reports on a year of running AI infrastructure in production.</p>
+    <a class="btn" href="mailto:ahmedwagdymohy@gmail.com">Hire me</a>
+  </div>
+  <h1><span><i>A year in</i></span><span><i>production</i></span></h1>
+</header>
+
+<section class="paper figs" id="figures">
+  <div class="head">
+    <h2 class="r">The year in figures</h2>
+    <p class="r">Measured where it was measured: on bills, on pipelines, on load times and on a scoreboard.</p>
+  </div>
+  <div class="figgrid">
+    <div class="fig r"><b>14<em>%</em></b><span>off the AWS bill through rightsizing</span></div>
+    <div class="fig r"><b>6<em>×</em></b><span>faster bulk load, 2.5 hours to 25 minutes</span></div>
+    <div class="fig r"><b>~25</b><span>delivery pipelines that can add a security gate in one line</span></div>
+    <div class="fig r"><b>3<em>rd</em></b><span>of more than 140 teams at DevOpsDays Cairo</span></div>
+  </div>
+</section>
+
+<section class="chapter" id="incorta">
+  <aside><img src="shared/cairo-university-after-sunset.jpg" alt="Cairo University at night" width="1200" height="670" loading="lazy">Incorta, New Cairo. August 2025 to now.</aside>
+  <h2 class="r">Chapter one: the AI platform</h2>
+  <div class="colA r">
+    <p>Incorta’s engineers needed one sanctioned way to reach language models. I deployed LiteLLM as the company-wide gateway on GCP, backed by Cloud SQL, with per-team quotas and usage tracking.</p>
+    <p>When high-volume logs crashed its dashboard, I built a central observability layer on Langfuse, ingesting OpenTelemetry traces from both gateways across projects over Private Service Connect.</p>
+  </div>
+  <div class="colB r">
+    <p>Then came the agents: an on-call agent in Slack and Telegram that reads the daily builds, an AIOps API on Cloud Run that lets agents see cluster data, and a hardened build of OpenCode for the whole company.</p>
+    <p>Under them sit NVIDIA DGX Spark machines as GPU nodes in K3s, and dedicated CPU and GPU pools on GKE for GoodMem and the Reranker.</p>
+  </div>
+</section>
+
+<section class="letters" id="letters">
+  <div>
+    <h2 class="r">Letters of reference</h2>
+    <div class="who" role="group" aria-label="Choose a letter">
+      <button aria-pressed="true" data-i="0">Mohamed Ghayaty</button>
+      <button aria-pressed="false" data-i="1">Amr ElNaggar</button>
+      <button aria-pressed="false" data-i="2">Ghassan Elgendy</button>
+      <button aria-pressed="false" data-i="3">Mariam El Madbouly</button>
+    </div>
+  </div>
+  <div class="letter" aria-live="polite"><blockquote id="q"></blockquote><cite id="c"></cite></div>
+</section>
+
+<footer>
+  <div class="fcols">
+    <div><span>Write</span><a href="mailto:ahmedwagdymohy@gmail.com">ahmedwagdymohy@gmail.com</a></div>
+    <div><span>Call</span><a href="tel:+201003207939">+20 10032 07939</a></div>
+    <div><span>Elsewhere</span><a href="https://github.com/Ahmedwagdymohy">GitHub</a><a href="https://linkedin.com/in/ahmedwagdymohy">LinkedIn</a></div>
+    <div><span>Based in</span><span>Cairo, Egypt</span></div>
+  </div>
+  <svg viewBox="0 0 1000 130" aria-label="Ahmed Wagdy"><text x="0" y="112" textLength="1000" lengthAdjust="spacingAndGlyphs" font-family="EB Garamond" font-style="italic" font-weight="500" font-size="150" fill="#fff">Ahmed Wagdy</text></svg>
+  <small>Photos via Wikimedia Commons: Vyacheslav Argenberg (CC BY 4.0); Faris knight, PiDatacenters (CC BY-SA 3.0/4.0).</small>
+</footer>
+
+<script>
+document.body.classList.remove('no-js');
+const io=new IntersectionObserver(es=>es.forEach(e=>{if(e.isIntersecting){const sib=[...e.target.parentElement.querySelectorAll('.r')];setTimeout(()=>e.target.classList.add('in'),sib.indexOf(e.target)*80);io.unobserve(e.target)}}),{threshold:.15});
+document.querySelectorAll('.r').forEach(el=>io.observe(el));
+const L=[
+ ['He quickly became someone the team relied on, not just “the intern.” A true DevOps geek who can also build products end to end.','Mohamed Ghayaty, Senior Engineering Manager, Incorta. Managed Ahmed directly.'],
+ ['Whenever a new task or unfamiliar technology came up, he took it on willingly, figured it out, and delivered. Any team would be lucky to have Ahmed.','Amr ElNaggar, Senior DevOps Manager, Incorta. Managed Ahmed directly.'],
+ ['His clear communication and sharp problem-solving kept our momentum high under tight pressure, and his contributions were a massive part of why we succeeded.','Ghassan Elgendy, Cloud & Solutions Architect. Teammate, DevOpsDays 2026 Hackathon.'],
+ ['From the very beginning, he demonstrated a genuine interest in understanding things deeply.','Mariam El Madbouly, DevOps Engineer, Incorta. Ahmed’s mentor.']];
+function pick(i){const q=document.getElementById('q');q.style.opacity=0;setTimeout(()=>{q.textContent=L[i][0];document.getElementById('c').textContent=L[i][1];q.style.opacity=1},200)}
+document.querySelectorAll('.who button').forEach(b=>b.onclick=()=>{document.querySelectorAll('.who button').forEach(x=>x.setAttribute('aria-pressed',x===b));pick(+b.dataset.i)});
+pick(0);
+</script>
+</body>
+</html>

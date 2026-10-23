@@ -1,0 +1,2111 @@
+{
+ "url": "http://localhost:4101/",
+ "at": "2026-10-23T12:38:22.553Z",
+ "allow": [],
+ "viewports": [
+  {
+   "width": 1440,
+   "height": 900,
+   "load": "load",
+   "screens": 5,
+   "filled": [
+    0.95,
+    0.31,
+    0.77,
+    0.49,
+    1
+   ],
+   "motion": {
+    "elements": 9,
+    "css": 2,
+    "transitions": 7,
+    "scripted": 0,
+    "videos": 0,
+    "playingVideos": 0
+   },
+   "metrics": {
+    "viewport": {
+     "w": 1440,
+     "h": 900
+    },
+    "page": {
+     "height": 4157,
+     "screens": 4.6,
+     "words": 273,
+     "img": 2,
+     "video": 0,
+     "canvas": 0,
+     "svg": 1,
+     "sections": 3,
+     "horizontalOverflow": 0,
+     "overflowCulprits": [],
+     "uiFragments": 0,
+     "uiAbuse": false,
+     "realPictures": 2,
+     "videoCount": 0,
+     "uiPictures": 0,
+     "pictureSamples": [
+      "portrait.jpg",
+      "racks-amravati-data-center.jpg"
+     ],
+     "blendText": 0,
+     "sideScrollers": 0,
+     "brokenImages": [],
+     "emoji": [],
+     "videosNoPoster": 0
+    },
+    "hero": {
+     "text": "AHMED WAGDY — DevOps, platform and MLOps engineer",
+     "words": 8,
+     "chars": 49,
+     "lines": 1,
+     "size": 207.4,
+     "vw": 14.4,
+     "font": "Bricolage Grotesque",
+     "weight": 800,
+     "tracking": -0.045,
+     "leading": 0.8,
+     "upper": true,
+     "italic": false,
+     "mono": false,
+     "align": "left",
+     "position": "center",
+     "widthRatio": 0.9,
+     "top": 16,
+     "tag": "h1",
+     "kind": "heading"
+    },
+    "h1": {
+     "text": "AHMED WAGDY — DevOps, platform and MLOps engineer",
+     "words": 8,
+     "lines": 1,
+     "size": 207.4,
+     "font": "Bricolage Grotesque"
+    },
+    "headings": [
+     {
+      "text": "AHMED WAGDY — DevOps, platform and MLOps engineer",
+      "words": 8,
+      "chars": 49,
+      "lines": 1,
+      "size": 207.4,
+      "vw": 14.4,
+      "font": "Bricolage Grotesque",
+      "weight": 800,
+      "tracking": -0.045,
+      "leading": 0.8,
+      "upper": true,
+      "italic": false,
+      "mono": false,
+      "align": "left",
+      "position": "center",
+      "widthRatio": 0.9,
+      "top": 16,
+      "tag": "h1",
+      "kind": "heading"
+     },
+     {
+      "text": "I run the platform Incorta’s engineers and AI agents work on.",
+      "words": 11,
+      "chars": 61,
+      "lines": 2,
+      "size": 34.6,
+      "vw": 2.4,
+      "font": "Bricolage Grotesque",
+      "weight": 500,
+      "tracking": -0.02,
+      "leading": 1.12,
+      "upper": false,
+      "italic": false,
+      "mono": false,
+      "align": "left",
+      "position": "left",
+      "widthRatio": 0.37,
+      "top": 791,
+      "tag": "p",
+      "kind": "statement"
+     },
+     {
+      "text": "Gateways · GPU nodes · Pipelines · Agents · Gateways · GPU nodes · Pipelines · Agents ·",
+      "words": 18,
+      "chars": 87,
+      "lines": 1,
+      "size": 129.6,
+      "vw": 9,
+      "font": "Bricolage Grotesque",
+      "weight": 600,
+      "tracking": -0.04,
+      "leading": 1,
+      "upper": false,
+      "italic": false,
+      "mono": false,
+      "align": "left",
+      "position": "center",
+      "widthRatio": 1,
+      "top": 900,
+      "tag": "div",
+      "kind": "heading"
+     },
+     {
+      "text": "Selected work",
+      "words": 2,
+      "chars": 13,
+      "lines": 1,
+      "size": 64,
+      "vw": 4.4,
+      "font": "Bricolage Grotesque",
+      "weight": 600,
+      "tracking": -0.035,
+      "leading": 1,
+      "upper": false,
+      "italic": false,
+      "mono": false,
+      "align": "left",
+      "position": "center",
+      "widthRatio": 0.97,
+      "top": 1310,
+      "tag": "h2",
+      "kind": "heading"
+     },
+     {
+      "text": "LiteLLM AI gateway, Langfuse observability over PSC, an AI on-call agent in Slack, DGX Spark GPU nodes on K3s, the MLOps portal, Trivy SBOM gate, Sandbox Siege, a genomic evidence platform, KEDA on GK",
+      "words": 34,
+      "chars": 202,
+      "lines": 3,
+      "size": 34.6,
+      "vw": 2.4,
+      "font": "Bricolage Grotesque",
+      "weight": 500,
+      "tracking": -0.03,
+      "leading": 1.3,
+      "upper": false,
+      "italic": false,
+      "mono": false,
+      "align": "left",
+      "position": "center",
+      "widthRatio": 0.92,
+      "top": 1414,
+      "tag": "p",
+      "kind": "statement"
+     },
+     {
+      "text": "Nine systems, 2024–2026. Each opens to its own page.",
+      "words": 9,
+      "chars": 52,
+      "lines": 1,
+      "size": 34.6,
+      "vw": 2.4,
+      "font": "Bricolage Grotesque",
+      "weight": 500,
+      "tracking": -0.03,
+      "leading": 1.3,
+      "upper": false,
+      "italic": false,
+      "mono": false,
+      "align": "left",
+      "position": "center",
+      "widthRatio": 0.92,
+      "top": 1576,
+      "tag": "p",
+      "kind": "statement"
+     },
+     {
+      "text": "One line adds a security gate.",
+      "words": 6,
+      "chars": 30,
+      "lines": 2,
+      "size": 64,
+      "vw": 4.4,
+      "font": "Bricolage Grotesque",
+      "weight": 600,
+      "tracking": -0.035,
+      "leading": 0.98,
+      "upper": false,
+      "italic": false,
+      "mono": false,
+      "align": "left",
+      "position": "left",
+      "widthRatio": 0.39,
+      "top": 1941,
+      "tag": "h2",
+      "kind": "heading"
+     },
+     {
+      "text": "“Not just",
+      "words": 2,
+      "chars": 9,
+      "lines": 1,
+      "size": 129.6,
+      "vw": 9,
+      "font": "Bricolage Grotesque",
+      "weight": 600,
+      "tracking": -0.045,
+      "leading": 1,
+      "upper": false,
+      "italic": false,
+      "mono": false,
+      "align": "left",
+      "position": "center",
+      "widthRatio": 0.97,
+      "top": 2700,
+      "tag": "div",
+      "kind": "heading"
+     },
+     {
+      "text": "What managers say",
+      "words": 3,
+      "chars": 17,
+      "lines": 1,
+      "size": 28.5,
+      "vw": 2,
+      "font": "Bricolage Grotesque",
+      "weight": 700,
+      "tracking": 0,
+      "leading": 1.5,
+      "upper": false,
+      "italic": false,
+      "mono": false,
+      "align": "left",
+      "position": "left",
+      "widthRatio": 0.19,
+      "top": 2700,
+      "tag": "h2",
+      "kind": "heading"
+     },
+     {
+      "text": "the intern.”",
+      "words": 2,
+      "chars": 12,
+      "lines": 1,
+      "size": 129.6,
+      "vw": 9,
+      "font": "Bricolage Grotesque",
+      "weight": 600,
+      "tracking": -0.045,
+      "leading": 1,
+      "upper": false,
+      "italic": false,
+      "mono": false,
+      "align": "left",
+      "position": "center",
+      "widthRatio": 0.97,
+      "top": 2875,
+      "tag": "div",
+      "kind": "heading"
+     },
+     {
+      "text": "ahmedwagdymohy@gmail.com",
+      "words": 1,
+      "chars": 24,
+      "lines": 1,
+      "size": 63.4,
+      "vw": 4.4,
+      "font": "Bricolage Grotesque",
+      "weight": 600,
+      "tracking": -0.03,
+      "leading": 1.5,
+      "upper": false,
+      "italic": false,
+      "mono": false,
+      "align": "left",
+      "position": "center",
+      "widthRatio": 0.97,
+      "top": 3597,
+      "tag": "a",
+      "kind": "heading"
+     }
+    ],
+    "headingSummary": {
+     "count": 11,
+     "maxLines": 3,
+     "over2Lines": 0,
+     "statements": 3,
+     "centered": 0,
+     "medianWords": 6,
+     "mixedFontHeadings": 0
+    },
+    "type": {
+     "families": [
+      {
+       "family": "Bricolage Grotesque",
+       "share": 0.96,
+       "mono": false
+      },
+      {
+       "family": "monospace",
+       "share": 0.04,
+       "mono": false
+      }
+     ],
+     "familyCount": 2,
+     "sizes": [
+      13,
+      15,
+      16,
+      18,
+      19,
+      26,
+      29,
+      35,
+      63,
+      64,
+      130,
+      207
+     ],
+     "sizeCount": 12,
+     "notLoaded": [],
+     "body": {
+      "font": "Bricolage Grotesque",
+      "size": 19,
+      "leading": 1.5,
+      "weight": 400,
+      "tracking": 0,
+      "contrast": 15.4
+     },
+     "measureChars": 52,
+     "max": {
+      "size": 207.4,
+      "vw": 14.4,
+      "font": "Bricolage Grotesque",
+      "text": "AHMED WAGDY"
+     },
+     "monoShare": 0.04,
+     "monoProseShare": 0,
+     "monoFamilies": [
+      "monospace"
+     ],
+     "monoSamples": [],
+     "microLabels": 0,
+     "microLabelShare": 0,
+     "microSamples": [],
+     "upperShare": 0.01,
+     "centerShare": 0.02,
+     "smallText": 0
+    },
+    "eyebrows": [
+     {
+      "text": "Write to me →",
+      "above": "Gateways · GPU nodes · Pipelines · Agent",
+      "upper": false,
+      "tracked": false,
+      "mono": false,
+      "pill": false,
+      "size": 15,
+      "top": 773
+     }
+    ],
+    "numbered": [],
+    "color": {
+     "bodyBg": "#18191b",
+     "bodyBgHsl": {
+      "h": 220,
+      "s": 0.06,
+      "l": 0.1
+     },
+     "dark": true,
+     "sectionBgs": [
+      {
+       "color": "#222427",
+       "top": 264,
+       "hsl": {
+        "h": 216,
+        "s": 0.07,
+        "l": 0.14
+       }
+      },
+      {
+       "color": "#eff0f1",
+       "top": 1781,
+       "hsl": {
+        "h": 210,
+        "s": 0.07,
+        "l": 0.94
+       }
+      }
+     ],
+     "textColors": [
+      {
+       "color": "#18191b",
+       "share": 0.34
+      },
+      {
+       "color": "#9c9ea3",
+       "share": 0.27
+      },
+      {
+       "color": "#eff0f1",
+       "share": 0.22
+      },
+      {
+       "color": "#55585e",
+       "share": 0.13
+      },
+      {
+       "color": "#45484d",
+       "share": 0.03
+      }
+     ],
+     "button": {
+      "bg": "#222427",
+      "hsl": {
+       "h": 216,
+       "s": 0.07,
+       "l": 0.14
+      },
+      "fg": "#eff0f1"
+     },
+     "lowContrast": []
+    },
+    "buttons": {
+     "count": 7,
+     "inHero": 4,
+     "radius": 0,
+     "height": 64,
+     "withShadow": 0,
+     "withGradient": 0,
+     "mono": 0,
+     "upper": 0,
+     "heroLabels": [
+      "Work",
+      "Security gate",
+      "What managers say",
+      "Contact"
+     ]
+    },
+    "surfaces": {
+     "shadowStatic": 0,
+     "shadowOverlay": 0,
+     "shadowSamples": [],
+     "gradients": 0,
+     "scrims": 0,
+     "gradientSamples": [],
+     "gradientText": 0,
+     "hairlines": 0,
+     "hairlineSamples": [],
+     "outlinedBoxes": 0,
+     "dashed": 0,
+     "blurred": 0,
+     "roundedBoxes": 0,
+     "boxRadius": 0,
+     "squareMedia": 2,
+     "roundedMedia": 0,
+     "mediaRadius": 0,
+     "textShadow": 0,
+     "cardRows": [
+      {
+       "count": 5,
+       "iconTopped": false,
+       "rounded": false,
+       "top": 264
+      }
+     ]
+    },
+    "heroMedia": [
+     {
+      "type": "img",
+      "ratio": 0.51
+     }
+    ],
+    "nav": {
+     "links": 0,
+     "fixed": false,
+     "height": 894,
+     "floatingPill": false,
+     "blur": false
+    },
+    "fontsLoaded": [
+     "bricolage grotesque"
+    ]
+   },
+   "layout": {
+    "viewport": {
+     "w": 1440,
+     "h": 900
+    },
+    "pageH": 4157,
+    "margins": {
+     "left": 24,
+     "right": 24
+    },
+    "sections": [
+     {
+      "sel": "header.hero",
+      "tag": "header",
+      "top": 6,
+      "height": 894,
+      "words": 63,
+      "media": 1,
+      "middle": 54,
+      "heading": {
+       "text": "~25",
+       "size": 26,
+       "tag": "strong"
+      },
+      "left": 8,
+      "right": 35,
+      "textLeft": 26,
+      "textRight": 35,
+      "fullBleed": false,
+      "footer": false,
+      "hero": true,
+      "continues": false,
+      "pinned": false
+     },
+     {
+      "sel": "div.marquee",
+      "tag": "div",
+      "top": 900,
+      "height": 290,
+      "words": 10,
+      "media": 0,
+      "middle": 2854,
+      "heading": {
+       "text": "Gateways",
+       "size": 130,
+       "tag": "span"
+      },
+      "left": 0,
+      "right": 0,
+      "textLeft": -389,
+      "textRight": -3220,
+      "fullBleed": false,
+      "footer": false,
+      "hero": false,
+      "continues": false,
+      "pinned": false
+     },
+     {
+      "sel": "section#work.work",
+      "tag": "section",
+      "top": 1190,
+      "height": 592,
+      "words": 45,
+      "media": 0,
+      "middle": 0,
+      "heading": {
+       "text": "Selected work",
+       "size": 64,
+       "tag": "h2"
+      },
+      "left": 24,
+      "right": 111,
+      "textLeft": 24,
+      "textRight": 111,
+      "fullBleed": false,
+      "footer": false,
+      "hero": false,
+      "continues": false,
+      "pinned": false
+     },
+     {
+      "sel": "section#gate.gate",
+      "tag": "section",
+      "top": 1781,
+      "height": 739,
+      "words": 95,
+      "media": 0,
+      "middle": 86,
+      "heading": {
+       "text": "One line adds a security gate.",
+       "size": 64,
+       "tag": "h2"
+      },
+      "left": 24,
+      "right": 42,
+      "textLeft": 24,
+      "textRight": 42,
+      "fullBleed": false,
+      "footer": false,
+      "hero": false,
+      "continues": false,
+      "pinned": false
+     },
+     {
+      "sel": "section#words.quote",
+      "tag": "section",
+      "top": 2520,
+      "height": 737,
+      "words": 13,
+      "media": 0,
+      "middle": 9748,
+      "heading": {
+       "text": "“Not",
+       "size": 130,
+       "tag": "span"
+      },
+      "left": 0,
+      "right": 24,
+      "textLeft": -9999,
+      "textRight": 24,
+      "fullBleed": false,
+      "footer": false,
+      "hero": false,
+      "continues": false,
+      "pinned": false
+     },
+     {
+      "sel": "footer#contact",
+      "tag": "footer",
+      "top": 3257,
+      "height": 900,
+      "words": 34,
+      "media": 1,
+      "middle": 0,
+      "heading": {
+       "text": "ahmedwagdymohy@gmail.com",
+       "size": 63,
+       "tag": "a"
+      },
+      "left": 24,
+      "right": 24,
+      "textLeft": 24,
+      "textRight": 24,
+      "fullBleed": false,
+      "footer": true,
+      "hero": false,
+      "continues": false,
+      "pinned": false
+     }
+    ],
+    "gaps": [
+     {
+      "top": 1620,
+      "height": 312
+     },
+     {
+      "top": 2360,
+      "height": 324
+     }
+    ],
+    "h1s": [
+     {
+      "text": "AHMED WAGDY — DevOps, platform and MLOps engineer",
+      "size": 207,
+      "top": 16,
+      "firstScreen": true
+     }
+    ],
+    "edgeText": [],
+    "edges": [
+     {
+      "x": 24,
+      "n": 3
+     },
+     {
+      "x": 71,
+      "n": 1
+     },
+     {
+      "x": 279,
+      "n": 1
+     },
+     {
+      "x": 656,
+      "n": 1
+     }
+    ],
+    "leftBlocks": 6,
+    "bodySize": 15,
+    "stage": false,
+    "explains": true,
+    "slivers": [],
+    "voidShare": 0.02,
+    "voidBox": {
+     "x": 1320,
+     "y": 540,
+     "w": 120,
+     "h": 180
+    }
+   },
+   "app": null,
+   "consoleErrors": []
+  },
+  {
+   "width": 768,
+   "height": 1024,
+   "load": "load",
+   "screens": 6,
+   "filled": [
+    1,
+    0.72,
+    0.6,
+    0.78,
+    0.7,
+    1
+   ],
+   "motion": {
+    "elements": 9,
+    "css": 2,
+    "transitions": 7,
+    "scripted": 0,
+    "videos": 0,
+    "playingVideos": 0
+   },
+   "metrics": {
+    "viewport": {
+     "w": 768,
+     "h": 1024
+    },
+    "page": {
+     "height": 5558,
+     "screens": 5.4,
+     "words": 273,
+     "img": 2,
+     "video": 0,
+     "canvas": 0,
+     "svg": 1,
+     "sections": 3,
+     "horizontalOverflow": 0,
+     "overflowCulprits": [],
+     "uiFragments": 0,
+     "uiAbuse": false,
+     "realPictures": 2,
+     "videoCount": 0,
+     "uiPictures": 0,
+     "pictureSamples": [
+      "portrait.jpg",
+      "racks-amravati-data-center.jpg"
+     ],
+     "blendText": 0,
+     "sideScrollers": 0,
+     "brokenImages": [],
+     "emoji": [],
+     "videosNoPoster": 0
+    },
+    "hero": {
+     "text": "AHMED WAGDY — DevOps, platform and MLOps engineer",
+     "words": 8,
+     "chars": 49,
+     "lines": 1,
+     "size": 199.7,
+     "vw": 26,
+     "font": "Bricolage Grotesque",
+     "weight": 800,
+     "tracking": -0.045,
+     "leading": 0.8,
+     "upper": true,
+     "italic": false,
+     "mono": false,
+     "align": "left",
+     "position": "center",
+     "widthRatio": 1.63,
+     "top": -13,
+     "tag": "h1",
+     "kind": "heading"
+    },
+    "h1": {
+     "text": "AHMED WAGDY — DevOps, platform and MLOps engineer",
+     "words": 8,
+     "lines": 1,
+     "size": 199.7,
+     "font": "Bricolage Grotesque"
+    },
+    "headings": [
+     {
+      "text": "AHMED WAGDY — DevOps, platform and MLOps engineer",
+      "words": 8,
+      "chars": 49,
+      "lines": 1,
+      "size": 199.7,
+      "vw": 26,
+      "font": "Bricolage Grotesque",
+      "weight": 800,
+      "tracking": -0.045,
+      "leading": 0.8,
+      "upper": true,
+      "italic": false,
+      "mono": false,
+      "align": "left",
+      "position": "center",
+      "widthRatio": 1.63,
+      "top": -13,
+      "tag": "h1",
+      "kind": "heading"
+     },
+     {
+      "text": "Gateways · GPU nodes · Pipelines · Agents · Gateways · GPU nodes · Pipelines · Agents ·",
+      "words": 18,
+      "chars": 87,
+      "lines": 1,
+      "size": 69.1,
+      "vw": 9,
+      "font": "Bricolage Grotesque",
+      "weight": 600,
+      "tracking": -0.04,
+      "leading": 1,
+      "upper": false,
+      "italic": false,
+      "mono": false,
+      "align": "left",
+      "position": "center",
+      "widthRatio": 1,
+      "top": 1919,
+      "tag": "div",
+      "kind": "heading"
+     },
+     {
+      "text": "Selected work",
+      "words": 2,
+      "chars": 13,
+      "lines": 1,
+      "size": 45.4,
+      "vw": 5.9,
+      "font": "Bricolage Grotesque",
+      "weight": 600,
+      "tracking": -0.035,
+      "leading": 1,
+      "upper": false,
+      "italic": false,
+      "mono": false,
+      "align": "left",
+      "position": "center",
+      "widthRatio": 0.95,
+      "top": 2268,
+      "tag": "h2",
+      "kind": "heading"
+     },
+     {
+      "text": "One line adds a security gate.",
+      "words": 6,
+      "chars": 30,
+      "lines": 1,
+      "size": 45.4,
+      "vw": 5.9,
+      "font": "Bricolage Grotesque",
+      "weight": 600,
+      "tracking": -0.035,
+      "leading": 0.98,
+      "upper": false,
+      "italic": false,
+      "mono": false,
+      "align": "left",
+      "position": "center",
+      "widthRatio": 0.95,
+      "top": 2793,
+      "tag": "h2",
+      "kind": "heading"
+     },
+     {
+      "text": "“Not just",
+      "words": 2,
+      "chars": 9,
+      "lines": 1,
+      "size": 99.8,
+      "vw": 13,
+      "font": "Bricolage Grotesque",
+      "weight": 600,
+      "tracking": -0.045,
+      "leading": 1,
+      "upper": false,
+      "italic": false,
+      "mono": false,
+      "align": "left",
+      "position": "center",
+      "widthRatio": 0.95,
+      "top": 3986,
+      "tag": "div",
+      "kind": "heading"
+     },
+     {
+      "text": "What managers say",
+      "words": 3,
+      "chars": 17,
+      "lines": 1,
+      "size": 26.9,
+      "vw": 3.5,
+      "font": "Bricolage Grotesque",
+      "weight": 700,
+      "tracking": 0,
+      "leading": 1.5,
+      "upper": false,
+      "italic": false,
+      "mono": false,
+      "align": "left",
+      "position": "left",
+      "widthRatio": 0.34,
+      "top": 3986,
+      "tag": "h2",
+      "kind": "heading"
+     },
+     {
+      "text": "the intern.”",
+      "words": 2,
+      "chars": 12,
+      "lines": 1,
+      "size": 99.8,
+      "vw": 13,
+      "font": "Bricolage Grotesque",
+      "weight": 600,
+      "tracking": -0.045,
+      "leading": 1,
+      "upper": false,
+      "italic": false,
+      "mono": false,
+      "align": "left",
+      "position": "center",
+      "widthRatio": 0.95,
+      "top": 4121,
+      "tag": "div",
+      "kind": "heading"
+     },
+     {
+      "text": "ahmedwagdymohy@gmail.com",
+      "words": 1,
+      "chars": 24,
+      "lines": 1,
+      "size": 33.8,
+      "vw": 4.4,
+      "font": "Bricolage Grotesque",
+      "weight": 600,
+      "tracking": -0.03,
+      "leading": 1.5,
+      "upper": false,
+      "italic": false,
+      "mono": false,
+      "align": "left",
+      "position": "center",
+      "widthRatio": 0.95,
+      "top": 5052,
+      "tag": "a",
+      "kind": "heading"
+     }
+    ],
+    "headingSummary": {
+     "count": 8,
+     "maxLines": 1,
+     "over2Lines": 0,
+     "statements": 0,
+     "centered": 0,
+     "medianWords": 2,
+     "mixedFontHeadings": 0
+    },
+    "type": {
+     "families": [
+      {
+       "family": "Bricolage Grotesque",
+       "share": 0.96,
+       "mono": false
+      },
+      {
+       "family": "monospace",
+       "share": 0.04,
+       "mono": false
+      }
+     ],
+     "familyCount": 2,
+     "sizes": [
+      13,
+      15,
+      16,
+      18,
+      23,
+      24,
+      27,
+      34,
+      45,
+      69,
+      100,
+      200
+     ],
+     "sizeCount": 12,
+     "notLoaded": [],
+     "body": {
+      "font": "Bricolage Grotesque",
+      "size": 17.9,
+      "leading": 1.5,
+      "weight": 400,
+      "tracking": 0,
+      "contrast": 15.4
+     },
+     "measureChars": 52,
+     "max": {
+      "size": 199.7,
+      "vw": 26,
+      "font": "Bricolage Grotesque",
+      "text": "AHMED WAGDY"
+     },
+     "monoShare": 0.04,
+     "monoProseShare": 0,
+     "monoFamilies": [
+      "monospace"
+     ],
+     "monoSamples": [],
+     "microLabels": 0,
+     "microLabelShare": 0,
+     "microSamples": [],
+     "upperShare": 0.01,
+     "centerShare": 0.02,
+     "smallText": 0
+    },
+    "eyebrows": [
+     {
+      "text": "Write to me →",
+      "above": "Gateways · GPU nodes · Pipelines · Agent",
+      "upper": false,
+      "tracked": false,
+      "mono": false,
+      "pill": false,
+      "size": 15,
+      "top": 1855
+     }
+    ],
+    "numbered": [],
+    "color": {
+     "bodyBg": "#18191b",
+     "bodyBgHsl": {
+      "h": 220,
+      "s": 0.06,
+      "l": 0.1
+     },
+     "dark": true,
+     "sectionBgs": [
+      {
+       "color": "#222427",
+       "top": 726,
+       "hsl": {
+        "h": 216,
+        "s": 0.07,
+        "l": 0.14
+       }
+      },
+      {
+       "color": "#eff0f1",
+       "top": 2697,
+       "hsl": {
+        "h": 210,
+        "s": 0.07,
+        "l": 0.94
+       }
+      }
+     ],
+     "textColors": [
+      {
+       "color": "#18191b",
+       "share": 0.34
+      },
+      {
+       "color": "#9c9ea3",
+       "share": 0.27
+      },
+      {
+       "color": "#eff0f1",
+       "share": 0.22
+      },
+      {
+       "color": "#55585e",
+       "share": 0.13
+      },
+      {
+       "color": "#45484d",
+       "share": 0.03
+      }
+     ],
+     "button": {
+      "bg": "#222427",
+      "hsl": {
+       "h": 216,
+       "s": 0.07,
+       "l": 0.14
+      },
+      "fg": "#eff0f1"
+     },
+     "lowContrast": []
+    },
+    "buttons": {
+     "count": 7,
+     "inHero": 4,
+     "radius": 0,
+     "height": 56,
+     "withShadow": 0,
+     "withGradient": 0,
+     "mono": 0,
+     "upper": 0,
+     "heroLabels": [
+      "Work",
+      "Security gate",
+      "What managers say",
+      "Contact"
+     ]
+    },
+    "surfaces": {
+     "shadowStatic": 0,
+     "shadowOverlay": 0,
+     "shadowSamples": [],
+     "gradients": 0,
+     "scrims": 0,
+     "gradientSamples": [],
+     "gradientText": 0,
+     "hairlines": 0,
+     "hairlineSamples": [],
+     "outlinedBoxes": 0,
+     "dashed": 0,
+     "blurred": 0,
+     "roundedBoxes": 0,
+     "boxRadius": 0,
+     "squareMedia": 2,
+     "roundedMedia": 0,
+     "mediaRadius": 0,
+     "textShadow": 0,
+     "cardRows": []
+    },
+    "heroMedia": [
+     {
+      "type": "img",
+      "ratio": 0.32
+     },
+     {
+      "type": "img",
+      "ratio": 0.22
+     }
+    ],
+    "nav": {
+     "links": 2,
+     "fixed": false,
+     "height": 1913,
+     "floatingPill": false,
+     "blur": false
+    },
+    "fontsLoaded": [
+     "bricolage grotesque"
+    ]
+   },
+   "layout": {
+    "viewport": {
+     "w": 768,
+     "h": 1024
+    },
+    "pageH": 5558,
+    "margins": {
+     "left": 20,
+     "right": 20
+    },
+    "sections": [
+     {
+      "sel": "header.hero",
+      "tag": "header",
+      "top": 6,
+      "height": 1913,
+      "words": 63,
+      "media": 2,
+      "middle": 13,
+      "heading": null,
+      "left": 6,
+      "right": 161,
+      "textLeft": 22,
+      "textRight": 161,
+      "fullBleed": true,
+      "footer": false,
+      "hero": true,
+      "continues": false,
+      "pinned": false
+     },
+     {
+      "sel": "div.marquee",
+      "tag": "div",
+      "top": 1919,
+      "height": 229,
+      "words": 10,
+      "media": 0,
+      "middle": 1587,
+      "heading": {
+       "text": "Gateways",
+       "size": 69,
+       "tag": "span"
+      },
+      "left": 0,
+      "right": 0,
+      "textLeft": -222,
+      "textRight": -1790,
+      "fullBleed": false,
+      "footer": false,
+      "hero": false,
+      "continues": false,
+      "pinned": false
+     },
+     {
+      "sel": "section#work.work",
+      "tag": "section",
+      "top": 2148,
+      "height": 549,
+      "words": 45,
+      "media": 0,
+      "middle": 0,
+      "heading": {
+       "text": "Selected work",
+       "size": 45,
+       "tag": "h2"
+      },
+      "left": 20,
+      "right": 27,
+      "textLeft": 20,
+      "textRight": 27,
+      "fullBleed": false,
+      "footer": false,
+      "hero": false,
+      "continues": false,
+      "pinned": false
+     },
+     {
+      "sel": "section#gate.gate",
+      "tag": "section",
+      "top": 2697,
+      "height": 1109,
+      "words": 95,
+      "media": 0,
+      "middle": 82,
+      "heading": {
+       "text": "One line adds a security gate.",
+       "size": 45,
+       "tag": "h2"
+      },
+      "left": 20,
+      "right": 38,
+      "textLeft": 20,
+      "textRight": 38,
+      "fullBleed": false,
+      "footer": false,
+      "hero": false,
+      "continues": false,
+      "pinned": false
+     },
+     {
+      "sel": "section#words.quote",
+      "tag": "section",
+      "top": 3806,
+      "height": 728,
+      "words": 13,
+      "media": 0,
+      "middle": 9759,
+      "heading": {
+       "text": "“Not",
+       "size": 100,
+       "tag": "span"
+      },
+      "left": 0,
+      "right": 20,
+      "textLeft": -9999,
+      "textRight": 20,
+      "fullBleed": false,
+      "footer": false,
+      "hero": false,
+      "continues": false,
+      "pinned": false
+     },
+     {
+      "sel": "footer#contact",
+      "tag": "footer",
+      "top": 4534,
+      "height": 1024,
+      "words": 34,
+      "media": 1,
+      "middle": 0,
+      "heading": null,
+      "left": 20,
+      "right": 20,
+      "textLeft": 20,
+      "textRight": 20,
+      "fullBleed": false,
+      "footer": true,
+      "hero": false,
+      "continues": false,
+      "pinned": false
+     }
+    ],
+    "gaps": [
+     {
+      "top": 5100,
+      "height": 320
+     }
+    ],
+    "h1s": [
+     {
+      "text": "AHMED WAGDY — DevOps, platform and MLOps engineer",
+      "size": 200,
+      "top": -13,
+      "firstScreen": true
+     }
+    ],
+    "edgeText": [],
+    "edges": [
+     {
+      "x": 20,
+      "n": 4
+     },
+     {
+      "x": 34,
+      "n": 1
+     }
+    ],
+    "leftBlocks": 5,
+    "bodySize": 15,
+    "stage": false,
+    "explains": false,
+    "slivers": [],
+    "voidShare": 0,
+    "voidBox": null
+   },
+   "app": null,
+   "consoleErrors": []
+  },
+  {
+   "width": 390,
+   "height": 844,
+   "load": "load",
+   "screens": 6,
+   "filled": [
+    0.63,
+    0.38,
+    0.69,
+    0.58,
+    0.5,
+    0.51
+   ],
+   "motion": {
+    "elements": 9,
+    "css": 2,
+    "transitions": 7,
+    "scripted": 0,
+    "videos": 0,
+    "playingVideos": 0
+   },
+   "metrics": {
+    "viewport": {
+     "w": 588,
+     "h": 1273
+    },
+    "page": {
+     "height": 4676,
+     "screens": 3.7,
+     "words": 273,
+     "img": 2,
+     "video": 0,
+     "canvas": 0,
+     "svg": 1,
+     "sections": 3,
+     "horizontalOverflow": 0,
+     "overflowCulprits": [],
+     "uiFragments": 0,
+     "uiAbuse": false,
+     "realPictures": 2,
+     "videoCount": 0,
+     "uiPictures": 0,
+     "pictureSamples": [
+      "portrait.jpg",
+      "racks-amravati-data-center.jpg"
+     ],
+     "blendText": 0,
+     "sideScrollers": 0,
+     "brokenImages": [],
+     "emoji": [],
+     "videosNoPoster": 0
+    },
+    "hero": {
+     "text": "AHMED WAGDY — DevOps, platform and MLOps engineer",
+     "words": 8,
+     "chars": 49,
+     "lines": 1,
+     "size": 101.4,
+     "vw": 17.2,
+     "font": "Bricolage Grotesque",
+     "weight": 800,
+     "tracking": -0.045,
+     "leading": 0.8,
+     "upper": true,
+     "italic": false,
+     "mono": false,
+     "align": "left",
+     "position": "left",
+     "widthRatio": 1.08,
+     "top": 26,
+     "tag": "h1",
+     "kind": "heading"
+    },
+    "h1": {
+     "text": "AHMED WAGDY — DevOps, platform and MLOps engineer",
+     "words": 8,
+     "lines": 1,
+     "size": 101.4,
+     "font": "Bricolage Grotesque"
+    },
+    "headings": [
+     {
+      "text": "AHMED WAGDY — DevOps, platform and MLOps engineer",
+      "words": 8,
+      "chars": 49,
+      "lines": 1,
+      "size": 101.4,
+      "vw": 17.2,
+      "font": "Bricolage Grotesque",
+      "weight": 800,
+      "tracking": -0.045,
+      "leading": 0.8,
+      "upper": true,
+      "italic": false,
+      "mono": false,
+      "align": "left",
+      "position": "left",
+      "widthRatio": 1.08,
+      "top": 26,
+      "tag": "h1",
+      "kind": "heading"
+     },
+     {
+      "text": "I run the platform Incorta’s engineers and AI agents work on.",
+      "words": 11,
+      "chars": 61,
+      "lines": 3,
+      "size": 24,
+      "vw": 4.1,
+      "font": "Bricolage Grotesque",
+      "weight": 500,
+      "tracking": -0.02,
+      "leading": 1.12,
+      "upper": false,
+      "italic": false,
+      "mono": false,
+      "align": "left",
+      "position": "left",
+      "widthRatio": 0.55,
+      "top": 778,
+      "tag": "p",
+      "kind": "statement"
+     },
+     {
+      "text": "Gateways · GPU nodes · Pipelines · Agents · Gateways · GPU nodes · Pipelines · Agents ·",
+      "words": 18,
+      "chars": 87,
+      "lines": 1,
+      "size": 64,
+      "vw": 10.9,
+      "font": "Bricolage Grotesque",
+      "weight": 600,
+      "tracking": -0.04,
+      "leading": 1,
+      "upper": false,
+      "italic": false,
+      "mono": false,
+      "align": "left",
+      "position": "left",
+      "widthRatio": 0.66,
+      "top": 1242,
+      "tag": "div",
+      "kind": "heading"
+     },
+     {
+      "text": "Selected work",
+      "words": 2,
+      "chars": 13,
+      "lines": 1,
+      "size": 33.3,
+      "vw": 5.7,
+      "font": "Bricolage Grotesque",
+      "weight": 600,
+      "tracking": -0.035,
+      "leading": 1,
+      "upper": false,
+      "italic": false,
+      "mono": false,
+      "align": "left",
+      "position": "left",
+      "widthRatio": 0.6,
+      "top": 1586,
+      "tag": "h2",
+      "kind": "heading"
+     },
+     {
+      "text": "Nine systems, 2024–2026. Each opens to its own page.",
+      "words": 9,
+      "chars": 52,
+      "lines": 2,
+      "size": 24,
+      "vw": 4.1,
+      "font": "Bricolage Grotesque",
+      "weight": 500,
+      "tracking": -0.03,
+      "leading": 1.3,
+      "upper": false,
+      "italic": false,
+      "mono": false,
+      "align": "left",
+      "position": "left",
+      "widthRatio": 0.6,
+      "top": 1906,
+      "tag": "p",
+      "kind": "statement"
+     },
+     {
+      "text": "One line adds a security gate.",
+      "words": 6,
+      "chars": 30,
+      "lines": 1,
+      "size": 33.3,
+      "vw": 5.7,
+      "font": "Bricolage Grotesque",
+      "weight": 600,
+      "tracking": -0.035,
+      "leading": 0.98,
+      "upper": false,
+      "italic": false,
+      "mono": false,
+      "align": "left",
+      "position": "center",
+      "widthRatio": 0.97,
+      "top": 2224,
+      "tag": "h2",
+      "kind": "heading"
+     },
+     {
+      "text": "“Not just",
+      "words": 2,
+      "chars": 9,
+      "lines": 1,
+      "size": 50.7,
+      "vw": 8.6,
+      "font": "Bricolage Grotesque",
+      "weight": 600,
+      "tracking": -0.045,
+      "leading": 1,
+      "upper": false,
+      "italic": false,
+      "mono": false,
+      "align": "left",
+      "position": "left",
+      "widthRatio": 0.6,
+      "top": 3400,
+      "tag": "div",
+      "kind": "heading"
+     },
+     {
+      "text": "What managers say",
+      "words": 3,
+      "chars": 17,
+      "lines": 1,
+      "size": 25.5,
+      "vw": 4.3,
+      "font": "Bricolage Grotesque",
+      "weight": 700,
+      "tracking": 0,
+      "leading": 1.5,
+      "upper": false,
+      "italic": false,
+      "mono": false,
+      "align": "left",
+      "position": "left",
+      "widthRatio": 0.42,
+      "top": 3400,
+      "tag": "h2",
+      "kind": "heading"
+     },
+     {
+      "text": "the intern.”",
+      "words": 2,
+      "chars": 12,
+      "lines": 1,
+      "size": 50.7,
+      "vw": 8.6,
+      "font": "Bricolage Grotesque",
+      "weight": 600,
+      "tracking": -0.045,
+      "leading": 1,
+      "upper": false,
+      "italic": false,
+      "mono": false,
+      "align": "left",
+      "position": "left",
+      "widthRatio": 0.6,
+      "top": 3468,
+      "tag": "div",
+      "kind": "heading"
+     },
+     {
+      "text": "ahmedwagdymohy@gmail.com",
+      "words": 1,
+      "chars": 24,
+      "lines": 1,
+      "size": 28,
+      "vw": 4.8,
+      "font": "Bricolage Grotesque",
+      "weight": 600,
+      "tracking": -0.03,
+      "leading": 1.5,
+      "upper": false,
+      "italic": false,
+      "mono": false,
+      "align": "left",
+      "position": "left",
+      "widthRatio": 0.68,
+      "top": 4256,
+      "tag": "a",
+      "kind": "heading"
+     }
+    ],
+    "headingSummary": {
+     "count": 10,
+     "maxLines": 3,
+     "over2Lines": 0,
+     "statements": 2,
+     "centered": 0,
+     "medianWords": 3,
+     "mixedFontHeadings": 0
+    },
+    "type": {
+     "families": [
+      {
+       "family": "Bricolage Grotesque",
+       "share": 0.96,
+       "mono": false
+      },
+      {
+       "family": "monospace",
+       "share": 0.04,
+       "mono": false
+      }
+     ],
+     "familyCount": 2,
+     "sizes": [
+      13,
+      15,
+      16,
+      17,
+      18,
+      20,
+      24,
+      26,
+      28,
+      33,
+      51,
+      64,
+      101
+     ],
+     "sizeCount": 13,
+     "notLoaded": [],
+     "body": {
+      "font": "Bricolage Grotesque",
+      "size": 17,
+      "leading": 1.5,
+      "weight": 400,
+      "tracking": 0,
+      "contrast": 15.4
+     },
+     "measureChars": 52,
+     "max": {
+      "size": 101.4,
+      "vw": 17.2,
+      "font": "Bricolage Grotesque",
+      "text": "AHMED WAGDY"
+     },
+     "monoShare": 0.04,
+     "monoProseShare": 0,
+     "monoFamilies": [
+      "monospace"
+     ],
+     "monoSamples": [],
+     "microLabels": 0,
+     "microLabelShare": 0,
+     "microSamples": [],
+     "upperShare": 0.01,
+     "centerShare": 0.02,
+     "smallText": 0
+    },
+    "eyebrows": [
+     {
+      "text": "Write to me →",
+      "above": "Gateways · GPU nodes · Pipelines · Agent",
+      "upper": false,
+      "tracked": false,
+      "mono": false,
+      "pill": false,
+      "size": 15,
+      "top": 1179
+     }
+    ],
+    "numbered": [],
+    "color": {
+     "bodyBg": "#18191b",
+     "bodyBgHsl": {
+      "h": 220,
+      "s": 0.06,
+      "l": 0.1
+     },
+     "dark": true,
+     "sectionBgs": [
+      {
+       "color": "#eff0f1",
+       "top": 2128,
+       "hsl": {
+        "h": 210,
+        "s": 0.07,
+        "l": 0.94
+       }
+      }
+     ],
+     "textColors": [
+      {
+       "color": "#18191b",
+       "share": 0.34
+      },
+      {
+       "color": "#9c9ea3",
+       "share": 0.27
+      },
+      {
+       "color": "#eff0f1",
+       "share": 0.22
+      },
+      {
+       "color": "#55585e",
+       "share": 0.13
+      },
+      {
+       "color": "#45484d",
+       "share": 0.03
+      }
+     ],
+     "button": {
+      "bg": "#222427",
+      "hsl": {
+       "h": 216,
+       "s": 0.07,
+       "l": 0.14
+      },
+      "fg": "#eff0f1"
+     },
+     "lowContrast": []
+    },
+    "buttons": {
+     "count": 8,
+     "inHero": 5,
+     "radius": 0,
+     "height": 56,
+     "withShadow": 0,
+     "withGradient": 0,
+     "mono": 0,
+     "upper": 0,
+     "heroLabels": [
+      "Work",
+      "Security gate",
+      "What managers say",
+      "Contact",
+      "Write to me →"
+     ]
+    },
+    "surfaces": {
+     "shadowStatic": 0,
+     "shadowOverlay": 0,
+     "shadowSamples": [],
+     "gradients": 0,
+     "scrims": 0,
+     "gradientSamples": [],
+     "gradientText": 0,
+     "hairlines": 0,
+     "hairlineSamples": [],
+     "outlinedBoxes": 0,
+     "dashed": 0,
+     "blurred": 0,
+     "roundedBoxes": 0,
+     "boxRadius": 0,
+     "squareMedia": 1,
+     "roundedMedia": 0,
+     "mediaRadius": 0,
+     "textShadow": 0,
+     "cardRows": [
+      {
+       "count": 4,
+       "iconTopped": false,
+       "rounded": false,
+       "top": 968
+      }
+     ]
+    },
+    "heroMedia": [
+     {
+      "type": "img",
+      "ratio": 0.27
+     }
+    ],
+    "nav": {
+     "links": 2,
+     "fixed": false,
+     "height": 1236,
+     "floatingPill": false,
+     "blur": false
+    },
+    "fontsLoaded": [
+     "bricolage grotesque"
+    ]
+   },
+   "layout": {
+    "viewport": {
+     "w": 588,
+     "h": 1273
+    },
+    "pageH": 4676,
+    "margins": {
+     "left": 20,
+     "right": 18
+    },
+    "sections": [
+     {
+      "sel": "header.hero",
+      "tag": "header",
+      "top": 6,
+      "height": 1236,
+      "words": 65,
+      "media": 2,
+      "middle": 0,
+      "heading": {
+       "text": "AHMED WAGDY",
+       "size": 101,
+       "tag": "h1"
+      },
+      "left": 0,
+      "right": 191,
+      "textLeft": -122,
+      "textRight": 76,
+      "fullBleed": false,
+      "footer": false,
+      "hero": true,
+      "continues": false,
+      "pinned": false
+     },
+     {
+      "sel": "div.marquee",
+      "tag": "div",
+      "top": 1242,
+      "height": 224,
+      "words": 10,
+      "media": 0,
+      "middle": 1609,
+      "heading": {
+       "text": "Gateways",
+       "size": 64,
+       "tag": "span"
+      },
+      "left": 0,
+      "right": 0,
+      "textLeft": -203,
+      "textRight": -1798,
+      "fullBleed": false,
+      "footer": false,
+      "hero": false,
+      "continues": false,
+      "pinned": false
+     },
+     {
+      "sel": "section#work.work",
+      "tag": "section",
+      "top": 1466,
+      "height": 662,
+      "words": 45,
+      "media": 0,
+      "middle": 0,
+      "heading": {
+       "text": "Selected work",
+       "size": 33,
+       "tag": "h2"
+      },
+      "left": 20,
+      "right": 220,
+      "textLeft": 20,
+      "textRight": 220,
+      "fullBleed": false,
+      "footer": false,
+      "hero": false,
+      "continues": false,
+      "pinned": false
+     },
+     {
+      "sel": "section#gate.gate",
+      "tag": "section",
+      "top": 2128,
+      "height": 1092,
+      "words": 95,
+      "media": 0,
+      "middle": 0,
+      "heading": {
+       "text": "One line adds a security gate.",
+       "size": 33,
+       "tag": "h2"
+      },
+      "left": 20,
+      "right": 18,
+      "textLeft": 20,
+      "textRight": 18,
+      "fullBleed": false,
+      "footer": false,
+      "hero": false,
+      "continues": false,
+      "pinned": false
+     },
+     {
+      "sel": "section#words.quote",
+      "tag": "section",
+      "top": 3220,
+      "height": 612,
+      "words": 13,
+      "media": 0,
+      "middle": 9772,
+      "heading": {
+       "text": "“Not",
+       "size": 51,
+       "tag": "span"
+      },
+      "left": 0,
+      "right": 218,
+      "textLeft": -9999,
+      "textRight": 218,
+      "fullBleed": false,
+      "footer": false,
+      "hero": false,
+      "continues": false,
+      "pinned": false
+     },
+     {
+      "sel": "footer#contact",
+      "tag": "footer",
+      "top": 3832,
+      "height": 844,
+      "words": 34,
+      "media": 0,
+      "middle": 0,
+      "heading": {
+       "text": "ahmedwagdymohy@gmail.com",
+       "size": 28,
+       "tag": "a"
+      },
+      "left": 20,
+      "right": 169,
+      "textLeft": 20,
+      "textRight": 169,
+      "fullBleed": false,
+      "footer": true,
+      "hero": false,
+      "continues": false,
+      "pinned": false
+     }
+    ],
+    "gaps": [],
+    "h1s": [
+     {
+      "text": "AHMED WAGDY — DevOps, platform and MLOps engineer",
+      "size": 101,
+      "top": 26,
+      "firstScreen": true
+     }
+    ],
+    "edgeText": [],
+    "edges": [
+     {
+      "x": 20,
+      "n": 4
+     },
+     {
+      "x": 34,
+      "n": 1
+     }
+    ],
+    "leftBlocks": 5,
+    "bodySize": 15,
+    "stage": false,
+    "explains": true,
+    "slivers": [],
+    "voidShare": 0,
+    "voidBox": null
+   },
+   "app": null,
+   "consoleErrors": []
+  }
+ ],
+ "findings": [
+  {
+   "level": "FAIL",
+   "id": "eyebrow",
+   "width": 1440,
+   "message": "1 eyebrow/kicker label(s) above headings: \"Write to me →\" above \"Gateways · GPU nodes · Pipelines · Agent\"",
+   "fix": "Delete them. If the label carried real information, fold it into the headline or the supporting sentence.",
+   "alsoAt": [
+    768,
+    390
+   ]
+  },
+  {
+   "level": "WARN",
+   "id": "size-count",
+   "width": 1440,
+   "message": "12 different font sizes (13, 15, 16, 18, 19, 26, 29, 35, 63, 64, 130, 207).",
+   "fix": "A page needs about five: display, heading, lead, body, small.",
+   "alsoAt": [
+    768,
+    390
+   ]
+  },
+  {
+   "level": "FAIL",
+   "id": "few-pictures",
+   "width": 1440,
+   "message": "Only 2 picture(s) on the page (2 photographs, footage or raster images, 0 interface fragments). Drawings in SVG do not count.",
+   "fix": "Find real pictures of the subject's world with scripts/assets.mjs (photographs, archival images, maps, engravings, footage), download them to assets/ and give them room: a hero picture, one per section that has a subject, a full-width band. At least four, usually six to twelve."
+  },
+  {
+   "level": "WARN",
+   "id": "no-footage",
+   "width": 1440,
+   "message": "No video anywhere on the page.",
+   "fix": "Look for one honest clip with scripts/assets.mjs --video (the place, the material, the process) and use it as a muted loop with a poster frame. Defend its absence only if no clip fits the subject."
+  },
+  {
+   "level": "WARN",
+   "id": "empty-middle",
+   "width": 1440,
+   "message": "1 section(s) have content at both edges and 9748px of nothing between: \"“Not\"",
+   "fix": "Bring the two parts together on the grid, or put the picture or figure of the section in the middle. An empty middle third reads as a hole, the same as an empty half.",
+   "alsoAt": [
+    768
+   ]
+  },
+  {
+   "level": "WARN",
+   "id": "still-page",
+   "width": 1440,
+   "message": "Little motion: 9 element(s) moved while the page loaded and scrolled.",
+   "fix": "Give every section an entrance for its parts (not one fade of the whole block) and add one moving picture: a looping clip or a slow move on a photograph."
+  },
+  {
+   "level": "FAIL",
+   "id": "late-title",
+   "width": 768,
+   "message": "The title is not readable 1.2s after the page loaded (something lies over it).",
+   "fix": "Put the headline in the HTML, painted on the first frame; the load sequence only adds arrival and is settled by 1.2s (references/motion.md, \"Load sequence in 1.2 seconds\"). No preloader, no gate, no waiting for the load event."
+  }
+ ],
+ "images": [
+  {
+   "viewport": "desktop",
+   "width": 1440,
+   "fold": "/Users/wagdy/Desktop/Professional-Portfolio/.taste-skill/inspect-a-monument/desktop-fold.jpg",
+   "pages": [
+    "/Users/wagdy/Desktop/Professional-Portfolio/.taste-skill/inspect-a-monument/desktop-page-01.jpg",
+    "/Users/wagdy/Desktop/Professional-Portfolio/.taste-skill/inspect-a-monument/desktop-page-02.jpg"
+   ],
+   "film": []
+  },
+  {
+   "viewport": "tablet",
+   "width": 768,
+   "fold": "/Users/wagdy/Desktop/Professional-Portfolio/.taste-skill/inspect-a-monument/tablet-fold.jpg",
+   "pages": [
+    "/Users/wagdy/Desktop/Professional-Portfolio/.taste-skill/inspect-a-monument/tablet-page-01.jpg"
+   ],
+   "film": []
+  },
+  {
+   "viewport": "mobile",
+   "width": 390,
+   "fold": "/Users/wagdy/Desktop/Professional-Portfolio/.taste-skill/inspect-a-monument/mobile-fold.jpg",
+   "pages": [
+    "/Users/wagdy/Desktop/Professional-Portfolio/.taste-skill/inspect-a-monument/mobile-page-01.jpg"
+   ],
+   "film": []
+  }
+ ]
+}

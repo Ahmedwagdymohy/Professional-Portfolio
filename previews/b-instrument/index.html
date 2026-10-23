@@ -1,0 +1,197 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Ahmed Wagdy — Instruments</title>
+<link href="https://api.fontshare.com/v2/css?f[]=gambarino@400&display=swap" rel="stylesheet">
+<link href="https://api.fontshare.com/v2/css?f[]=general-sans@400,500&display=swap" rel="stylesheet">
+<style>
+:root{
+  --bg:#ecebe7;--surface:#e1dfd9;--ink:#38450f;--muted:#5d683a;--accent:#38450f;--accent-ink:#ecebe7;
+  --small:clamp(.8125rem,.79rem + .1vw,.875rem);--body:clamp(1.0625rem,1rem + .25vw,1.1875rem);
+  --lead:clamp(1.25rem,1.1rem + .7vw,1.625rem);--head:clamp(2.4rem,1.3rem + 4vw,5rem);
+  --m:32px;
+}
+*{box-sizing:border-box;margin:0;padding:0}
+html{background:var(--bg)}
+body{background:var(--bg);color:var(--ink);font-family:"General Sans",system-ui,sans-serif;font-size:var(--body);line-height:1.5;-webkit-font-smoothing:antialiased}
+a{color:inherit}
+img{display:block;max-width:100%}
+.serif{font-family:"Gambarino",Georgia,serif;font-weight:400;letter-spacing:-.02em;line-height:.95}
+
+nav{display:flex;justify-content:space-between;align-items:center;padding:28px var(--m);font-size:15px}
+nav .wm{letter-spacing:.4em;font-weight:500;text-decoration:none}
+nav div{display:flex;gap:28px}
+nav div a{text-decoration:none;position:relative}
+nav div a::after{content:"";position:absolute;left:0;right:0;bottom:-3px;height:2px;background:currentColor;transform:scaleX(0);transform-origin:left;transition:transform .3s}
+nav div a:hover::after{transform:scaleX(1)}
+
+.hero{min-height:calc(100svh - 80px);display:flex;flex-direction:column;align-items:center;justify-content:center;text-align:center;padding:0 var(--m) 64px}
+.hero figure{width:min(26vw,360px);aspect-ratio:4/5;overflow:hidden;background:var(--surface)}
+.hero figure img{width:100%;height:100%;object-fit:cover;object-position:50% 20%;filter:sepia(.25) saturate(.7) contrast(1.02);animation:breathe 14s ease-in-out infinite alternate}
+@keyframes breathe{from{transform:scale(1.06)}to{transform:scale(1)}}
+.hero .name{margin-top:36px;font-size:clamp(18px,1.6vw,24px);font-weight:500;letter-spacing:.62em;margin-right:-.62em;text-transform:uppercase;white-space:nowrap;line-height:1}
+.hero h1{margin-top:22px;font-size:clamp(44px,6vw,96px)}
+.hero .row{margin-top:36px;display:flex;align-items:center;gap:48px;font-size:15px}
+.btn{display:inline-block;background:var(--accent);color:var(--accent-ink);text-decoration:none;padding:14px 26px;font-size:15px;font-weight:500;transition:transform .15s,background .2s}
+.btn:hover{background:#2b360a}
+.btn:active{transform:scale(.97)}
+
+/* catalogue */
+.cat{padding:180px var(--m) 120px}
+.cat-head{display:grid;grid-template-columns:1fr 1fr;gap:64px;align-items:end;margin-bottom:96px}
+.cat-head h2{font-size:var(--head)}
+.cat-head p{max-width:46ch}
+.piece{display:grid;grid-template-columns:5fr 7fr;gap:64px;padding:72px 0;align-items:center}
+.piece:nth-of-type(even){grid-template-columns:7fr 5fr}
+.piece:nth-of-type(even) .plate{order:2}
+.plate{aspect-ratio:4/3;background:var(--surface);position:relative;overflow:hidden}
+.plate img{width:100%;height:100%;object-fit:cover;filter:sepia(.3) saturate(.6)}
+.plate svg{position:absolute;inset:0;width:100%;height:100%}
+.piece h3{font-size:clamp(36px,4vw,64px)}
+.piece .ref{margin-top:14px;font-size:15px;color:var(--muted)}
+.piece p.desc{margin-top:24px;max-width:48ch}
+.specs{margin-top:32px;display:grid;grid-template-columns:auto 1fr;column-gap:32px;row-gap:10px;font-size:16px}
+.specs dt{color:var(--muted)}
+.specs dd{font-weight:500}
+
+/* dial: live thing */
+.dial-wrap{background:var(--ink);color:var(--bg);padding:160px var(--m);display:grid;grid-template-columns:1fr 1fr;gap:64px;align-items:center}
+.dial-wrap h2{font-size:var(--head);max-width:12ch}
+.dial-wrap p{margin-top:24px;max-width:42ch}
+.dial{position:relative;width:min(100%,520px);aspect-ratio:1;margin-left:auto}
+.dial svg{width:100%;height:100%}
+.dial input{width:100%;margin-top:24px;accent-color:var(--bg)}
+.readout{display:flex;justify-content:space-between;margin-top:16px;font-size:16px}
+.readout b{font-family:"Gambarino",serif;font-weight:400;font-size:40px;line-height:1}
+
+/* letters */
+.letters{padding:180px var(--m);display:grid;grid-template-columns:1fr 1fr;gap:64px}
+.letters h2{font-size:var(--head);grid-column:1/-1;margin-bottom:24px}
+.letter{background:var(--surface);padding:48px}
+.letter blockquote{font-family:"Gambarino",serif;font-size:clamp(24px,2.2vw,34px);line-height:1.2}
+.letter cite{display:block;margin-top:28px;font-style:normal;font-size:15px;color:var(--muted)}
+
+footer{background:var(--ink);color:var(--bg);padding:120px var(--m) 32px;text-align:center;overflow:hidden}
+footer p.serif{font-size:clamp(28px,3vw,44px)}
+footer .btn{background:var(--bg);color:var(--ink);margin-top:32px}
+footer .wm{margin-top:120px;font-size:clamp(18px,4vw,64px);letter-spacing:.6em;margin-right:-.6em;font-weight:500;white-space:nowrap}
+footer small{display:block;margin-top:32px;font-size:13px;opacity:.75}
+
+.r{opacity:0;transform:translateY(24px);transition:opacity .8s ease,transform .8s cubic-bezier(.2,.7,.2,1)}
+.r.in{opacity:1;transform:none}
+.no-js .r{opacity:1;transform:none}
+@media (prefers-reduced-motion:reduce){.r{opacity:1;transform:none;transition:none}.hero figure img{animation:none}}
+@media (max-width:860px){
+  :root{--m:20px}
+  nav div{display:none}
+  .hero figure{width:70vw}
+  .hero .name{font-size:4.6vw;letter-spacing:.4em;margin-right:-.4em}
+  .hero h1{font-size:9vw}
+  .hero .row{flex-direction:column;gap:14px}
+  .cat-head,.piece,.piece:nth-of-type(even),.dial-wrap,.letters{grid-template-columns:1fr;gap:32px}
+  .piece:nth-of-type(even) .plate{order:0}
+  .cat,.letters{padding:96px var(--m)}
+  .dial{margin:0}
+}
+</style>
+</head>
+<body class="no-js">
+<nav><a class="wm" href="#">WAGDY</a><div><a href="#catalogue">Catalogue</a><a href="#letters">Letters</a><a href="#contact">Contact</a></div></nav>
+
+<header class="hero">
+  <figure><img src="shared/portrait.jpg" alt="Ahmed Wagdy" width="1000" height="1000"></figure>
+  <p class="name">Ahmed Wagdy</p>
+  <h1 class="serif">Infrastructure, made to keep time.</h1>
+  <div class="row">
+    <span>DevOps, platform &amp; MLOps engineer</span>
+    <a class="btn" href="mailto:ahmedwagdymohy@gmail.com">Request a conversation</a>
+    <span>Cairo, GMT+3</span>
+  </div>
+</header>
+
+<section class="cat" id="catalogue">
+  <div class="cat-head">
+    <h2 class="serif r">The catalogue</h2>
+    <p class="r">Each system below was built by hand and runs in production. They are listed the way a watchmaker lists calibres: what it is, what moves it, and what it can do besides tell the time.</p>
+  </div>
+
+  <article class="piece">
+    <div class="plate r"><img src="shared/racks-amravati-data-center.jpg" alt="Server racks" width="1200" height="800" loading="lazy"></div>
+    <div>
+      <h3 class="serif r">The Gateway</h3>
+      <p class="ref r">Calibre LLM-01 · Incorta · 2025</p>
+      <p class="desc r">The company’s one door to every language model. Production and staging on GCP, with access, quotas and spend accounted per team.</p>
+      <dl class="specs r">
+        <dt>Movement</dt><dd>LiteLLM on GCP, Cloud SQL (PostgreSQL)</dd>
+        <dt>Complications</dt><dd>Per-team quotas, usage tracking, central access control</dd>
+        <dt>Escapement</dt><dd>Langfuse traces over Private Service Connect</dd>
+      </dl>
+    </div>
+  </article>
+
+  <article class="piece">
+    <div class="plate r">
+      <svg viewBox="0 0 400 300" aria-label="Drawing of a GPU node, two fans">
+        <rect width="400" height="300" fill="#e1dfd9"/>
+        <rect x="70" y="80" width="260" height="140" fill="#38450f"/>
+        <circle cx="150" cy="150" r="46" fill="#ecebe7"/><circle cx="150" cy="150" r="10" fill="#38450f"/>
+        <circle cx="250" cy="150" r="46" fill="#ecebe7"/><circle cx="250" cy="150" r="10" fill="#38450f"/>
+        <rect x="70" y="232" width="260" height="10" fill="#5d683a"/>
+      </svg>
+    </div>
+    <div>
+      <h3 class="serif r">The GPU Node</h3>
+      <p class="ref r">Calibre DGX-02 · Incorta · 2026</p>
+      <p class="desc r">NVIDIA DGX Spark machines joined to a K3s cluster as GPU workers, watched by Prometheus and Grafana down to each card.</p>
+      <dl class="specs r">
+        <dt>Movement</dt><dd>K3s, NVIDIA device plugin</dd>
+        <dt>Complications</dt><dd>GPU and node telemetry, GKE CPU and GPU pools</dd>
+        <dt>Runs</dt><dd>GoodMem, Reranker</dd>
+      </dl>
+    </div>
+  </article>
+</section>
+
+<section class="dial-wrap">
+  <div>
+    <h2 class="serif r">Six times faster, measured.</h2>
+    <p class="r">A 644,000-row biomedical load took two and a half hours. Streaming parsers and chunked COPY brought it to twenty-five minutes. Turn the crown to see both runs.</p>
+  </div>
+  <div class="dial">
+    <svg viewBox="0 0 200 200" aria-hidden="true">
+      <circle cx="100" cy="100" r="92" fill="none" stroke="#5d683a" stroke-width="8"/>
+      <circle id="slow" cx="100" cy="100" r="92" fill="none" stroke="#ecebe7" stroke-width="8" stroke-dasharray="578" stroke-dashoffset="578" transform="rotate(-90 100 100)"/>
+      <circle cx="100" cy="100" r="74" fill="none" stroke="#5d683a" stroke-width="8"/>
+      <circle id="fast" cx="100" cy="100" r="74" fill="none" stroke="#ecebe7" stroke-width="8" stroke-dasharray="465" stroke-dashoffset="465" transform="rotate(-90 100 100)"/>
+    </svg>
+    <input id="crown" type="range" min="0" max="150" value="0" aria-label="Elapsed minutes">
+    <div class="readout"><span>Before <b id="rs">0%</b></span><span>After <b id="rf">0%</b></span><span>Minutes <b id="rm">0</b></span></div>
+  </div>
+</section>
+
+<section class="letters" id="letters">
+  <h2 class="serif r">Letters of reference</h2>
+  <div class="letter r"><blockquote>A true DevOps geek with real depth in cloud infrastructure, who can also step back and build products end to end.</blockquote><cite>Mohamed Ghayaty, Senior Engineering Manager, Incorta</cite></div>
+  <div class="letter r"><blockquote>Any team would be lucky to have Ahmed. He’s talented and reliable.</blockquote><cite>Amr ElNaggar, Senior DevOps Manager, Incorta</cite></div>
+</section>
+
+<footer id="contact">
+  <p class="serif">Available for platform and MLOps work.</p>
+  <a class="btn" href="mailto:ahmedwagdymohy@gmail.com">ahmedwagdymohy@gmail.com</a>
+  <div class="wm">AHMED WAGDY</div>
+  <small>Photo: “Racks Amravati Data Center”, PiDatacenters, CC BY-SA 4.0, via Wikimedia Commons</small>
+</footer>
+
+<script>
+document.body.classList.remove('no-js');
+const io=new IntersectionObserver(es=>es.forEach(e=>{if(e.isIntersecting){const sib=[...e.target.parentElement.querySelectorAll(':scope > .r, :scope .r')];setTimeout(()=>e.target.classList.add('in'),Math.min(sib.indexOf(e.target),6)*80);io.unobserve(e.target)}}),{threshold:.15});
+document.querySelectorAll('.r').forEach(el=>io.observe(el));
+const c=document.getElementById('crown'),s=document.getElementById('slow'),f=document.getElementById('fast');
+c.oninput=()=>{const m=+c.value,ps=Math.min(m/150,1),pf=Math.min(m/25,1);
+  s.style.strokeDashoffset=578*(1-ps);f.style.strokeDashoffset=465*(1-pf);
+  rs.textContent=Math.round(ps*100)+'%';rf.textContent=Math.round(pf*100)+'%';rm.textContent=m;};
+</script>
+</body>
+</html>

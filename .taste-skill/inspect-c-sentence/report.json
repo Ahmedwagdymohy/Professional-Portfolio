@@ -1,0 +1,2001 @@
+{
+ "url": "http://localhost:4103/",
+ "at": "2026-10-23T12:38:22.241Z",
+ "allow": [],
+ "viewports": [
+  {
+   "width": 1440,
+   "height": 900,
+   "load": "load",
+   "screens": 5,
+   "filled": [
+    0.2,
+    0.47,
+    0.77,
+    0.39,
+    0.6
+   ],
+   "motion": {
+    "elements": 10,
+    "css": 2,
+    "transitions": 8,
+    "scripted": 0,
+    "videos": 0,
+    "playingVideos": 0
+   },
+   "metrics": {
+    "viewport": {
+     "w": 1440,
+     "h": 900
+    },
+    "page": {
+     "height": 3937,
+     "screens": 4.4,
+     "words": 224,
+     "img": 2,
+     "video": 0,
+     "canvas": 0,
+     "svg": 0,
+     "sections": 3,
+     "horizontalOverflow": 0,
+     "overflowCulprits": [],
+     "uiFragments": 0,
+     "uiAbuse": false,
+     "realPictures": 1,
+     "videoCount": 0,
+     "uiPictures": 0,
+     "pictureSamples": [
+      "duga-1-radar-data-center-inside-empty.jpg"
+     ],
+     "blendText": 0,
+     "sideScrollers": 0,
+     "brokenImages": [],
+     "emoji": [],
+     "videosNoPoster": 0
+    },
+    "hero": {
+     "text": "I RUN THE BEHIND AI",
+     "words": 5,
+     "chars": 19,
+     "lines": 1,
+     "size": 103.7,
+     "vw": 7.2,
+     "font": "Bodoni Moda",
+     "weight": 500,
+     "tracking": -0.03,
+     "leading": 0.95,
+     "upper": true,
+     "italic": false,
+     "mono": false,
+     "align": "left",
+     "position": "center",
+     "widthRatio": 0.96,
+     "top": 417,
+     "tag": "h1",
+     "kind": "heading"
+    },
+    "h1": {
+     "text": "I RUN THE BEHIND AI",
+     "words": 5,
+     "lines": 1,
+     "size": 103.7,
+     "font": "Bodoni Moda"
+    },
+    "headings": [
+     {
+      "text": "I RUN THE BEHIND AI",
+      "words": 5,
+      "chars": 19,
+      "lines": 1,
+      "size": 103.7,
+      "vw": 7.2,
+      "font": "Bodoni Moda",
+      "weight": 500,
+      "tracking": -0.03,
+      "leading": 0.95,
+      "upper": true,
+      "italic": false,
+      "mono": false,
+      "align": "left",
+      "position": "center",
+      "widthRatio": 0.96,
+      "top": 417,
+      "tag": "h1",
+      "kind": "heading"
+     },
+     {
+      "text": "Every prompt passes one gate.",
+      "words": 5,
+      "chars": 29,
+      "lines": 2,
+      "size": 78.4,
+      "vw": 5.4,
+      "font": "Bodoni Moda",
+      "weight": 500,
+      "tracking": -0.03,
+      "leading": 0.95,
+      "upper": false,
+      "italic": false,
+      "mono": false,
+      "align": "left",
+      "position": "left",
+      "widthRatio": 0.46,
+      "top": 1128,
+      "tag": "h2",
+      "kind": "heading"
+     },
+     {
+      "text": "Hand this agent the keys?",
+      "words": 5,
+      "chars": 25,
+      "lines": 2,
+      "size": 78.4,
+      "vw": 5.4,
+      "font": "Bodoni Moda",
+      "weight": 500,
+      "tracking": -0.03,
+      "leading": 0.95,
+      "upper": false,
+      "italic": false,
+      "mono": false,
+      "align": "left",
+      "position": "left",
+      "widthRatio": 0.46,
+      "top": 1875,
+      "tag": "h2",
+      "kind": "heading"
+     },
+     {
+      "text": "Allowed",
+      "words": 1,
+      "chars": 7,
+      "lines": 1,
+      "size": 72,
+      "vw": 5,
+      "font": "Bodoni Moda",
+      "weight": 500,
+      "tracking": -0.03,
+      "leading": 1,
+      "upper": false,
+      "italic": false,
+      "mono": false,
+      "align": "left",
+      "position": "center",
+      "widthRatio": 0.22,
+      "top": 2136,
+      "tag": "b",
+      "kind": "heading"
+     },
+     {
+      "text": "Wise",
+      "words": 1,
+      "chars": 4,
+      "lines": 1,
+      "size": 72,
+      "vw": 5,
+      "font": "Bodoni Moda",
+      "weight": 500,
+      "tracking": -0.03,
+      "leading": 1,
+      "upper": false,
+      "italic": false,
+      "mono": false,
+      "align": "left",
+      "position": "right",
+      "widthRatio": 0.22,
+      "top": 2136,
+      "tag": "b",
+      "kind": "heading"
+     },
+     {
+      "text": "“A massive part",
+      "words": 3,
+      "chars": 15,
+      "lines": 1,
+      "size": 121,
+      "vw": 8.4,
+      "font": "Bodoni Moda",
+      "weight": 500,
+      "tracking": -0.03,
+      "leading": 0.95,
+      "upper": false,
+      "italic": false,
+      "mono": false,
+      "align": "left",
+      "position": "center",
+      "widthRatio": 0.96,
+      "top": 2826,
+      "tag": "div",
+      "kind": "heading"
+     },
+     {
+      "text": "References",
+      "words": 1,
+      "chars": 10,
+      "lines": 1,
+      "size": 28.5,
+      "vw": 2,
+      "font": "Jost",
+      "weight": 700,
+      "tracking": 0.007,
+      "leading": 1.6,
+      "upper": false,
+      "italic": false,
+      "mono": false,
+      "align": "left",
+      "position": "left",
+      "widthRatio": 0.1,
+      "top": 2826,
+      "tag": "h2",
+      "kind": "heading"
+     },
+     {
+      "text": "of why we",
+      "words": 3,
+      "chars": 9,
+      "lines": 1,
+      "size": 121,
+      "vw": 8.4,
+      "font": "Bodoni Moda",
+      "weight": 500,
+      "tracking": -0.03,
+      "leading": 0.95,
+      "upper": false,
+      "italic": false,
+      "mono": false,
+      "align": "left",
+      "position": "center",
+      "widthRatio": 0.96,
+      "top": 2989,
+      "tag": "div",
+      "kind": "heading"
+     },
+     {
+      "text": "succeeded.”",
+      "words": 1,
+      "chars": 11,
+      "lines": 1,
+      "size": 121,
+      "vw": 8.4,
+      "font": "Bodoni Moda",
+      "weight": 500,
+      "tracking": -0.03,
+      "leading": 0.95,
+      "upper": false,
+      "italic": false,
+      "mono": false,
+      "align": "left",
+      "position": "center",
+      "widthRatio": 0.96,
+      "top": 3152,
+      "tag": "div",
+      "kind": "heading"
+     },
+     {
+      "text": "WRITE TO ME",
+      "words": 3,
+      "chars": 11,
+      "lines": 1,
+      "size": 106.6,
+      "vw": 7.4,
+      "font": "Bodoni Moda",
+      "weight": 500,
+      "tracking": -0.03,
+      "leading": 0.95,
+      "upper": true,
+      "italic": false,
+      "mono": false,
+      "align": "left",
+      "position": "center",
+      "widthRatio": 0.96,
+      "top": 3684,
+      "tag": "h2",
+      "kind": "heading"
+     }
+    ],
+    "headingSummary": {
+     "count": 10,
+     "maxLines": 2,
+     "over2Lines": 0,
+     "statements": 0,
+     "centered": 0,
+     "medianWords": 3,
+     "mixedFontHeadings": 0
+    },
+    "type": {
+     "families": [
+      {
+       "family": "Jost",
+       "share": 0.91,
+       "mono": false
+      },
+      {
+       "family": "Bodoni Moda",
+       "share": 0.09,
+       "mono": false
+      }
+     ],
+     "familyCount": 2,
+     "sizes": [
+      15,
+      16,
+      18,
+      19,
+      22,
+      29,
+      72,
+      78,
+      104,
+      107,
+      121
+     ],
+     "sizeCount": 11,
+     "notLoaded": [],
+     "body": {
+      "font": "Jost",
+      "size": 19,
+      "leading": 1.6,
+      "weight": 400,
+      "tracking": 0.01,
+      "contrast": 9.5
+     },
+     "measureChars": 53,
+     "max": {
+      "size": 121,
+      "vw": 8.4,
+      "font": "Bodoni Moda",
+      "text": "“A"
+     },
+     "monoShare": 0,
+     "monoProseShare": 0,
+     "monoFamilies": [],
+     "monoSamples": [],
+     "microLabels": 0,
+     "microLabelShare": 0,
+     "microSamples": [],
+     "upperShare": 0.02,
+     "centerShare": 0,
+     "smallText": 0
+    },
+    "eyebrows": [],
+    "numbered": [],
+    "color": {
+     "bodyBg": "#133621",
+     "bodyBgHsl": {
+      "h": 144,
+      "s": 0.48,
+      "l": 0.14
+     },
+     "dark": true,
+     "sectionBgs": [
+      {
+       "color": "#1a4429",
+       "top": 1715,
+       "hsl": {
+        "h": 141,
+        "s": 0.45,
+        "l": 0.18
+       }
+      },
+      {
+       "color": "#f4d96c",
+       "top": 3544,
+       "hsl": {
+        "h": 48,
+        "s": 0.86,
+        "l": 0.69
+       }
+      }
+     ],
+     "textColors": [
+      {
+       "color": "#f4d96c",
+       "share": 0.79
+      },
+      {
+       "color": "#133621",
+       "share": 0.15
+      },
+      {
+       "color": "#b3a55e",
+       "share": 0.06
+      }
+     ],
+     "button": {
+      "bg": "#f4d96c",
+      "hsl": {
+       "h": 48,
+       "s": 0.86,
+       "l": 0.69
+      },
+      "fg": "#133621"
+     },
+     "lowContrast": []
+    },
+    "buttons": {
+     "count": 4,
+     "inHero": 1,
+     "radius": 14,
+     "height": 66,
+     "withShadow": 0,
+     "withGradient": 0,
+     "mono": 0,
+     "upper": 0,
+     "heroLabels": [
+      "Talk to me"
+     ]
+    },
+    "surfaces": {
+     "shadowStatic": 0,
+     "shadowOverlay": 0,
+     "shadowSamples": [],
+     "gradients": 0,
+     "scrims": 0,
+     "gradientSamples": [],
+     "gradientText": 0,
+     "hairlines": 0,
+     "hairlineSamples": [],
+     "outlinedBoxes": 0,
+     "dashed": 0,
+     "blurred": 0,
+     "roundedBoxes": 4,
+     "boxRadius": 14,
+     "squareMedia": 0,
+     "roundedMedia": 1,
+     "mediaRadius": 14,
+     "textShadow": 0,
+     "cardRows": []
+    },
+    "heroMedia": [],
+    "nav": {
+     "links": 4,
+     "fixed": false,
+     "height": 72,
+     "floatingPill": false,
+     "blur": false
+    },
+    "fontsLoaded": [
+     "bodoni moda",
+     "jost"
+    ]
+   },
+   "layout": {
+    "viewport": {
+     "w": 1440,
+     "h": 900
+    },
+    "pageH": 3937,
+    "margins": {
+     "left": 28,
+     "right": 28
+    },
+    "sections": [
+     {
+      "sel": "header.hero",
+      "tag": "header",
+      "top": 72,
+      "height": 828,
+      "words": 32,
+      "media": 1,
+      "middle": 23,
+      "heading": {
+       "text": "run",
+       "size": 104,
+       "tag": "h1"
+      },
+      "left": 28,
+      "right": 28,
+      "textLeft": 28,
+      "textRight": 28,
+      "fullBleed": false,
+      "footer": false,
+      "hero": true,
+      "continues": false,
+      "pinned": false
+     },
+     {
+      "sel": "section.claim",
+      "tag": "section",
+      "top": 900,
+      "height": 815,
+      "words": 56,
+      "media": 1,
+      "middle": 181,
+      "heading": {
+       "text": "Every prompt passes one gate.",
+       "size": 78,
+       "tag": "h2"
+      },
+      "left": 28,
+      "right": 28,
+      "textLeft": 28,
+      "textRight": 869,
+      "fullBleed": false,
+      "footer": false,
+      "hero": false,
+      "continues": false,
+      "pinned": false
+     },
+     {
+      "sel": "section#siege.siege",
+      "tag": "section",
+      "top": 1715,
+      "height": 911,
+      "words": 89,
+      "media": 0,
+      "middle": 0,
+      "heading": {
+       "text": "Hand this agent the keys?",
+       "size": 78,
+       "tag": "h2"
+      },
+      "left": 28,
+      "right": 70,
+      "textLeft": 28,
+      "textRight": 70,
+      "fullBleed": false,
+      "footer": false,
+      "hero": false,
+      "continues": false,
+      "pinned": false
+     },
+     {
+      "sel": "section#words.quote",
+      "tag": "section",
+      "top": 2626,
+      "height": 919,
+      "words": 16,
+      "media": 0,
+      "middle": 9886,
+      "heading": {
+       "text": "“A",
+       "size": 121,
+       "tag": "span"
+      },
+      "left": 0,
+      "right": 28,
+      "textLeft": -9999,
+      "textRight": 28,
+      "fullBleed": false,
+      "footer": false,
+      "hero": false,
+      "continues": false,
+      "pinned": false
+     },
+     {
+      "sel": "footer#contact",
+      "tag": "footer",
+      "top": 3544,
+      "height": 393,
+      "words": 25,
+      "media": 0,
+      "middle": 102,
+      "heading": {
+       "text": "Write to me",
+       "size": 107,
+       "tag": "h2"
+      },
+      "left": 28,
+      "right": 28,
+      "textLeft": 28,
+      "textRight": 28,
+      "fullBleed": false,
+      "footer": true,
+      "hero": false,
+      "continues": false,
+      "pinned": false
+     }
+    ],
+    "gaps": [
+     {
+      "top": 48,
+      "height": 336
+     },
+     {
+      "top": 1556,
+      "height": 296
+     },
+     {
+      "top": 2440,
+      "height": 348
+     },
+     {
+      "top": 3344,
+      "height": 308
+     }
+    ],
+    "h1s": [
+     {
+      "text": "I RUN THE BEHIND AI",
+      "size": 104,
+      "top": 417,
+      "firstScreen": true
+     }
+    ],
+    "edgeText": [],
+    "edges": [
+     {
+      "x": 28,
+      "n": 4
+     },
+     {
+      "x": 87,
+      "n": 1
+     },
+     {
+      "x": 320,
+      "n": 1
+     },
+     {
+      "x": 752,
+      "n": 1
+     },
+     {
+      "x": 901,
+      "n": 1
+     },
+     {
+      "x": 1301,
+      "n": 1
+     }
+    ],
+    "leftBlocks": 9,
+    "bodySize": 19,
+    "stage": false,
+    "explains": true,
+    "slivers": [],
+    "voidShare": 0.27,
+    "voidBox": {
+     "x": 0,
+     "y": 120,
+     "w": 1440,
+     "h": 240
+    }
+   },
+   "app": null,
+   "consoleErrors": []
+  },
+  {
+   "width": 768,
+   "height": 1024,
+   "load": "load",
+   "screens": 5,
+   "filled": [
+    0.56,
+    0.75,
+    0.76,
+    0.45,
+    0.63
+   ],
+   "motion": {
+    "elements": 10,
+    "css": 2,
+    "transitions": 8,
+    "scripted": 0,
+    "videos": 0,
+    "playingVideos": 0
+   },
+   "metrics": {
+    "viewport": {
+     "w": 768,
+     "h": 1024
+    },
+    "page": {
+     "height": 4506,
+     "screens": 4.4,
+     "words": 221,
+     "img": 2,
+     "video": 0,
+     "canvas": 0,
+     "svg": 0,
+     "sections": 3,
+     "horizontalOverflow": 0,
+     "overflowCulprits": [],
+     "uiFragments": 0,
+     "uiAbuse": false,
+     "realPictures": 2,
+     "videoCount": 0,
+     "uiPictures": 0,
+     "pictureSamples": [
+      "racks-amravati-data-center.jpg",
+      "duga-1-radar-data-center-inside-empty.jpg"
+     ],
+     "blendText": 0,
+     "sideScrollers": 0,
+     "brokenImages": [],
+     "emoji": [],
+     "videosNoPoster": 0
+    },
+    "hero": {
+     "text": "I RUN THE BEHIND AI",
+     "words": 5,
+     "chars": 19,
+     "lines": 2,
+     "size": 103.7,
+     "vw": 13.5,
+     "font": "Bodoni Moda",
+     "weight": 500,
+     "tracking": -0.03,
+     "leading": 0.95,
+     "upper": true,
+     "italic": false,
+     "mono": false,
+     "align": "left",
+     "position": "center",
+     "widthRatio": 0.96,
+     "top": 233,
+     "tag": "h1",
+     "kind": "heading"
+    },
+    "h1": {
+     "text": "I RUN THE BEHIND AI",
+     "words": 5,
+     "lines": 2,
+     "size": 103.7,
+     "font": "Bodoni Moda"
+    },
+    "headings": [
+     {
+      "text": "I RUN THE BEHIND AI",
+      "words": 5,
+      "chars": 19,
+      "lines": 2,
+      "size": 103.7,
+      "vw": 13.5,
+      "font": "Bodoni Moda",
+      "weight": 500,
+      "tracking": -0.03,
+      "leading": 0.95,
+      "upper": true,
+      "italic": false,
+      "mono": false,
+      "align": "left",
+      "position": "center",
+      "widthRatio": 0.96,
+      "top": 233,
+      "tag": "h1",
+      "kind": "heading"
+     },
+     {
+      "text": "Every prompt passes one gate.",
+      "words": 5,
+      "chars": 29,
+      "lines": 1,
+      "size": 51.5,
+      "vw": 6.7,
+      "font": "Bodoni Moda",
+      "weight": 500,
+      "tracking": -0.03,
+      "leading": 0.95,
+      "upper": false,
+      "italic": false,
+      "mono": false,
+      "align": "left",
+      "position": "center",
+      "widthRatio": 0.96,
+      "top": 1120,
+      "tag": "h2",
+      "kind": "heading"
+     },
+     {
+      "text": "Hand this agent the keys?",
+      "words": 5,
+      "chars": 25,
+      "lines": 1,
+      "size": 51.5,
+      "vw": 6.7,
+      "font": "Bodoni Moda",
+      "weight": 500,
+      "tracking": -0.03,
+      "leading": 0.95,
+      "upper": false,
+      "italic": false,
+      "mono": false,
+      "align": "left",
+      "position": "center",
+      "widthRatio": 0.96,
+      "top": 2145,
+      "tag": "h2",
+      "kind": "heading"
+     },
+     {
+      "text": "Allowed",
+      "words": 1,
+      "chars": 7,
+      "lines": 1,
+      "size": 48,
+      "vw": 6.3,
+      "font": "Bodoni Moda",
+      "weight": 500,
+      "tracking": -0.03,
+      "leading": 1,
+      "upper": false,
+      "italic": false,
+      "mono": false,
+      "align": "left",
+      "position": "center",
+      "widthRatio": 0.88,
+      "top": 2739,
+      "tag": "b",
+      "kind": "heading"
+     },
+     {
+      "text": "Wise",
+      "words": 1,
+      "chars": 4,
+      "lines": 1,
+      "size": 48,
+      "vw": 6.3,
+      "font": "Bodoni Moda",
+      "weight": 500,
+      "tracking": -0.03,
+      "leading": 1,
+      "upper": false,
+      "italic": false,
+      "mono": false,
+      "align": "left",
+      "position": "center",
+      "widthRatio": 0.88,
+      "top": 2927,
+      "tag": "b",
+      "kind": "heading"
+     },
+     {
+      "text": "“A massive part",
+      "words": 3,
+      "chars": 15,
+      "lines": 1,
+      "size": 92.2,
+      "vw": 12,
+      "font": "Bodoni Moda",
+      "weight": 500,
+      "tracking": -0.03,
+      "leading": 0.95,
+      "upper": false,
+      "italic": false,
+      "mono": false,
+      "align": "left",
+      "position": "center",
+      "widthRatio": 0.96,
+      "top": 3452,
+      "tag": "div",
+      "kind": "heading"
+     },
+     {
+      "text": "References",
+      "words": 1,
+      "chars": 10,
+      "lines": 1,
+      "size": 26.9,
+      "vw": 3.5,
+      "font": "Jost",
+      "weight": 700,
+      "tracking": 0.007,
+      "leading": 1.6,
+      "upper": false,
+      "italic": false,
+      "mono": false,
+      "align": "left",
+      "position": "left",
+      "widthRatio": 0.17,
+      "top": 3452,
+      "tag": "h2",
+      "kind": "heading"
+     },
+     {
+      "text": "of why we",
+      "words": 3,
+      "chars": 9,
+      "lines": 1,
+      "size": 92.2,
+      "vw": 12,
+      "font": "Bodoni Moda",
+      "weight": 500,
+      "tracking": -0.03,
+      "leading": 0.95,
+      "upper": false,
+      "italic": false,
+      "mono": false,
+      "align": "left",
+      "position": "center",
+      "widthRatio": 0.96,
+      "top": 3577,
+      "tag": "div",
+      "kind": "heading"
+     },
+     {
+      "text": "succeeded.”",
+      "words": 1,
+      "chars": 11,
+      "lines": 1,
+      "size": 92.2,
+      "vw": 12,
+      "font": "Bodoni Moda",
+      "weight": 500,
+      "tracking": -0.03,
+      "leading": 0.95,
+      "upper": false,
+      "italic": false,
+      "mono": false,
+      "align": "left",
+      "position": "center",
+      "widthRatio": 0.96,
+      "top": 3701,
+      "tag": "div",
+      "kind": "heading"
+     },
+     {
+      "text": "WRITE TO ME",
+      "words": 3,
+      "chars": 11,
+      "lines": 1,
+      "size": 56.8,
+      "vw": 7.4,
+      "font": "Bodoni Moda",
+      "weight": 500,
+      "tracking": -0.03,
+      "leading": 0.95,
+      "upper": true,
+      "italic": false,
+      "mono": false,
+      "align": "left",
+      "position": "center",
+      "widthRatio": 0.96,
+      "top": 4252,
+      "tag": "h2",
+      "kind": "heading"
+     }
+    ],
+    "headingSummary": {
+     "count": 10,
+     "maxLines": 2,
+     "over2Lines": 0,
+     "statements": 0,
+     "centered": 0,
+     "medianWords": 3,
+     "mixedFontHeadings": 0
+    },
+    "type": {
+     "families": [
+      {
+       "family": "Jost",
+       "share": 0.91,
+       "mono": false
+      },
+      {
+       "family": "Bodoni Moda",
+       "share": 0.09,
+       "mono": false
+      }
+     ],
+     "familyCount": 2,
+     "sizes": [
+      15,
+      16,
+      17,
+      18,
+      27,
+      48,
+      52,
+      57,
+      92,
+      104
+     ],
+     "sizeCount": 10,
+     "notLoaded": [],
+     "body": {
+      "font": "Jost",
+      "size": 17.9,
+      "leading": 1.6,
+      "weight": 400,
+      "tracking": 0.01,
+      "contrast": 9.5
+     },
+     "measureChars": 53,
+     "max": {
+      "size": 103.7,
+      "vw": 13.5,
+      "font": "Bodoni Moda",
+      "text": "I"
+     },
+     "monoShare": 0,
+     "monoProseShare": 0,
+     "monoFamilies": [],
+     "monoSamples": [],
+     "microLabels": 0,
+     "microLabelShare": 0,
+     "microSamples": [],
+     "upperShare": 0.02,
+     "centerShare": 0,
+     "smallText": 0
+    },
+    "eyebrows": [],
+    "numbered": [],
+    "color": {
+     "bodyBg": "#133621",
+     "bodyBgHsl": {
+      "h": 144,
+      "s": 0.48,
+      "l": 0.14
+     },
+     "dark": true,
+     "sectionBgs": [
+      {
+       "color": "#1a4429",
+       "top": 1401,
+       "hsl": {
+        "h": 141,
+        "s": 0.45,
+        "l": 0.18
+       }
+      },
+      {
+       "color": "#f4d96c",
+       "top": 4112,
+       "hsl": {
+        "h": 48,
+        "s": 0.86,
+        "l": 0.69
+       }
+      }
+     ],
+     "textColors": [
+      {
+       "color": "#f4d96c",
+       "share": 0.79
+      },
+      {
+       "color": "#133621",
+       "share": 0.15
+      },
+      {
+       "color": "#b3a55e",
+       "share": 0.06
+      }
+     ],
+     "button": {
+      "bg": "#215233",
+      "hsl": {
+       "h": 142,
+       "s": 0.43,
+       "l": 0.23
+      },
+      "fg": "#f4d96c"
+     },
+     "lowContrast": []
+    },
+    "buttons": {
+     "count": 5,
+     "inHero": 1,
+     "radius": 14,
+     "height": 65,
+     "withShadow": 0,
+     "withGradient": 0,
+     "mono": 0,
+     "upper": 0,
+     "heroLabels": [
+      "Talk to me"
+     ]
+    },
+    "surfaces": {
+     "shadowStatic": 0,
+     "shadowOverlay": 0,
+     "shadowSamples": [],
+     "gradients": 0,
+     "scrims": 0,
+     "gradientSamples": [],
+     "gradientText": 0,
+     "hairlines": 0,
+     "hairlineSamples": [],
+     "outlinedBoxes": 0,
+     "dashed": 0,
+     "blurred": 0,
+     "roundedBoxes": 3,
+     "boxRadius": 14,
+     "squareMedia": 0,
+     "roundedMedia": 2,
+     "mediaRadius": 14,
+     "textShadow": 0,
+     "cardRows": []
+    },
+    "heroMedia": [
+     {
+      "type": "img",
+      "ratio": 0.34
+     }
+    ],
+    "nav": {
+     "links": 2,
+     "fixed": false,
+     "height": 72,
+     "floatingPill": false,
+     "blur": false
+    },
+    "fontsLoaded": [
+     "bodoni moda",
+     "jost"
+    ]
+   },
+   "layout": {
+    "viewport": {
+     "w": 768,
+     "h": 1024
+    },
+    "pageH": 4506,
+    "margins": {
+     "left": 16,
+     "right": 16
+    },
+    "sections": [
+     {
+      "sel": "header.hero",
+      "tag": "header",
+      "top": 72,
+      "height": 952,
+      "words": 32,
+      "media": 1,
+      "middle": 0,
+      "heading": {
+       "text": "run",
+       "size": 104,
+       "tag": "h1"
+      },
+      "left": 16,
+      "right": 16,
+      "textLeft": 16,
+      "textRight": 241,
+      "fullBleed": false,
+      "footer": false,
+      "hero": true,
+      "continues": false,
+      "pinned": false
+     },
+     {
+      "sel": "section.claim",
+      "tag": "section",
+      "top": 1024,
+      "height": 1025,
+      "words": 56,
+      "media": 1,
+      "middle": 0,
+      "heading": {
+       "text": "Every prompt passes one gate.",
+       "size": 52,
+       "tag": "h2"
+      },
+      "left": 16,
+      "right": 16,
+      "textLeft": 16,
+      "textRight": 77,
+      "fullBleed": false,
+      "footer": false,
+      "hero": false,
+      "continues": false,
+      "pinned": false
+     },
+     {
+      "sel": "section#siege.siege",
+      "tag": "section",
+      "top": 2049,
+      "height": 1203,
+      "words": 89,
+      "media": 0,
+      "middle": 0,
+      "heading": {
+       "text": "Hand this agent the keys?",
+       "size": 52,
+       "tag": "h2"
+      },
+      "left": 16,
+      "right": 16,
+      "textLeft": 16,
+      "textRight": 178,
+      "fullBleed": false,
+      "footer": false,
+      "hero": false,
+      "continues": false,
+      "pinned": false
+     },
+     {
+      "sel": "section#words.quote",
+      "tag": "section",
+      "top": 3252,
+      "height": 860,
+      "words": 16,
+      "media": 0,
+      "middle": 9882,
+      "heading": {
+       "text": "“A",
+       "size": 92,
+       "tag": "span"
+      },
+      "left": 0,
+      "right": 16,
+      "textLeft": -9999,
+      "textRight": 16,
+      "fullBleed": false,
+      "footer": false,
+      "hero": false,
+      "continues": false,
+      "pinned": false
+     },
+     {
+      "sel": "footer#contact",
+      "tag": "footer",
+      "top": 4112,
+      "height": 394,
+      "words": 25,
+      "media": 0,
+      "middle": 14,
+      "heading": {
+       "text": "Write to me",
+       "size": 57,
+       "tag": "h2"
+      },
+      "left": 16,
+      "right": 16,
+      "textLeft": 16,
+      "textRight": 16,
+      "fullBleed": false,
+      "footer": true,
+      "hero": false,
+      "continues": false,
+      "pinned": false
+     }
+    ],
+    "gaps": [
+     {
+      "top": 3912,
+      "height": 320
+     }
+    ],
+    "h1s": [
+     {
+      "text": "I RUN THE BEHIND AI",
+      "size": 104,
+      "top": 233,
+      "firstScreen": true
+     }
+    ],
+    "edgeText": [],
+    "edges": [
+     {
+      "x": 16,
+      "n": 6
+     },
+     {
+      "x": 75,
+      "n": 1
+     },
+     {
+      "x": 308,
+      "n": 1
+     },
+     {
+      "x": 417,
+      "n": 1
+     }
+    ],
+    "leftBlocks": 9,
+    "bodySize": 18,
+    "stage": false,
+    "explains": false,
+    "slivers": [],
+    "voidShare": 0,
+    "voidBox": null
+   },
+   "app": null,
+   "consoleErrors": []
+  },
+  {
+   "width": 390,
+   "height": 844,
+   "load": "load",
+   "screens": 5,
+   "filled": [
+    0.48,
+    0.72,
+    0.86,
+    0.51,
+    0.67
+   ],
+   "motion": {
+    "elements": 10,
+    "css": 2,
+    "transitions": 8,
+    "scripted": 0,
+    "videos": 0,
+    "playingVideos": 0
+   },
+   "metrics": {
+    "viewport": {
+     "w": 390,
+     "h": 844
+    },
+    "page": {
+     "height": 4046,
+     "screens": 4.8,
+     "words": 221,
+     "img": 2,
+     "video": 0,
+     "canvas": 0,
+     "svg": 0,
+     "sections": 3,
+     "horizontalOverflow": 0,
+     "overflowCulprits": [],
+     "uiFragments": 0,
+     "uiAbuse": false,
+     "realPictures": 2,
+     "videoCount": 0,
+     "uiPictures": 0,
+     "pictureSamples": [
+      "racks-amravati-data-center.jpg",
+      "duga-1-radar-data-center-inside-empty.jpg"
+     ],
+     "blendText": 0,
+     "sideScrollers": 0,
+     "brokenImages": [],
+     "emoji": [],
+     "videosNoPoster": 0
+    },
+    "hero": {
+     "text": "I RUN THE BEHIND AI",
+     "words": 5,
+     "chars": 19,
+     "lines": 2,
+     "size": 52.7,
+     "vw": 13.5,
+     "font": "Bodoni Moda",
+     "weight": 500,
+     "tracking": -0.03,
+     "leading": 0.95,
+     "upper": true,
+     "italic": false,
+     "mono": false,
+     "align": "left",
+     "position": "center",
+     "widthRatio": 0.92,
+     "top": 292,
+     "tag": "h1",
+     "kind": "heading"
+    },
+    "h1": {
+     "text": "I RUN THE BEHIND AI",
+     "words": 5,
+     "lines": 2,
+     "size": 52.7,
+     "font": "Bodoni Moda"
+    },
+    "headings": [
+     {
+      "text": "I RUN THE BEHIND AI",
+      "words": 5,
+      "chars": 19,
+      "lines": 2,
+      "size": 52.7,
+      "vw": 13.5,
+      "font": "Bodoni Moda",
+      "weight": 500,
+      "tracking": -0.03,
+      "leading": 0.95,
+      "upper": true,
+      "italic": false,
+      "mono": false,
+      "align": "left",
+      "position": "center",
+      "widthRatio": 0.92,
+      "top": 292,
+      "tag": "h1",
+      "kind": "heading"
+     },
+     {
+      "text": "Every prompt passes one gate.",
+      "words": 5,
+      "chars": 29,
+      "lines": 2,
+      "size": 38.4,
+      "vw": 9.8,
+      "font": "Bodoni Moda",
+      "weight": 500,
+      "tracking": -0.03,
+      "leading": 0.95,
+      "upper": false,
+      "italic": false,
+      "mono": false,
+      "align": "left",
+      "position": "center",
+      "widthRatio": 0.92,
+      "top": 940,
+      "tag": "h2",
+      "kind": "heading"
+     },
+     {
+      "text": "Hand this agent the keys?",
+      "words": 5,
+      "chars": 25,
+      "lines": 2,
+      "size": 38.4,
+      "vw": 9.8,
+      "font": "Bodoni Moda",
+      "weight": 500,
+      "tracking": -0.03,
+      "leading": 0.95,
+      "upper": false,
+      "italic": false,
+      "mono": false,
+      "align": "left",
+      "position": "center",
+      "widthRatio": 0.92,
+      "top": 1724,
+      "tag": "h2",
+      "kind": "heading"
+     },
+     {
+      "text": "Allowed",
+      "words": 1,
+      "chars": 7,
+      "lines": 1,
+      "size": 48,
+      "vw": 12.3,
+      "font": "Bodoni Moda",
+      "weight": 500,
+      "tracking": -0.03,
+      "leading": 1,
+      "upper": false,
+      "italic": false,
+      "mono": false,
+      "align": "left",
+      "position": "center",
+      "widthRatio": 0.75,
+      "top": 2385,
+      "tag": "b",
+      "kind": "heading"
+     },
+     {
+      "text": "Wise",
+      "words": 1,
+      "chars": 4,
+      "lines": 1,
+      "size": 48,
+      "vw": 12.3,
+      "font": "Bodoni Moda",
+      "weight": 500,
+      "tracking": -0.03,
+      "leading": 1,
+      "upper": false,
+      "italic": false,
+      "mono": false,
+      "align": "left",
+      "position": "center",
+      "widthRatio": 0.75,
+      "top": 2573,
+      "tag": "b",
+      "kind": "heading"
+     },
+     {
+      "text": "“A massive part",
+      "words": 3,
+      "chars": 15,
+      "lines": 1,
+      "size": 46.8,
+      "vw": 12,
+      "font": "Bodoni Moda",
+      "weight": 500,
+      "tracking": -0.03,
+      "leading": 0.95,
+      "upper": false,
+      "italic": false,
+      "mono": false,
+      "align": "left",
+      "position": "center",
+      "widthRatio": 0.92,
+      "top": 3111,
+      "tag": "div",
+      "kind": "heading"
+     },
+     {
+      "text": "References",
+      "words": 1,
+      "chars": 10,
+      "lines": 1,
+      "size": 25.5,
+      "vw": 6.5,
+      "font": "Jost",
+      "weight": 700,
+      "tracking": 0.007,
+      "leading": 1.6,
+      "upper": false,
+      "italic": false,
+      "mono": false,
+      "align": "left",
+      "position": "left",
+      "widthRatio": 0.32,
+      "top": 3111,
+      "tag": "h2",
+      "kind": "heading"
+     },
+     {
+      "text": "of why we",
+      "words": 3,
+      "chars": 9,
+      "lines": 1,
+      "size": 46.8,
+      "vw": 12,
+      "font": "Bodoni Moda",
+      "weight": 500,
+      "tracking": -0.03,
+      "leading": 0.95,
+      "upper": false,
+      "italic": false,
+      "mono": false,
+      "align": "left",
+      "position": "center",
+      "widthRatio": 0.92,
+      "top": 3174,
+      "tag": "div",
+      "kind": "heading"
+     },
+     {
+      "text": "succeeded.”",
+      "words": 1,
+      "chars": 11,
+      "lines": 1,
+      "size": 46.8,
+      "vw": 12,
+      "font": "Bodoni Moda",
+      "weight": 500,
+      "tracking": -0.03,
+      "leading": 0.95,
+      "upper": false,
+      "italic": false,
+      "mono": false,
+      "align": "left",
+      "position": "center",
+      "widthRatio": 0.92,
+      "top": 3237,
+      "tag": "div",
+      "kind": "heading"
+     },
+     {
+      "text": "WRITE TO ME",
+      "words": 3,
+      "chars": 11,
+      "lines": 1,
+      "size": 44,
+      "vw": 11.3,
+      "font": "Bodoni Moda",
+      "weight": 500,
+      "tracking": -0.03,
+      "leading": 0.95,
+      "upper": true,
+      "italic": false,
+      "mono": false,
+      "align": "left",
+      "position": "center",
+      "widthRatio": 0.92,
+      "top": 3732,
+      "tag": "h2",
+      "kind": "heading"
+     }
+    ],
+    "headingSummary": {
+     "count": 10,
+     "maxLines": 2,
+     "over2Lines": 0,
+     "statements": 0,
+     "centered": 0,
+     "medianWords": 3,
+     "mixedFontHeadings": 0
+    },
+    "type": {
+     "families": [
+      {
+       "family": "Jost",
+       "share": 0.91,
+       "mono": false
+      },
+      {
+       "family": "Bodoni Moda",
+       "share": 0.09,
+       "mono": false
+      }
+     ],
+     "familyCount": 2,
+     "sizes": [
+      15,
+      16,
+      17,
+      18,
+      26,
+      38,
+      44,
+      47,
+      48,
+      53
+     ],
+     "sizeCount": 10,
+     "notLoaded": [],
+     "body": {
+      "font": "Jost",
+      "size": 17,
+      "leading": 1.4,
+      "weight": 400,
+      "tracking": 0.01,
+      "contrast": 9.5
+     },
+     "measureChars": 42,
+     "max": {
+      "size": 52.7,
+      "vw": 13.5,
+      "font": "Bodoni Moda",
+      "text": "I"
+     },
+     "monoShare": 0,
+     "monoProseShare": 0,
+     "monoFamilies": [],
+     "monoSamples": [],
+     "microLabels": 0,
+     "microLabelShare": 0,
+     "microSamples": [],
+     "upperShare": 0.02,
+     "centerShare": 0,
+     "smallText": 0
+    },
+    "eyebrows": [],
+    "numbered": [],
+    "color": {
+     "bodyBg": "#133621",
+     "bodyBgHsl": {
+      "h": 144,
+      "s": 0.48,
+      "l": 0.14
+     },
+     "dark": true,
+     "sectionBgs": [
+      {
+       "color": "#1a4429",
+       "top": 1628,
+       "hsl": {
+        "h": 141,
+        "s": 0.45,
+        "l": 0.18
+       }
+      },
+      {
+       "color": "#f4d96c",
+       "top": 3592,
+       "hsl": {
+        "h": 48,
+        "s": 0.86,
+        "l": 0.69
+       }
+      }
+     ],
+     "textColors": [
+      {
+       "color": "#f4d96c",
+       "share": 0.79
+      },
+      {
+       "color": "#133621",
+       "share": 0.15
+      },
+      {
+       "color": "#b3a55e",
+       "share": 0.06
+      }
+     ],
+     "button": {
+      "bg": "#f4d96c",
+      "hsl": {
+       "h": 48,
+       "s": 0.86,
+       "l": 0.69
+      },
+      "fg": "#133621"
+     },
+     "lowContrast": []
+    },
+    "buttons": {
+     "count": 4,
+     "inHero": 1,
+     "radius": 14,
+     "height": 63,
+     "withShadow": 0,
+     "withGradient": 0,
+     "mono": 0,
+     "upper": 0,
+     "heroLabels": [
+      "Talk to me"
+     ]
+    },
+    "surfaces": {
+     "shadowStatic": 0,
+     "shadowOverlay": 0,
+     "shadowSamples": [],
+     "gradients": 0,
+     "scrims": 0,
+     "gradientSamples": [],
+     "gradientText": 0,
+     "hairlines": 0,
+     "hairlineSamples": [],
+     "outlinedBoxes": 0,
+     "dashed": 0,
+     "blurred": 0,
+     "roundedBoxes": 4,
+     "boxRadius": 14,
+     "squareMedia": 0,
+     "roundedMedia": 2,
+     "mediaRadius": 14,
+     "textShadow": 0,
+     "cardRows": []
+    },
+    "heroMedia": [
+     {
+      "type": "img",
+      "ratio": 0.19
+     }
+    ],
+    "nav": {
+     "links": 2,
+     "fixed": false,
+     "height": 72,
+     "floatingPill": false,
+     "blur": false
+    },
+    "fontsLoaded": [
+     "bodoni moda",
+     "jost"
+    ]
+   },
+   "layout": {
+    "viewport": {
+     "w": 390,
+     "h": 844
+    },
+    "pageH": 4046,
+    "margins": {
+     "left": 16,
+     "right": 16
+    },
+    "sections": [
+     {
+      "sel": "header.hero",
+      "tag": "header",
+      "top": 72,
+      "height": 772,
+      "words": 32,
+      "media": 1,
+      "middle": 0,
+      "heading": {
+       "text": "run",
+       "size": 53,
+       "tag": "h1"
+      },
+      "left": 16,
+      "right": 16,
+      "textLeft": 16,
+      "textRight": 28,
+      "fullBleed": false,
+      "footer": false,
+      "hero": true,
+      "continues": false,
+      "pinned": false
+     },
+     {
+      "sel": "section.claim",
+      "tag": "section",
+      "top": 844,
+      "height": 784,
+      "words": 56,
+      "media": 1,
+      "middle": 0,
+      "heading": {
+       "text": "Every prompt passes one gate.",
+       "size": 38,
+       "tag": "h2"
+      },
+      "left": 16,
+      "right": 16,
+      "textLeft": 16,
+      "textRight": 17,
+      "fullBleed": false,
+      "footer": false,
+      "hero": false,
+      "continues": false,
+      "pinned": false
+     },
+     {
+      "sel": "section#siege.siege",
+      "tag": "section",
+      "top": 1628,
+      "height": 1283,
+      "words": 89,
+      "media": 0,
+      "middle": 0,
+      "heading": {
+       "text": "Hand this agent the keys?",
+       "size": 38,
+       "tag": "h2"
+      },
+      "left": 16,
+      "right": 16,
+      "textLeft": 16,
+      "textRight": 27,
+      "fullBleed": false,
+      "footer": false,
+      "hero": false,
+      "continues": false,
+      "pinned": false
+     },
+     {
+      "sel": "section#words.quote",
+      "tag": "section",
+      "top": 2911,
+      "height": 681,
+      "words": 16,
+      "media": 0,
+      "middle": 9889,
+      "heading": {
+       "text": "“A",
+       "size": 47,
+       "tag": "span"
+      },
+      "left": 0,
+      "right": 16,
+      "textLeft": -9999,
+      "textRight": 16,
+      "fullBleed": false,
+      "footer": false,
+      "hero": false,
+      "continues": false,
+      "pinned": false
+     },
+     {
+      "sel": "footer#contact",
+      "tag": "footer",
+      "top": 3592,
+      "height": 454,
+      "words": 25,
+      "media": 0,
+      "middle": 0,
+      "heading": {
+       "text": "Write to me",
+       "size": 44,
+       "tag": "h2"
+      },
+      "left": 16,
+      "right": 37,
+      "textLeft": 16,
+      "textRight": 37,
+      "fullBleed": false,
+      "footer": true,
+      "hero": false,
+      "continues": false,
+      "pinned": false
+     }
+    ],
+    "gaps": [
+     {
+      "top": 2792,
+      "height": 304
+     },
+     {
+      "top": 3392,
+      "height": 324
+     }
+    ],
+    "h1s": [
+     {
+      "text": "I RUN THE BEHIND AI",
+      "size": 53,
+      "top": 292,
+      "firstScreen": true
+     }
+    ],
+    "edgeText": [],
+    "edges": [
+     {
+      "x": 16,
+      "n": 6
+     },
+     {
+      "x": 46,
+      "n": 1
+     },
+     {
+      "x": 165,
+      "n": 1
+     },
+     {
+      "x": 220,
+      "n": 1
+     }
+    ],
+    "leftBlocks": 9,
+    "bodySize": 17,
+    "stage": false,
+    "explains": false,
+    "slivers": [],
+    "voidShare": 0,
+    "voidBox": null
+   },
+   "app": null,
+   "consoleErrors": []
+  }
+ ],
+ "findings": [
+  {
+   "level": "WARN",
+   "id": "size-count",
+   "width": 1440,
+   "message": "11 different font sizes (15, 16, 18, 19, 22, 29, 72, 78, 104, 107, 121).",
+   "fix": "A page needs about five: display, heading, lead, body, small.",
+   "alsoAt": [
+    768,
+    390
+   ]
+  },
+  {
+   "level": "FAIL",
+   "id": "few-pictures",
+   "width": 1440,
+   "message": "Only 1 picture(s) on the page (1 photographs, footage or raster images, 0 interface fragments). Drawings in SVG do not count.",
+   "fix": "Find real pictures of the subject's world with scripts/assets.mjs (photographs, archival images, maps, engravings, footage), download them to assets/ and give them room: a hero picture, one per section that has a subject, a full-width band. At least four, usually six to twelve."
+  },
+  {
+   "level": "WARN",
+   "id": "no-footage",
+   "width": 1440,
+   "message": "No video anywhere on the page.",
+   "fix": "Look for one honest clip with scripts/assets.mjs --video (the place, the material, the process) and use it as a muted loop with a poster frame. Defend its absence only if no clip fits the subject."
+  },
+  {
+   "level": "WARN",
+   "id": "empty-middle",
+   "width": 1440,
+   "message": "1 section(s) have content at both edges and 9886px of nothing between: \"“A\"",
+   "fix": "Bring the two parts together on the grid, or put the picture or figure of the section in the middle. An empty middle third reads as a hole, the same as an empty half.",
+   "alsoAt": [
+    768
+   ]
+  },
+  {
+   "level": "WARN",
+   "id": "still-page",
+   "width": 1440,
+   "message": "Little motion: 10 element(s) moved while the page loaded and scrolled.",
+   "fix": "Give every section an entrance for its parts (not one fade of the whole block) and add one moving picture: a looping clip or a slow move on a photograph."
+  }
+ ],
+ "images": [
+  {
+   "viewport": "desktop",
+   "width": 1440,
+   "fold": "/Users/wagdy/Desktop/Professional-Portfolio/.taste-skill/inspect-c-sentence/desktop-fold.jpg",
+   "pages": [
+    "/Users/wagdy/Desktop/Professional-Portfolio/.taste-skill/inspect-c-sentence/desktop-page-01.jpg",
+    "/Users/wagdy/Desktop/Professional-Portfolio/.taste-skill/inspect-c-sentence/desktop-page-02.jpg"
+   ],
+   "film": []
+  },
+  {
+   "viewport": "tablet",
+   "width": 768,
+   "fold": "/Users/wagdy/Desktop/Professional-Portfolio/.taste-skill/inspect-c-sentence/tablet-fold.jpg",
+   "pages": [
+    "/Users/wagdy/Desktop/Professional-Portfolio/.taste-skill/inspect-c-sentence/tablet-page-01.jpg"
+   ],
+   "film": []
+  },
+  {
+   "viewport": "mobile",
+   "width": 390,
+   "fold": "/Users/wagdy/Desktop/Professional-Portfolio/.taste-skill/inspect-c-sentence/mobile-fold.jpg",
+   "pages": [
+    "/Users/wagdy/Desktop/Professional-Portfolio/.taste-skill/inspect-c-sentence/mobile-page-01.jpg"
+   ],
+   "film": []
+  }
+ ]
+}

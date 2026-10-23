@@ -1,0 +1,188 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Ahmed Wagdy — Dark Room</title>
+<link href="https://api.fontshare.com/v2/css?f[]=zodiak@100,300,400&display=swap" rel="stylesheet">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Hanken+Grotesk:wght@400;500&display=swap" rel="stylesheet">
+<style>
+:root{
+  --bg:#0e110f;--surface:#181c19;--surface-2:#222723;--ink:#eef0ec;--muted:#8f948f;--accent:#dafa9c;--accent-ink:#0f0f0f;
+  --body:clamp(1.0625rem,1rem + .25vw,1.1875rem);--head:clamp(2.4rem,1.2rem + 4.4vw,5.4rem);
+  --m:30px;
+}
+*{box-sizing:border-box;margin:0;padding:0}
+html{background:var(--bg)}
+body{background:var(--bg);color:var(--ink);font-family:"Hanken Grotesk",system-ui,sans-serif;font-size:var(--body);line-height:1.6;-webkit-font-smoothing:antialiased}
+a{color:inherit}
+img{display:block;max-width:100%}
+.z{font-family:Zodiak,Georgia,serif;font-weight:300;letter-spacing:-.01em;line-height:1}
+
+.hero{position:relative;min-height:100svh;padding:0 var(--m)}
+nav{position:absolute;top:0;left:var(--m);right:var(--m);display:flex;justify-content:space-between;align-items:center;padding-top:26px;font-size:15px;z-index:2}
+nav div{display:flex;gap:26px}
+nav a{text-decoration:none;color:var(--muted);transition:color .2s}
+nav a:hover{color:var(--ink)}
+nav .wm{color:var(--ink)}
+.btn{display:inline-block;background:var(--accent);color:var(--accent-ink);text-decoration:none;padding:13px 22px;font-size:15px;font-weight:500;transition:transform .15s,background .2s}
+.btn:hover{background:#e8ffbd}
+.btn:active{transform:scale(.97)}
+.print-l{position:absolute;left:41.6%;top:13%;width:min(34vw,520px);aspect-ratio:4/5;overflow:hidden}
+.print-l img{width:100%;height:100%;object-fit:cover;object-position:50% 18%;filter:grayscale(.3) contrast(1.1) brightness(.92)}
+.print-l .x{position:absolute;inset:0;opacity:0;transition:opacity 1.6s ease}
+.print-l .x.on{opacity:1}
+.print-s{position:absolute;left:9%;top:52%;width:min(14vw,220px);aspect-ratio:1;overflow:hidden}
+.print-s img{width:100%;height:100%;object-fit:cover;filter:brightness(.7)}
+.hero h1{position:absolute;left:var(--m);bottom:var(--m);font-size:clamp(28px,2.8vw,44px);max-width:24ch}
+.hero .side{position:absolute;right:var(--m);bottom:var(--m);max-width:24ch;font-size:16px;color:var(--muted)}
+
+/* exhibits */
+.exhibit{display:grid;grid-template-columns:repeat(12,1fr);gap:24px;padding:180px var(--m);align-items:end}
+.exhibit figure{grid-column:2/8;overflow:hidden}
+.exhibit figure img{width:100%;aspect-ratio:3/2;object-fit:cover;filter:brightness(.8) contrast(1.1);transition:transform 1.2s cubic-bezier(.2,.7,.2,1)}
+.exhibit figure:hover img{transform:scale(1.03)}
+.exhibit .label{grid-column:9/13}
+.exhibit.flip figure{grid-column:6/12;order:2}
+.exhibit.flip .label{grid-column:1/5}
+.exhibit h2{font-size:clamp(2.2rem,1rem + 3.4vw,4rem);font-weight:100}
+.exhibit .meta{margin-top:20px;font-size:15px;color:var(--muted)}
+.exhibit p.t{margin-top:20px}
+
+/* agent: live thing */
+.agent{padding:160px var(--m);display:grid;grid-template-columns:5fr 7fr;gap:64px;align-items:start}
+.agent h2{font-size:var(--head);font-weight:100}
+.agent .t{margin-top:24px;max-width:40ch}
+.qs{margin-top:32px;display:flex;flex-direction:column;gap:8px}
+.qs button{font:inherit;font-size:16px;text-align:left;background:var(--surface);color:var(--ink);border:0;padding:16px 20px;cursor:pointer;transition:background .2s,transform .1s}
+.qs button:hover{background:var(--surface-2)}
+.qs button:active{transform:scale(.99)}
+.qs button[aria-pressed=true]{background:var(--ink);color:var(--bg)}
+.chat{background:var(--surface);padding:28px;min-height:440px;display:flex;flex-direction:column;gap:18px;font-size:16px}
+.msg{display:grid;grid-template-columns:36px 1fr;gap:14px;opacity:0;transform:translateY(10px);transition:opacity .4s,transform .4s}
+.msg.in{opacity:1;transform:none}
+.av{width:36px;height:36px;background:var(--surface-2);display:grid;place-items:center;font-size:14px;font-weight:500}
+.av.bot{background:var(--accent);color:var(--accent-ink)}
+.msg b{font-weight:500}
+.msg b small{color:var(--muted);font-weight:400;margin-left:8px;font-size:13px}
+.msg p{margin-top:2px;color:#d6d9d4}
+
+/* records */
+.records{padding:160px var(--m);display:grid;grid-template-columns:repeat(12,1fr);gap:24px}
+.records h2{grid-column:1/5;font-size:clamp(32px,3vw,48px)}
+.records .col{grid-column:span 4}
+.records .col h3{font-size:16px;font-weight:500;margin-bottom:16px}
+.records li{list-style:none;display:flex;justify-content:space-between;gap:16px;padding:7px 0;font-size:16px}
+.records li span:last-child{color:var(--muted);white-space:nowrap}
+
+/* email */
+.contact{min-height:100svh;background:var(--ink);color:var(--bg);padding:var(--m);display:grid;grid-template-rows:auto 1fr auto}
+.contact p{font-size:22px;max-width:30ch}
+.contact a.mail{align-self:end;font-size:clamp(34px,6.4vw,104px);font-family:Zodiak,serif;font-weight:300;letter-spacing:-.03em;text-decoration:none;line-height:1;margin-bottom:8vh;transition:color .2s;word-break:break-word}
+.contact a.mail:hover{color:#4a6b10}
+.contact .corners{display:flex;justify-content:space-between;font-size:14px;gap:16px;flex-wrap:wrap}
+
+.r{opacity:0;transform:translateY(24px);transition:opacity .9s ease,transform .9s cubic-bezier(.2,.7,.2,1)}
+.r.in{opacity:1;transform:none}
+.no-js .r{opacity:1;transform:none}
+@media (prefers-reduced-motion:reduce){.r,.msg{opacity:1;transform:none;transition:none}}
+@media (max-width:860px){
+  :root{--m:20px}
+  nav div a{display:none}
+  .print-l{left:auto;right:var(--m);top:12%;width:78vw}
+  .print-s{left:var(--m);top:calc(12% + 78vw * 1.25 - 24px - 30vw);width:30vw}
+  .hero h1{bottom:120px;font-size:6.6vw;max-width:none}
+  .hero .side{left:var(--m);right:auto;font-size:15px}
+  .exhibit,.records{grid-template-columns:1fr;padding:100px var(--m)}
+  .exhibit figure,.exhibit .label,.exhibit.flip figure,.exhibit.flip .label,.records h2,.records .col{grid-column:1/-1;order:0}
+  .agent{grid-template-columns:1fr;padding:100px var(--m)}
+}
+</style>
+</head>
+<body class="no-js">
+<header class="hero">
+  <nav><div><a class="wm" href="#">Ahmed Wagdy</a><a href="#work">Work</a><a href="#agent">On-call agent</a><a href="#record">Record</a></div><a class="btn" href="mailto:ahmedwagdymohy@gmail.com">Get in touch</a></nav>
+  <div class="print-s"><img src="shared/cairo-university-after-sunset.jpg" alt="Cairo University dome lit at night" width="1200" height="670"></div>
+  <div class="print-l">
+    <img src="shared/portrait.jpg" alt="Ahmed Wagdy" width="1000" height="1000">
+    <img class="x" src="shared/duga-1-radar-data-center-inside-empty.jpg" alt="" width="1200" height="798">
+    <img class="x" src="shared/racks-amravati-data-center.jpg" alt="" width="1200" height="800">
+  </div>
+  <h1 class="z">Ahmed Wagdy, platform engineer<br>in Cairo.</h1>
+  <p class="side">DevOps, platform and MLOps at Incorta. I keep the machines lit after everyone has gone home.</p>
+</header>
+
+<section class="exhibit" id="work">
+  <figure class="r"><img src="shared/racks-amravati-data-center.jpg" alt="A white aisle of server racks" width="1200" height="800" loading="lazy"></figure>
+  <div class="label">
+    <h2 class="z r">The gateway</h2>
+    <p class="meta r">Incorta · 2025 · LiteLLM, GCP, Cloud SQL, Langfuse</p>
+    <p class="t r">Every language model call in the company goes through it, with access, quotas and spend for each team. Traces from both gateways land in Langfuse over Private Service Connect.</p>
+  </div>
+</section>
+
+<section class="exhibit flip">
+  <figure class="r"><img src="shared/cairo-skyline-nile-river-egypt.jpg" alt="Cairo skyline across the Nile in haze" width="1200" height="800" loading="lazy"></figure>
+  <div class="label">
+    <h2 class="z r">The evidence engine</h2>
+    <p class="meta r">All In Functional Health · 2026 · Python, Flask, Supabase</p>
+    <p class="t r">A genomic evidence platform drawing on nine public sources. A 644,000-row load fell from two and a half hours to twenty-five minutes.</p>
+  </div>
+</section>
+
+<section class="agent" id="agent">
+  <div>
+    <h2 class="z r">Ask the night shift.</h2>
+    <p class="t r">I built an on-call agent on OpenClaw and Claude Sonnet that lives in Slack and Telegram. It watches the daily builds and answers like an engineer would.</p>
+    <div class="qs" role="group" aria-label="Questions">
+      <button aria-pressed="true" data-i="0">Why did last night’s build fail?</button>
+      <button aria-pressed="false" data-i="1">Is anything on fire right now?</button>
+      <button aria-pressed="false" data-i="2">Restart the stuck loader pod</button>
+    </div>
+  </div>
+  <div class="chat" id="chat" data-ui aria-live="polite"></div>
+</section>
+
+<section class="records" id="record">
+  <h2 class="z r">The record</h2>
+  <div class="col r"><h3>Certifications</h3><ul>
+    <li><span>Google Professional Cloud Architect</span><span>GCP</span></li>
+    <li><span>Solutions Architect – Associate</span><span>AWS</span></li>
+    <li><span>Associate Cloud Engineer</span><span>GCP</span></li>
+    <li><span>CloudOps Engineer</span><span>AWS</span></li>
+    <li><span>KCNA</span><span>CNCF</span></li>
+    <li><span>MLOps</span><span>KodeKloud</span></li>
+  </ul></div>
+  <div class="col r"><h3>Recognition</h3><ul>
+    <li><span>3rd of 140+ teams, DevOpsDays Hackathon</span><span>2026</span></li>
+    <li><span>Top 10 global finalist, Qt World</span><span>Qt</span></li>
+    <li><span>B.Eng. Electronics &amp; Computer, Cairo University</span><span>2026</span></li>
+  </ul></div>
+</section>
+
+<section class="contact" id="contact">
+  <p>Hiring for platform, DevOps or MLOps? Tell me about the system.</p>
+  <a class="mail" href="mailto:ahmedwagdymohy@gmail.com">ahmedwagdymohy@<br>gmail.com</a>
+  <div class="corners"><span>+20 10032 07939 · Cairo</span><span>Photos: Faris knight, PiDatacenters, Joël van der Loo (CC BY-SA); Vyacheslav Argenberg (CC BY 4.0), Wikimedia Commons</span><span><a href="https://github.com/Ahmedwagdymohy">GitHub</a> · <a href="https://linkedin.com/in/ahmedwagdymohy">LinkedIn</a></span></div>
+</section>
+
+<script>
+document.body.classList.remove('no-js');
+const io=new IntersectionObserver(es=>es.forEach(e=>{if(e.isIntersecting){const sib=[...e.target.parentElement.querySelectorAll('.r')];setTimeout(()=>e.target.classList.add('in'),sib.indexOf(e.target)*80);io.unobserve(e.target)}}),{threshold:.15});
+document.querySelectorAll('.r').forEach(el=>io.observe(el));
+// slow crossfade in the large print
+const xs=[...document.querySelectorAll('.print-l .x')];let k=-1;
+if(!matchMedia('(prefers-reduced-motion: reduce)').matches)setInterval(()=>{xs.forEach(x=>x.classList.remove('on'));k=(k+1)%(xs.length+1);if(k<xs.length)xs[k].classList.add('on')},5600);
+const convo=[
+ [['you','Why did last night’s build fail?'],['bot','The 02:10 build failed at the integration stage. The loader image was pulled with a stale tag after the registry migration. I re-pinned it to 7.4.2 and re-ran it: green at 02:41.']],
+ [['you','Is anything on fire right now?'],['bot','No. Two clusters above 80% memory on the analytics node pool, both trending down since 09:00. One certificate expires in 12 days; I opened a ticket.']],
+ [['you','Restart the stuck loader pod'],['bot','loader-6f9c is in CrashLoopBackOff for 14 minutes after an OOM. I raised its memory limit to 6Gi in staging and restarted it. Want the same in production?']]];
+const chat=document.getElementById('chat');
+function talk(i){chat.innerHTML='';convo[i].forEach(([who,t],j)=>{const m=document.createElement('div');m.className='msg';m.innerHTML=`<div class="av ${who==='bot'?'bot':''}">${who==='bot'?'AI':'You'}</div><div><b>${who==='bot'?'on-call agent':'You'}<small>${who==='bot'?'now':'just now'}</small></b><p>${t}</p></div>`;chat.appendChild(m);setTimeout(()=>m.classList.add('in'),80+j*700)})}
+document.querySelectorAll('.qs button').forEach(b=>b.onclick=()=>{document.querySelectorAll('.qs button').forEach(x=>x.setAttribute('aria-pressed',x===b));talk(+b.dataset.i)});
+talk(0);
+</script>
+</body>
+</html>

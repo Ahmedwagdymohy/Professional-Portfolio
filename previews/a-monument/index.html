@@ -1,0 +1,236 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Ahmed Wagdy — Monument</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Bricolage+Grotesque:opsz,wght@12..96,400;12..96,500;12..96,600;12..96,800&display=swap" rel="stylesheet">
+<style>
+:root{
+  --bg:#18191b;--surface:#222427;--ink:#eff0f1;--muted:#9c9ea3;--accent:#ff4a1f;--accent-ink:#18191b;
+  --field:#eff0f1;--field-ink:#18191b;
+  --t1:#3a3d42;--t2:#2c2f33;--t3:#26282c;
+  --small:clamp(.8125rem,.79rem + .1vw,.875rem);--body:clamp(1.0625rem,1rem + .25vw,1.1875rem);
+  --lead:clamp(1.25rem,1.1rem + .7vw,1.625rem);--head:clamp(2rem,1.3rem + 3.2vw,4rem);
+  --gap:8px;--m:24px;
+}
+*{box-sizing:border-box;margin:0;padding:0}
+html{background:var(--bg)}
+body{background:var(--bg);color:var(--ink);font-family:"Bricolage Grotesque",system-ui,sans-serif;font-size:var(--body);line-height:1.5;-webkit-font-smoothing:antialiased}
+a{color:inherit}
+img{display:block;max-width:100%}
+.topbar{height:6px;background:var(--accent)}
+
+/* hero: tiles */
+.hero{min-height:calc(100svh - 6px);display:grid;grid-template-rows:170px 64px 1fr;gap:var(--gap);padding:var(--gap)}
+.tile{background:var(--surface);position:relative;overflow:hidden}
+.band{display:flex;align-items:center;justify-content:center}
+.band h1{font-size:clamp(140px,14.4vw,220px);font-weight:800;letter-spacing:-.045em;line-height:.8;white-space:nowrap;font-variation-settings:"opsz" 96}
+.band h1 span{display:block;font-size:0;width:0;height:0;overflow:hidden}
+.links{display:grid;grid-template-columns:repeat(4,1fr);gap:var(--gap)}
+.links a{padding:16px 18px;text-decoration:none;font-size:16px;transition:background .2s,color .2s}
+.links a:hover{background:var(--ink);color:var(--bg)}
+.main{display:grid;grid-template-columns:2fr 8fr 2fr;gap:var(--gap);min-height:0}
+.rail{display:grid;grid-template-rows:1.3fr 1fr;gap:var(--gap)}
+.rail img{width:100%;height:100%;object-fit:cover;object-position:50% 20%;filter:grayscale(1) contrast(1.05)}
+.facts{padding:18px;font-size:15px;display:flex;flex-direction:column;justify-content:flex-end;gap:6px}
+.facts b{font-weight:500}
+.facts span{color:var(--muted)}
+.stage img{position:absolute;inset:0;width:100%;height:100%;object-fit:cover;filter:grayscale(1) brightness(.75) contrast(1.1);transform:scale(1.08);animation:drift 24s ease-in-out infinite alternate}
+@keyframes drift{to{transform:scale(1)}}
+.statement{position:absolute;left:0;right:0;bottom:0;background:var(--bg);padding:24px 28px;display:flex;justify-content:space-between;align-items:flex-end;gap:32px}
+.statement p{font-size:clamp(24px,2.4vw,36px);line-height:1.12;letter-spacing:-.02em;max-width:24ch;font-weight:500}
+.statement small{font-size:15px;color:var(--muted);max-width:30ch}
+.colour-rail{display:grid;grid-template-rows:repeat(5,1fr);gap:var(--gap)}
+.colour-rail div,.colour-rail a{padding:16px;font-size:15px;line-height:1.3;display:flex;flex-direction:column;justify-content:space-between}
+.colour-rail strong{font-size:var(--lead);font-weight:600;letter-spacing:-.02em}
+.c1{background:var(--field);color:var(--field-ink)}.c2{background:#c9cbce;color:var(--field-ink)}.c3{background:#5b5e63}.c4{background:var(--t1)}
+.colour-rail a{background:var(--accent);color:var(--accent-ink);text-decoration:none;font-weight:600;transition:transform .2s}
+.colour-rail a:hover{transform:translateX(-4px)}
+
+/* marquee */
+.marquee{overflow:hidden;padding:120px 0 40px;white-space:nowrap}
+.marquee div{display:inline-flex;gap:.6em;font-size:clamp(64px,9vw,140px);font-weight:600;letter-spacing:-.04em;line-height:1;animation:mq 40s linear infinite}
+.marquee:hover div{animation-play-state:paused}
+.marquee em{font-style:normal;color:var(--accent)}
+@keyframes mq{to{transform:translateX(-50%)}}
+
+/* work as names */
+.wrap{padding:0 var(--m)}
+.work{padding:120px var(--m) 160px}
+.work p{font-size:clamp(36px,4.4vw,68px);line-height:1.12;letter-spacing:-.03em;font-weight:500;color:var(--muted)}
+.work p b{color:var(--ink);font-weight:600}
+.work p a{text-decoration:none;transition:color .2s}
+.work p a:hover{color:var(--ink)}
+.work .count{margin-top:28px;font-size:15px;color:var(--muted)}
+.work h2{font-size:var(--head);font-weight:600;letter-spacing:-.035em;line-height:1;margin-bottom:40px}
+.work p{font-size:clamp(24px,2.4vw,36px)!important;line-height:1.3!important;max-width:60ch}
+
+/* gate: the live thing */
+.gate{background:var(--field);color:var(--field-ink);padding:160px var(--m);display:grid;grid-template-columns:5fr 7fr;gap:64px;align-items:start}
+.gate h2{font-size:var(--head);line-height:.98;letter-spacing:-.035em;font-weight:600}
+.gate .lede{margin-top:28px;max-width:40ch}
+.gate pre{margin-top:32px;background:var(--bg);color:var(--ink);padding:20px 22px;font-size:15px;overflow:auto}
+.gate pre .k{color:var(--accent)}
+.sev{display:flex;gap:8px;margin-bottom:24px}
+.sev button{font:inherit;font-size:16px;padding:12px 20px;border:0;background:#d9dbde;color:var(--field-ink);cursor:pointer;transition:background .2s,transform .1s}
+.sev button:hover{background:#c9cbce}
+.sev button:active{transform:scale(.97)}
+.sev button[aria-pressed=true]{background:var(--bg);color:var(--ink)}
+.images{display:grid;gap:6px}
+.img-row{display:grid;grid-template-columns:1fr auto auto;gap:24px;align-items:center;background:#e2e4e6;padding:16px 18px;font-size:16px;transition:background .3s}
+.img-row .f{color:#55585e;font-size:15px}
+.img-row .v{font-weight:600;min-width:80px;text-align:right}
+.img-row.block{background:var(--accent);color:var(--accent-ink)}
+.img-row.block .f{color:var(--accent-ink)}
+.gate .note{margin-top:20px;font-size:15px;color:#55585e}
+
+/* quote spread */
+.quote{padding:180px var(--m)}
+.quote .line{display:flex;justify-content:space-between;font-size:clamp(56px,9vw,150px);font-weight:600;letter-spacing:-.045em;line-height:1;margin-bottom:.35em}
+.quote .line span:only-child{margin-left:auto}
+.quote .attr{display:flex;justify-content:space-between;font-size:18px;color:var(--muted);margin-top:40px}
+.quote h2{position:absolute;left:-9999px}
+
+/* footer */
+footer{background:var(--field);color:var(--field-ink);min-height:100svh;display:grid;grid-template-rows:auto 1fr auto;padding:40px var(--m) 20px}
+.cols{display:grid;grid-template-columns:repeat(4,1fr);gap:24px;font-size:16px}
+.cols div{display:flex;flex-direction:column;gap:2px}
+.cols div > :first-child{font-weight:600}
+.cols a{text-decoration:none;color:#45484d}
+.cols a:hover{color:var(--accent)}
+.mail{font-size:clamp(28px,4.4vw,72px);font-weight:600;letter-spacing:-.03em;align-self:center;text-decoration:none;transition:color .2s}
+.mail:hover{color:var(--accent)}
+.wordmark{width:100%;display:block;margin-top:24px}
+.legal{font-size:13px;color:#55585e;margin-top:12px;display:flex;justify-content:space-between;gap:16px;flex-wrap:wrap}
+
+/* entrances */
+.r{opacity:0;transform:translateY(24px);transition:opacity .7s cubic-bezier(.2,.7,.2,1),transform .7s cubic-bezier(.2,.7,.2,1)}
+.r.in{opacity:1;transform:none}
+.no-js .r{opacity:1;transform:none}
+@media (prefers-reduced-motion:reduce){.r{opacity:1;transform:none;transition:none}.marquee div,.stage img{animation:none}}
+
+@media (max-width:900px){
+  :root{--m:20px}
+  .hero{grid-template-rows:110px auto auto auto;gap:6px;padding:6px}
+  .band h1{font-size:26vw}
+  .links{grid-template-columns:1fr 1fr;gap:6px}
+  .main{grid-template-columns:1fr;gap:6px}
+  .stage{aspect-ratio:4/5}
+  .statement{flex-direction:column;align-items:flex-start;gap:12px}
+  .statement p{font-size:24px}
+  .rail{grid-template-columns:1fr 1fr;grid-template-rows:auto}
+  .rail img{aspect-ratio:4/5}
+  .colour-rail{grid-template-rows:none;grid-template-columns:1fr 1fr}
+  .colour-rail a{grid-column:span 2}
+  .gate{grid-template-columns:1fr;padding:96px var(--m)}
+  .img-row{grid-template-columns:1fr auto;gap:8px}.img-row .f{grid-column:1}
+  .quote .line{font-size:13vw}
+  .quote .attr{flex-direction:column;gap:6px}
+  .cols{grid-template-columns:1fr 1fr;row-gap:32px}
+}
+</style>
+</head>
+<body class="no-js">
+<div class="topbar"></div>
+<header class="hero">
+  <div class="tile band"><h1>AHMED WAGDY<span> — DevOps, platform and MLOps engineer</span></h1></div>
+  <nav class="links">
+    <a class="tile" href="#work">Work</a>
+    <a class="tile" href="#gate">Security gate</a>
+    <a class="tile" href="#words">What managers say</a>
+    <a class="tile" href="#contact">Contact</a>
+  </nav>
+  <div class="main">
+    <div class="rail">
+      <div class="tile"><img src="shared/portrait.jpg" alt="Ahmed Wagdy, arms crossed, smiling" width="1000" height="1000"></div>
+      <div class="tile facts">
+        <b>Incorta, New Cairo</b><span>since Aug 2025</span>
+        <b>Cairo University</b><span>Electronics &amp; Computer Eng.</span>
+      </div>
+    </div>
+    <div class="tile stage">
+      <img src="shared/racks-amravati-data-center.jpg" alt="A long aisle of white server racks" width="1200" height="800">
+      <div class="statement">
+        <p>I run the platform Incorta’s engineers and AI agents work on.</p>
+        <small>DevOps, platform and MLOps engineer. AI gateways, GPU clusters, Kubernetes, CI security.</small>
+      </div>
+    </div>
+    <div class="colour-rail">
+      <div class="c1"><strong>8</strong>cloud certifications</div>
+      <div class="c2"><strong>~25</strong>pipelines behind one gate</div>
+      <div class="c3"><strong>−14%</strong>AWS spend</div>
+      <div class="c4"><strong>3rd</strong>of 140+ teams, DevOpsDays</div>
+      <a href="mailto:ahmedwagdymohy@gmail.com?subject=Hello%20Ahmed">Write to me →</a>
+    </div>
+  </div>
+</header>
+
+<div class="marquee" aria-hidden="true"><div>
+  <span>Gateways</span><em>·</em><span>GPU nodes</span><em>·</em><span>Pipelines</span><em>·</em><span>Agents</span><em>·</em>
+  <span>Gateways</span><em>·</em><span>GPU nodes</span><em>·</em><span>Pipelines</span><em>·</em><span>Agents</span><em>·</em>
+</div></div>
+
+<section class="work" id="work">
+  <h2>Selected work</h2>
+  <p class="r"><a href="#">LiteLLM AI gateway</a>, <a href="#">Langfuse observability over PSC</a>, <a href="#">an AI on-call agent in Slack</a>, <a href="#">DGX Spark GPU nodes on K3s</a>, <a href="#">the MLOps portal</a>, <a href="#">Trivy SBOM gate</a>, <a href="#">Sandbox Siege</a>, <a href="#">a genomic evidence platform</a>, <a href="#">KEDA on GKE</a>.</p>
+  <p class="count r">Nine systems, 2024–2026. Each opens to its own page.</p>
+</section>
+
+<section class="gate" id="gate">
+  <div>
+    <h2 class="r">One line adds a security gate.</h2>
+    <p class="lede r">Any of Incorta’s ~25 delivery pipelines can scan its image with Trivy, write CycloneDX and SPDX SBOMs, and decide whether to block. Pick the threshold and watch what ships.</p>
+<pre class="r"><code><span class="k">securityScan</span>(image: 'incorta/analytics', severity: '<span id="code-sev">HIGH</span>')</code></pre>
+  </div>
+  <div>
+    <div class="sev" role="group" aria-label="Severity threshold">
+      <button aria-pressed="false" data-s="NONE">Report only</button>
+      <button aria-pressed="true" data-s="HIGH">Block HIGH</button>
+      <button aria-pressed="false" data-s="CRITICAL">Block CRITICAL</button>
+    </div>
+    <div class="images" id="images"></div>
+    <p class="note">Sample images for the preview. The real list comes from the pipeline.</p>
+  </div>
+</section>
+
+<section class="quote" id="words">
+  <h2>What managers say</h2>
+  <div class="line r"><span>“Not</span><span>just</span></div>
+  <div class="line r"><span>the</span><span>intern.”</span></div>
+  <div class="attr"><span>Mohamed Ghayaty</span><span>Senior Engineering Manager</span><span>Incorta</span></div>
+</section>
+
+<footer id="contact">
+  <div class="cols">
+    <div><span>Based in</span><span>Cairo, Egypt</span><span>GMT+3</span></div>
+    <div><span>Elsewhere</span><a href="https://github.com/Ahmedwagdymohy">GitHub</a><a href="https://linkedin.com/in/ahmedwagdymohy">LinkedIn</a></div>
+    <div><span>Phone</span><a href="tel:+201003207939">+20 10032 07939</a></div>
+    <div><span>Pages</span><a href="#work">Work</a><a href="#gate">Security gate</a></div>
+  </div>
+  <a class="mail" href="mailto:ahmedwagdymohy@gmail.com">ahmedwagdymohy@gmail.com</a>
+  <div>
+    <svg class="wordmark" viewBox="0 0 1000 118" aria-label="Ahmed Wagdy"><text x="0" y="104" textLength="1000" lengthAdjust="spacingAndGlyphs" font-family="Bricolage Grotesque" font-weight="800" font-size="138" fill="currentColor" letter-spacing="-5">AHMED WAGDY</text></svg>
+    <div class="legal"><span>© 2026 Ahmed Wagdy Mohy</span><span>Photo: “Racks Amravati Data Center”, PiDatacenters, CC BY-SA 4.0, Wikimedia Commons</span></div>
+  </div>
+</footer>
+
+<script>
+document.body.classList.remove('no-js');
+const io=new IntersectionObserver(es=>es.forEach(e=>{if(e.isIntersecting){const sib=[...e.target.parentElement.querySelectorAll('.r')];setTimeout(()=>e.target.classList.add('in'),sib.indexOf(e.target)*80);io.unobserve(e.target)}}),{threshold:.15});
+document.querySelectorAll('.r').forEach(el=>io.observe(el));
+const imgs=[['incorta/analytics:2026.10','0 critical · 2 high','H'],['incorta/loader:7.4','1 critical · 4 high','C'],['incorta/spark-runner:3.5','0 critical · 0 high','-'],['incorta/notebook:2026.10','0 critical · 1 high','H'],['incorta/gateway:1.9','0 critical · 0 high','-']];
+const rank={'-':0,H:1,C:2};
+function draw(s){
+  document.getElementById('code-sev').textContent=s;
+  document.getElementById('images').innerHTML=imgs.map(([n,f,w])=>{
+    const block=(s==='HIGH'&&rank[w]>=1)||(s==='CRITICAL'&&rank[w]>=2);
+    return `<div class="img-row ${block?'block':''}"><span>${n}</span><span class="f">${f}</span><span class="v">${block?'Blocked':(s==='NONE'&&w!=='-'?'Reported':'Ships')}</span></div>`}).join('');
+}
+document.querySelectorAll('.sev button').forEach(b=>b.onclick=()=>{document.querySelectorAll('.sev button').forEach(x=>x.setAttribute('aria-pressed',x===b));draw(b.dataset.s)});
+draw('HIGH');
+</script>
+</body>
+</html>
