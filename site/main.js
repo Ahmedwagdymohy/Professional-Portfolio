@@ -99,3 +99,10 @@ group('.who button', (i) => {
   q.style.opacity = 0;
   setTimeout(() => { q.textContent = letters[i][0]; $('c').textContent = letters[i][1]; q.style.opacity = 1; }, reduce ? 0 : 200);
 });
+
+// copy the install command
+document.querySelectorAll('.copy').forEach((b) => b.addEventListener('click', async () => {
+  try { await navigator.clipboard.writeText(b.dataset.copy); b.textContent = 'Copied'; b.classList.add('done'); }
+  catch { b.textContent = 'Select and copy'; }
+  setTimeout(() => { b.textContent = 'Copy'; b.classList.remove('done'); }, 2000);
+}));

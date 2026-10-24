@@ -23,10 +23,10 @@
 <div class="mast">
   <nav class="bar" aria-label="Main">
     <a class="wm" href="#top">Ahmed Wagdy</a>
-    <div class="tab"><a href="#figures">Figures</a><a href="#work">Work</a><a href="#experience">Experience</a><a href="#letters">Letters</a></div>
+    <div class="tab"><a href="#kubeiq">KubeiQ</a><a href="#work">Work</a><a href="#experience">Experience</a><a href="#letters">Letters</a></div>
     <a class="act" href="#contact">Contact</a>
   </nav>
-  <div class="m1 mono"><img src="img/cairo-skyline-panoramic-view-egypt.jpg" alt="Cairo and the Nile in daylight" width="1200" height="800"></div>
+  <div class="m1"><img src="img/me-working.jpg" alt="Ahmed in glasses, typing on a laptop" width="1200" height="1600"></div>
   <div class="m2 stat"><b>8</b><span>cloud and Kubernetes certifications</span></div>
   <div class="m4 stat"><b>3rd</b><span>of 140+ teams, DevOpsDays Cairo 2026</span></div>
   <div class="m5 term" data-ui><pre><span class="p">$</span> kubectl get nodes -l accelerator=nvidia
@@ -43,7 +43,7 @@ PASS  0 critical, 0 high · gate open</pre></div>
 <main id="top">
 <header class="title">
   <div>
-    <p class="stand">Ahmed Wagdy, DevOps, platform and MLOps engineer in Cairo, reports on a year of running AI infrastructure in production.</p>
+    <p class="stand">Ahmed Wagdy, DevOps, platform and MLOps engineer in Cairo, reports on a year of running AI infrastructure in production and building KubeiQ.</p>
     <div class="actions">
       <a class="btn" href="mailto:ahmedwagdymohy@gmail.com?subject=Let%E2%80%99s%20talk%20about%20a%20role">Hire me</a>
       <a class="link" href="#work">Read the report</a>
@@ -63,6 +63,85 @@ PASS  0 critical, 0 high · gate open</pre></div>
     <div class="fig r"><b><span data-count="6">6</span><em>×</em></b><span>faster bulk load: 644,000 rows in 25 minutes, down from 2.5 hours</span></div>
     <div class="fig r"><b>~<span data-count="25">25</span></b><span>delivery pipelines that can add a security gate in one line</span></div>
     <div class="fig r"><b><span data-count="9">9</span></b><span>public biomedical sources feeding one evidence pipeline</span></div>
+  </div>
+</section>
+
+<!-- KubeiQ: the flagship -->
+<section class="blockpage ch-kq" id="kubeiq" aria-labelledby="h-kq">
+  <div class="head">
+    <h2 id="h-kq" class="kq-title r">KubeiQ</h2>
+    <p class="kq-lede r">Find out why your Kubernetes workloads break, and get the exact command to fix them. KubeiQ is the open-source, self-hosted AI for Kubernetes operations that I’m building: one install, every tool, any model.</p>
+    <div class="kq-actions r">
+      <a class="btn" href="https://github.com/Ahmedwagdymohy/KubeiQ">View KubeiQ on GitHub</a>
+      <a class="link" href="https://github.com/Ahmedwagdymohy/KubeiQ#quick-start">Quick start</a>
+    </div>
+  </div>
+
+  <div class="kq-story">
+    <p class="r">A pod is in CrashLoopBackOff at 3 a.m. You open a terminal, run describe, read events, pull previous logs, check the ConfigMap, then the Secret. KubeiQ does that walk for you and answers with one line naming the exact resource and setting, the evidence behind it, a confidence score, commands you can paste with your real names and values, and the checks that prove the fix worked.</p>
+    <div class="kq-install r">
+      <div class="term" data-ui><pre><code><span class="p">$</span> curl -fsSL https://raw.githubusercontent.com/Ahmedwagdymohy/KubeiQ/main/deploy/install.sh | sh</code></pre></div>
+      <button type="button" class="copy" data-copy="curl -fsSL https://raw.githubusercontent.com/Ahmedwagdymohy/KubeiQ/main/deploy/install.sh | sh">Copy</button>
+    </div>
+  </div>
+
+  <figure class="kq-hero r">
+    <img src="img/kubeiq-doctor-incident-dark.jpg" alt="KubeiQ Cluster Doctor: report-worker was OOMKilled because its 64Mi memory limit is too low, 92% sure, with the kubectl fix and the commands that verify it" width="1800" height="1063" loading="lazy">
+    <figcaption><b>Cluster Doctor.</b> The troubleshooting agent: root cause, fix, exact commands, the checks that prove the fix, why it happened and how to prevent it. Investigations stream live, and every result has a shareable link.</figcaption>
+  </figure>
+
+  <div class="kq-flow">
+    <h3 class="r">How an investigation runs</h3>
+    <ol>
+      <li class="r"><b>Collect</b>Read-only collectors gather bounded evidence through the official Kubernetes Python client. Secrets are read as metadata only.</li>
+      <li class="r"><b>Redact</b>Passwords, tokens and keys are masked before anything can reach a model.</li>
+      <li class="r"><b>Detect</b>Deterministic detectors recognise known failures in seconds and group symptoms under one root cause.</li>
+      <li class="r"><b>Investigate</b>For the rest, a tool-calling agent checks logs, configs and related resources, with schema-validated output.</li>
+      <li class="r"><b>Fix</b>Commands are built from the evidence with your real names, plus the checks that prove the fix.</li>
+    </ol>
+  </div>
+
+  <div class="kq-products">
+    <figure class="r">
+      <img src="img/kubeiq-map-overview-dark.jpg" alt="KubeiQ Cluster Map: workloads in the kubeiq-demo namespace, broken ones outlined in red, 26 problems and 7 healthy" width="1600" height="936" loading="lazy">
+      <figcaption><b>Cluster Map.</b> A live picture of a namespace: every workload, pod, service, ingress, volume claim and config reference, how they connect, and which are broken, with a one-line reason. Investigate opens Cluster Doctor on it.</figcaption>
+    </figure>
+    <figure class="r">
+      <img src="img/kubeiq-manager-logs-dark.jpg" alt="KubeiQ Cluster Manager: pods in kube-system with live logs for a CoreDNS pod" width="1600" height="1000" loading="lazy">
+      <figcaption><b>Cluster Manager.</b> Every resource kind the cluster serves, custom resources included: YAML, events and live logs, even from the run before the last crash. Changes are opt-in, confirmed and audited.</figcaption>
+    </figure>
+  </div>
+
+  <div class="kq-facts">
+    <div class="kq-models r">
+      <h3>Any model, or none</h3>
+      <p>KubeiQ talks to models through LiteLLM, the same gateway I run at Incorta, so OpenAI, Anthropic, Gemini, Bedrock, Azure, OpenRouter and a local Ollama all work. Without a model it still finds known failures and gives the fix.</p>
+      <div class="tags" aria-label="Built with"><span>Python 3.12</span><span>FastAPI</span><span>Next.js</span><span>LiteLLM</span><span>Kubernetes client</span><span>Docker Compose</span><span>Apache-2.0</span></div>
+    </div>
+    <div class="r">
+      <h3>What it catches before any model runs</h3>
+      <table class="kq-table">
+        <caption class="vh">Failures recognised by deterministic detectors</caption>
+        <tr><td>Containers</td><td>CrashLoopBackOff, OOMKilled, missing env vars, failed init containers</td></tr>
+        <tr><td>Images</td><td>ImagePullBackOff, bad tags, registry auth</td></tr>
+        <tr><td>Config</td><td>Missing ConfigMaps, Secrets and keys</td></tr>
+        <tr><td>Scheduling</td><td>Pending pods, requests no node can fit</td></tr>
+        <tr><td>Health</td><td>Failing readiness and liveness probes</td></tr>
+        <tr><td>Rollouts</td><td>Stuck rollouts, failed Jobs</td></tr>
+        <tr><td>Network</td><td>Selectors that match no pods, DNS failures</td></tr>
+        <tr><td>Nodes</td><td>NotReady nodes</td></tr>
+      </table>
+    </div>
+    <div class="r">
+      <h3>Safe to point at production</h3>
+      <ul class="kq-sec">
+        <li><b>Read-only by default.</b> Ready-made RBAC needs only read access.</li>
+        <li><b>Secret values never read.</b> Secrets are fetched as metadata only.</li>
+        <li><b>Redaction before any model call.</b> Logs and evidence are masked first.</li>
+        <li><b>Changes are opt-in.</b> An admin switch, editors only, a confirmation and an audit record for every attempt.</li>
+        <li><b>Access by project.</b> Users see only their clusters and namespaces.</li>
+      </ul>
+    </div>
   </div>
 </section>
 
@@ -324,10 +403,10 @@ securityScan(
     <div><span>Write</span><a href="mailto:ahmedwagdymohy@gmail.com">ahmedwagdymohy@gmail.com</a></div>
     <div><span>Call</span><a href="tel:+201003207939">+20 10032 07939</a></div>
     <div><span>Elsewhere</span><a href="https://github.com/Ahmedwagdymohy">GitHub</a><a href="https://linkedin.com/in/ahmedwagdymohy">LinkedIn</a></div>
-    <div><span>Pages</span><a href="#figures">Figures</a><a href="#work">Work</a><a href="#experience">Experience</a></div>
+    <div><span>Pages</span><a href="#kubeiq">KubeiQ</a><a href="#figures">Figures</a><a href="#work">Work</a><a href="#experience">Experience</a></div>
   </div>
   <svg class="wordmark" viewBox="0 0 1000 124" role="img" aria-label="Ahmed Wagdy"><text x="0" y="108" textLength="1000" lengthAdjust="spacingAndGlyphs" font-family="Switzer, sans-serif" font-weight="600" font-size="150" letter-spacing="-6" fill="currentColor">Ahmed Wagdy</text></svg>
-  <p class="credits">© 2026 Ahmed Wagdy Mohy. Photos of Cairo and Cairo University via Wikimedia Commons: <a href="https://commons.wikimedia.org/wiki/File:Cairo_skyline,_Panoramic_view,_Egypt.jpg">Vyacheslav Argenberg, CC BY 4.0</a>; <a href="https://commons.wikimedia.org/wiki/File:Cairo_University_after_sunset.JPG">Faris knight, CC BY-SA 3.0</a>.</p>
+  <p class="credits">© 2026 Ahmed Wagdy Mohy. Photo of Cairo University via Wikimedia Commons: <a href="https://commons.wikimedia.org/wiki/File:Cairo_University_after_sunset.JPG">Faris knight, CC BY-SA 3.0</a>.</p>
 </footer>
 
 <script src="main.js" defer></script>
