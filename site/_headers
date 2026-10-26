@@ -1,0 +1,10 @@
+/cv
+  Content-Type: application/pdf
+  Content-Disposition: inline; filename="Ahmed-Wagdy-CV.pdf"
+
+/cv/
+  Content-Type: application/pdf
+  Content-Disposition: inline; filename="Ahmed-Wagdy-CV.pdf"
+
+/Ahmed-Wagdy-CV.pdf
+  Content-Disposition: inline; filename="Ahmed-Wagdy-CV.pdf"
